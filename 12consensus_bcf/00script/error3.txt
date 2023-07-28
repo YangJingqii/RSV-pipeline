@@ -1,0 +1,78 @@
+Unable to find image 'registry.servicemgr.biohpc:5000/library/iqtree:1.6.7' locally
+1.6.7: Pulling from library/iqtree
+61e03ba1d414: Pulling fs layer
+4afb39f216bd: Pulling fs layer
+e489abdc9f90: Pulling fs layer
+999fff7bcc24: Pulling fs layer
+407519bbe508: Pulling fs layer
+e46b5068602e: Pulling fs layer
+e01e45b0f542: Pulling fs layer
+9c1bdcb6674e: Pulling fs layer
+999fff7bcc24: Waiting
+407519bbe508: Waiting
+e46b5068602e: Waiting
+e01e45b0f542: Waiting
+9c1bdcb6674e: Waiting
+4afb39f216bd: Verifying Checksum
+4afb39f216bd: Download complete
+e489abdc9f90: Verifying Checksum
+e489abdc9f90: Download complete
+999fff7bcc24: Verifying Checksum
+999fff7bcc24: Download complete
+e46b5068602e: Verifying Checksum
+e46b5068602e: Download complete
+61e03ba1d414: Download complete
+e01e45b0f542: Verifying Checksum
+e01e45b0f542: Download complete
+9c1bdcb6674e: Download complete
+407519bbe508: Verifying Checksum
+407519bbe508: Download complete
+61e03ba1d414: Pull complete
+4afb39f216bd: Pull complete
+e489abdc9f90: Pull complete
+999fff7bcc24: Pull complete
+407519bbe508: Pull complete
+e46b5068602e: Pull complete
+e01e45b0f542: Pull complete
+9c1bdcb6674e: Pull complete
+Digest: sha256:3490262666915c995925e8f94c65b38c4245a99700ba07dc884d712e5cb30a35
+Status: Downloaded newer image for registry.servicemgr.biohpc:5000/library/iqtree:1.6.7
+Unable to find image 'registry.servicemgr.biohpc:5000/library/iqtree:1.6.7' locally
+1.6.7: Pulling from library/iqtree
+61e03ba1d414: Pulling fs layer
+4afb39f216bd: Pulling fs layer
+e489abdc9f90: Pulling fs layer
+999fff7bcc24: Pulling fs layer
+407519bbe508: Pulling fs layer
+e46b5068602e: Pulling fs layer
+e01e45b0f542: Pulling fs layer
+9c1bdcb6674e: Pulling fs layer
+e01e45b0f542: Waiting
+407519bbe508: Waiting
+e46b5068602e: Waiting
+9c1bdcb6674e: Waiting
+999fff7bcc24: Waiting
+e489abdc9f90: Verifying Checksum
+e489abdc9f90: Download complete
+4afb39f216bd: Verifying Checksum
+4afb39f216bd: Download complete
+999fff7bcc24: Download complete
+e46b5068602e: Verifying Checksum
+e46b5068602e: Download complete
+e01e45b0f542: Verifying Checksum
+e01e45b0f542: Download complete
+9c1bdcb6674e: Download complete
+407519bbe508: Verifying Checksum
+407519bbe508: Download complete
+61e03ba1d414: Verifying Checksum
+61e03ba1d414: Download complete
+61e03ba1d414: Pull complete
+4afb39f216bd: Pull complete
+e489abdc9f90: Pull complete
+999fff7bcc24: Pull complete
+407519bbe508: Pull complete
+e46b5068602e: Pull complete
+e01e45b0f542: Pull complete
+9c1bdcb6674e: Pull complete
+Digest: sha256:3490262666915c995925e8f94c65b38c4245a99700ba07dc884d712e5cb30a35
+Status: Downloaded newer image for registry.servicemgr.biohpc:5000/library/iqtree:1.6.7

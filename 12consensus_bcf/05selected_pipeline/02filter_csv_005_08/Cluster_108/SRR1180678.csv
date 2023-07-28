@@ -1,0 +1,2 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+GTTAC_13110_GTTTAC,16,229,ins,freebayes,0.0653061224489796,9

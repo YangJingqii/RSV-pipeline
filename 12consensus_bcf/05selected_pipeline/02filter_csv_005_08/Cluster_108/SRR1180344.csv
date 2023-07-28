@@ -1,0 +1,10 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+C_399_A,8,140,snp,freebayes,0.05405405405405406,7
+C_9858_T,13,134,snp,freebayes,0.08843537414965986,38
+C_9859_T,16,131,snp,freebayes,0.10884353741496598,39
+T_13019_A,9,85,snp,freebayes,0.09574468085106383,21
+G_13020_A,6,91,snp,freebayes,0.061855670103092786,4
+G_13020_T,8,91,snp,freebayes,0.08080808080808081,20
+G_13021_A,9,91,snp,freebayes,0.09,11
+G_13021_T,6,91,snp,freebayes,0.061855670103092786,12
+G_13022_A,8,111,snp,freebayes,0.06722689075630252,14

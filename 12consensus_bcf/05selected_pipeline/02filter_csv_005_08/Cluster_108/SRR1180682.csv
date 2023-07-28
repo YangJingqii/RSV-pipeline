@@ -1,0 +1,3 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+C_223_T,12,182,snp,freebayes,0.061855670103092786,2
+GTTAC_13110_GTTTAC,24,265,ins,freebayes,0.08304498269896193,9

@@ -1,0 +1,3 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+C_10148_A,12,136,snp,freebayes,0.08108108108108109,14
+ACAT_10149_ACAC,8,124,snp,freebayes,0.06060606060606061,6

@@ -1,0 +1,4 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+T_3014_C,110,0,snp,freebayes,1.0,162
+G_3028_A,106,0,snp,freebayes,1.0,39
+T_3064_A,101,0,snp,freebayes,1.0,257

@@ -1,0 +1,2 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+A_2192_G,104,0,snp,freebayes,1.0,165

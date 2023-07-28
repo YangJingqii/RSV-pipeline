@@ -1,0 +1,3489 @@
+IQ-TREE multicore version 1.6.7 for Linux 64-bit built Aug 23 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    8283ba6bccb2 (AVX, 125 GB RAM)
+Command: iqtree -s /data/RSV_out.fasta -nt AUTO -bb 1000 -m GTR+F+G4
+Seed:    898746 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jul  4 13:08:53 2023
+Kernel:  AVX - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file /data/RSV_out.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 2739 sequences with 15191 columns, 10947 distinct patterns
+5379 parsimony-informative, 1722 singleton sites, 8089 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  NC_001803.1    0.00%    passed     99.88%
+   2  SRR527716      0.09%    passed     99.38%
+   3  SRR527708      0.09%    passed     99.73%
+   4  SRR1050547     0.14%    passed     97.50%
+   5  SRR1180562     0.10%    passed     99.66%
+   6  SRR1050566     0.03%    passed     99.68%
+   7  SRR1180707     0.07%    passed     99.82%
+   8  SRR1181437     0.05%    passed     98.83%
+   9  SRR1180077     0.14%    passed     96.05%
+  10  SRR1180650     0.12%    passed     99.40%
+  11  SRR1180839     0.14%    passed     98.82%
+  12  SRR1180517     0.11%    passed     99.75%
+  13  SRR1181400     0.09%    passed     99.72%
+  14  SRR1180841     0.08%    passed     99.54%
+  15  SRR1050546     0.10%    passed     99.94%
+  16  SRR1180344     0.11%    passed     99.66%
+  17  SRR1180365     0.24%    passed     97.40%
+  18  SRR1181380     0.14%    passed     99.49%
+  19  SRR1181417     0.09%    passed     99.91%
+  20  SRR1180819     0.14%    passed     99.79%
+  21  SRR1050571     0.13%    passed     95.07%
+  22  SRR1180057     0.15%    passed     95.58%
+  23  SRR1181443     0.18%    passed     99.62%
+  24  SRR5408817     0.16%    passed     99.85%
+  25  SRR1180916     0.16%    passed     99.28%
+  26  SRR1180710     0.07%    passed     99.90%
+  27  SRR1180728     0.18%    passed     99.45%
+  28  SRR1050553     0.05%    passed     99.90%
+  29  SRR5408814     0.16%    passed     99.69%
+  30  SRR1050572     0.04%    passed     99.86%
+  31  SRR1180037     0.08%    passed     98.81%
+  32  SRR1180381     0.18%    passed     99.55%
+  33  SRR1180058     0.04%    passed     99.82%
+  34  SRR5408822     0.05%    passed     99.90%
+  35  SRR1181373     0.13%    passed     99.26%
+  36  SRR1180664     0.14%    passed     99.00%
+  37  SRR1180043     0.13%    passed     99.58%
+  38  SRR1180820     0.05%    passed     99.44%
+  39  SRR1180914     0.17%    passed     98.54%
+  40  SRR1180817     0.04%    passed     99.83%
+  41  SRR1180586     0.16%    passed     99.49%
+  42  SRR1180078     0.05%    passed     99.96%
+  43  SRR1180859     0.21%    passed     99.80%
+  44  SRR1180734     0.19%    passed     99.46%
+  45  SRR1180679     0.09%    passed     99.77%
+  46  SRR1181379     0.15%    passed     99.96%
+  47  SRR1180390     0.19%    passed     99.59%
+  48  SRR1180546     0.11%    passed     99.76%
+  49  SRR1180811     0.18%    passed     99.95%
+  50  SRR1180430     0.15%    passed     99.68%
+  51  SRR1180030     0.20%    passed     96.95%
+  52  SRR1180674     0.12%    passed     99.84%
+  53  SRR1180872     0.09%    passed     99.98%
+  54  SRR1181334     0.05%    passed     98.42%
+  55  SRR1180690     0.02%    passed     99.90%
+  56  SRR5408810     0.06%    passed     99.78%
+  57  SRR1180071     0.05%    passed     99.98%
+  58  SRR5408831     0.16%    passed     99.79%
+  59  SRR1180389     0.15%    passed     99.21%
+  60  SRR1050576     0.34%    passed     98.43%
+  61  SRR1181444     0.15%    passed     98.42%
+  62  SRR1180721     0.05%    passed     97.77%
+  63  SRR1180603     0.20%    passed     99.62%
+  64  SRR1180906     0.16%    passed     99.66%
+  65  SRR5408826     0.10%    passed     98.06%
+  66  SRR1180866     0.14%    passed     99.94%
+  67  SRR1181339     0.16%    passed     98.88%
+  68  SRR1180779     0.16%    passed     99.67%
+  69  SRR1050535     0.13%    passed     95.66%
+  70  SRR1050539     0.11%    passed     99.96%
+  71  SRR5408811     0.12%    passed     99.82%
+  72  SRR1181340     0.07%    passed     99.81%
+  73  SRR1180051     0.08%    passed     98.98%
+  74  SRR1181361     0.08%    passed     98.74%
+  75  SRR1180870     0.13%    passed     99.78%
+  76  SRR5408830     0.10%    passed     99.45%
+  77  SRR1180065     0.07%    passed     98.81%
+  78  SRR1181374     0.14%    passed     99.65%
+  79  SRR1050536     0.06%    passed     99.89%
+  80  SRR1181425     0.07%    passed     99.73%
+  81  SRR1050578     0.11%    passed     95.33%
+  82  SRR1181362     0.03%    passed     99.91%
+  83  SRR1180776     0.07%    passed     99.93%
+  84  SRR1180873     0.10%    passed     99.64%
+  85  SRR1181429     0.05%    passed     99.53%
+  86  SRR1180852     0.03%    passed     98.44%
+  87  SRR1181343     0.07%    passed     99.26%
+  88  SRR1181408     0.13%    passed     99.49%
+  89  SRR1050555     0.07%    passed     99.77%
+  90  SRR1181432     0.11%    passed     99.37%
+  91  SRR1180049     0.11%    passed     96.65%
+  92  SRR1180601     0.07%    passed     99.60%
+  93  SRR1180904     0.06%    passed     99.01%
+  94  SRR1181337     0.14%    passed     99.50%
+  95  SRR1180068     0.12%    passed     99.91%
+  96  SRR1180045     0.14%    passed     98.88%
+  97  SRR1050558     0.11%    passed     99.72%
+  98  SRR1180678     0.13%    passed     99.25%
+  99  SRR1181424     0.15%    passed     99.58%
+ 100  SRR1180072     0.10%    passed     99.47%
+ 101  SRR1181342     0.07%    passed     99.95%
+ 102  SRR1181410     0.13%    passed     98.88%
+ 103  SRR1181431     0.09%    passed     99.89%
+ 104  SRR5408827     0.08%    passed     99.47%
+ 105  SRR1180867     0.14%    passed     99.77%
+ 106  SRR1180408     0.14%    passed     99.64%
+ 107  SRR1050541     0.15%    passed     99.60%
+ 108  SRR1181427     0.13%    passed     99.97%
+ 109  SRR1180412     0.14%    passed     99.23%
+ 110  SRR1180850     0.04%    passed     99.82%
+ 111  SRR1050538     0.26%    passed     99.26%
+ 112  SRR1180050     0.04%    passed     99.34%
+ 113  SRR1180792     0.11%    passed     99.82%
+ 114  SRR5408845     0.12%    passed     98.32%
+ 115  SRR1050561     0.20%    passed     91.22%
+ 116  SRR1050540     0.07%    passed     95.59%
+ 117  SRR1180409     0.16%    passed     99.56%
+ 118  SRR1181426     0.13%    passed     99.98%
+ 119  SRR1180070     0.05%    passed     98.44%
+ 120  SRR1180552     0.10%    passed     99.96%
+ 121  SRR5408821     0.11%    passed     99.81%
+ 122  SRR1180861     0.16%    passed     99.97%
+ 123  SRR1180749     0.23%    passed     99.06%
+ 124  SRR1180593     0.13%    passed     99.54%
+ 125  SRR1050570     0.26%    passed     96.82%
+ 126  SRR1180056     0.09%    passed     98.39%
+ 127  SRR5408837     0.12%    passed     99.09%
+ 128  SRR1180818     0.20%    passed     98.88%
+ 129  SRR1050551     0.27%    passed     97.95%
+ 130  SRR1180574     0.13%    passed     99.44%
+ 131  SRR1180035     0.13%    passed     99.50%
+ 132  SRR1050567     0.03%    passed     99.52%
+ 133  SRR1181436     0.11%    passed     99.37%
+ 134  SRR5408843     0.16%    passed     99.04%
+ 135  SRR1180438     0.13%    passed     99.84%
+ 136  SRR1181346     0.18%    passed     98.96%
+ 137  SRR1180516     0.05%    passed     99.96%
+ 138  SRR1180382     0.14%    passed     99.71%
+ 139  SRR5413220     0.22%    passed     99.67%
+ 140  SRR1180042     0.11%    passed     99.39%
+ 141  SRR1180709     0.09%    passed     99.53%
+ 142  SRR1050545     0.03%    passed     99.94%
+ 143  SRR1180063     0.05%    passed     99.92%
+ 144  SRR1180842     0.08%    passed     99.94%
+ 145  SRR1050549     0.30%    passed     99.58%
+ 146  SRR1180892     0.09%    passed     99.96%
+ 147  SRR1180370     0.08%    passed     99.69%
+ 148  SRR5408835     0.09%    passed     98.77%
+ 149  SRR5408839     0.03%    passed     99.88%
+ 150  SRR1181423     0.18%    passed     99.51%
+ 151  SRR1180416     0.01%    passed     99.98%
+ 152  SRR1050565     0.10%    passed     99.83%
+ 153  SRR1050544     0.07%    passed     99.90%
+ 154  SRR1181415     0.18%    passed     99.03%
+ 155  SRR5408841     0.04%    passed     99.03%
+ 156  SRR1180350     0.11%    passed     98.07%
+ 157  SRR1180577     0.21%    passed     97.30%
+ 158  SRR5408834     0.09%    passed     99.07%
+ 159  SRR1180874     0.06%    passed     97.32%
+ 160  SRR1050573     0.09%    passed     97.48%
+ 161  SRR1180380     0.12%    passed     99.67%
+ 162  SRR1181394     0.13%    passed     99.32%
+ 163  SRR1180085     0.09%    passed     99.55%
+ 164  SRR1181419     0.11%    passed     99.63%
+ 165  SRR1180862     0.17%    passed     99.60%
+ 166  SRR1050569     0.12%    passed     99.72%
+ 167  SRR1181434     0.11%    passed     99.25%
+ 168  SRR1181365     0.18%    passed     99.63%
+ 169  SRR5408815     0.01%    passed     99.75%
+ 170  SRR1181344     0.05%    passed     96.83%
+ 171  SRR1180683     0.11%    passed     99.07%
+ 172  SRR5408838     0.09%    passed     99.29%
+ 173  SRR1180878     0.26%    passed    100.00%
+ 174  SRR1181418     0.03%    passed     99.89%
+ 175  SRR1180347     0.07%    passed     98.97%
+ 176  SRR1181439     0.32%    passed     99.83%
+ 177  SRR5408823     0.11%    passed     99.05%
+ 178  SRR1050568     0.11%    passed     99.45%
+ 179  SRR1180522     0.10%    passed     99.61%
+ 180  SRR1180627     0.13%    passed     99.20%
+ 181  SRR1180054     0.06%    passed     99.96%
+ 182  SRR1181364     0.05%    passed     97.95%
+ 183  SRR1180351     0.09%    passed     99.59%
+ 184  SRR1180854     0.13%    passed     99.78%
+ 185  SRR1180515     0.11%    passed     99.52%
+ 186  SRR1180079     0.05%    passed     99.76%
+ 187  SRR1181333     0.05%    passed     99.29%
+ 188  SRR1180076     0.17%    passed     99.79%
+ 189  SRR5408836     0.05%    passed     99.27%
+ 190  SRR1180038     0.13%    passed     99.84%
+ 191  SRR1180423     0.11%    passed     99.68%
+ 192  SRR5408842     0.13%    passed     99.90%
+ 193  SRR1181381     0.12%    passed     99.66%
+ 194  SRR1180023     0.14%    passed     99.51%
+ 195  SRR1180901     0.05%    passed     99.01%
+ 196  SRR5408816     0.11%    passed     97.11%
+ 197  SRR1181442     0.22%    passed     99.36%
+ 198  SRR1181366     0.14%    passed     99.70%
+ 199  SRR1181421     0.05%    passed     99.74%
+ 200  SRR1180383     0.14%    passed     99.85%
+ 201  SRR1181430     0.28%    passed     99.85%
+ 202  SRR1180742     0.06%    passed     99.84%
+ 203  SRR1180028     0.05%    passed     99.88%
+ 204  SRR1180363     0.18%    passed     99.26%
+ 205  SRR1180582     0.13%    passed     98.89%
+ 206  SRR1180354     0.13%    passed     98.63%
+ 207  SRR1180907     0.07%    passed     97.70%
+ 208  SRR1180701     0.12%    passed     99.07%
+ 209  SRR1180762     0.10%    passed     99.62%
+ 210  SRR5408848     0.05%    passed     99.28%
+ 211  SRR1180545     0.16%    passed     99.10%
+ 212  SRR1180911     0.07%    passed     99.82%
+ 213  SRR1180785     0.14%    passed     99.62%
+ 214  SRR1180812     0.13%    passed     99.30%
+ 215  SRR1180789     0.13%    passed     99.73%
+ 216  SRR1181341     0.11%    passed     99.76%
+ 217  SRR1050557     0.09%    passed     99.56%
+ 218  SRR1181413     0.05%    passed     99.97%
+ 219  SRR5408828     0.12%    passed     98.52%
+ 220  SRR1180895     0.08%    passed     99.79%
+ 221  SRR1181388     0.08%    passed     97.25%
+ 222  SRR5408824     0.10%    passed     99.98%
+ 223  SRR1050542     0.48%    passed     99.47%
+ 224  SRR1180064     0.09%    passed     96.47%
+ 225  SRR1180845     0.07%    passed     98.73%
+ 226  SRR1180912     0.16%    passed     99.94%
+ 227  SRR1180533     0.10%    passed     99.89%
+ 228  SRR1050537     0.03%    passed     99.93%
+ 229  SRR1181409     0.13%    passed     99.45%
+ 230  SRR1050554     0.05%    passed     99.83%
+ 231  SRR1180853     0.20%    passed     99.68%
+ 232  SRR1050575     0.32%    passed     99.46%
+ 233  SRR1180777     0.11%    passed     99.08%
+ 234  SRR5408832     0.04%    passed     99.73%
+ 235  SRR1180069     0.07%    passed     99.13%
+ 236  SRR5408808     0.07%    passed     99.75%
+ 237  SRR1180827     0.14%    passed     98.85%
+ 238  SRR1180027     0.04%    passed     99.72%
+ 239  SRR1180806     0.12%    passed     99.57%
+ 240  SRR1180894     0.17%    passed     99.47%
+ 241  SRR1050562     0.10%    passed     99.63%
+ 242  SRR1050543     0.17%    passed     99.83%
+ 243  SRR1180684     0.14%    passed     97.58%
+ 244  SRR1180913     0.10%    passed     99.34%
+ 245  SRR1180431     0.09%    passed     99.96%
+ 246  SRR1181393     0.07%    passed     99.99%
+ 247  SRR1050559     0.09%    passed     99.50%
+ 248  SRR1180570     0.11%    passed     99.31%
+ 249  SRR1180393     0.23%    passed     99.00%
+ 250  SRR1180602     0.13%    passed     99.70%
+ 251  SRR5408844     0.07%    passed     99.56%
+ 252  SRR1180846     0.14%    passed     99.34%
+ 253  SRR1181338     0.11%    passed     99.75%
+ 254  SRR1050560     0.05%    passed     99.85%
+ 255  SRR1180029     0.11%    passed     99.83%
+ 256  SRR1180033     0.01%    passed     99.88%
+ 257  SRR1180778     0.11%    passed     98.24%
+ 258  SRR1180374     0.12%    passed     99.50%
+ 259  SRR1180755     0.05%    passed     99.89%
+ 260  SRR1181335     0.11%    passed     99.76%
+ 261  SRR1180847     0.12%    passed     99.65%
+ 262  SRR5408849     0.04%    passed     99.79%
+ 263  SRR1180763     0.13%    passed     99.75%
+ 264  SRR1181407     0.02%    passed     99.81%
+ 265  SRR1180716     0.19%    passed     99.17%
+ 266  SRR1180784     0.20%    passed     99.90%
+ 267  SRR1050577     0.18%    passed     95.99%
+ 268  SRR1180573     0.10%    passed     99.80%
+ 269  SRR1050556     0.08%    passed     99.89%
+ 270  SRR1180722     0.13%    passed     99.31%
+ 271  SRR1181336     0.16%    passed     99.31%
+ 272  SRR1181433     0.11%    passed     99.84%
+ 273  SRR1180791     0.07%    passed     99.57%
+ 274  SRR1181378     0.04%    passed     98.41%
+ 275  SRR5408846     0.06%    passed     99.89%
+ 276  SRR1180898     0.09%    passed     98.57%
+ 277  SRR5408825     0.09%    passed     99.55%
+ 278  SRR1180865     0.17%    passed     99.76%
+ 279  SRR1181389     0.12%    passed     99.95%
+ 280  SRR1180360     0.08%    passed     99.80%
+ 281  SRR1180044     0.11%    passed     99.23%
+ 282  SRR1180741     0.11%    passed     99.51%
+ 283  SRR1180882     0.09%    passed     99.64%
+ 284  SRR1180757     0.09%    passed     99.36%
+ 285  SRR5408833     0.16%    passed     99.82%
+ 286  SRR1050574     0.11%    passed     99.84%
+ 287  SRR1180790     0.15%    passed     98.46%
+ 288  SRR5408847     0.16%    passed     99.62%
+ 289  SRR1180426     0.09%    passed     99.55%
+ 290  SRR1050563     0.05%    passed     99.98%
+ 291  SRR1180864     0.07%    passed     99.12%
+ 292  SRR1180386     0.14%    passed     99.07%
+ 293  SRR1180411     0.13%    passed     98.88%
+ 294  SRR1180756     0.04%    passed     98.43%
+ 295  SRR1180377     0.14%    passed     99.15%
+ 296  SRR1181363     0.08%    passed     99.22%
+ 297  SRR1180366     0.12%    passed     99.73%
+ 298  SRR1050564     0.10%    passed     99.87%
+ 299  SRR5408840     0.14%    passed     99.40%
+ 300  SRR1181435     0.05%    passed     99.86%
+ 301  SRR1181414     0.07%    passed     99.73%
+ 302  SRR1181440     0.07%    passed     99.41%
+ 303  SRR1181399     0.18%    passed     99.74%
+ 304  SRR1180576     0.15%    passed     99.89%
+ 305  SRR1181345     0.14%    passed     99.99%
+ 306  SRR1180084     0.09%    passed     99.58%
+ 307  SRR1180879     0.14%    passed     99.85%
+ 308  SRR1180915     0.11%    passed     99.66%
+ 309  SRR1180682     0.09%    passed     99.87%
+ 310  SRR5413219     0.07%    passed     99.60%
+ 311  SRR1180843     0.10%    passed     99.65%
+ 312  SRR1180645     0.13%    passed     99.69%
+ 313  SRR1180708     0.08%    passed     98.60%
+ 314  SRR1181438     0.07%    passed     97.87%
+ 315  SRR1180607     0.02%    passed     99.93%
+ 316  SRR1180893     0.28%    passed     99.98%
+ 317  SRR1050548     0.08%    passed     99.53%
+ 318  SRR1180401     0.13%    passed     99.91%
+ 319  SRR1181441     0.16%    passed     98.97%
+ 320  SRR1180055     0.06%    passed     99.95%
+ 321  SRR1050552     0.05%    passed     99.77%
+ 322  SRR1180514     0.14%    passed     99.75%
+ 323  SRR1180036     0.03%    passed     99.92%
+ 324  SRR1181416     0.11%    passed     99.41%
+ 325  SRR1180890     0.26%    passed     99.90%
+ 326  SRR1180877     0.07%    passed     98.02%
+ 327  SRR1180022     0.07%    passed     99.92%
+ 328  SRR1180891     0.24%    passed     99.75%
+ 329  SRR1050550     0.10%    passed     99.60%
+ 330  SRR1180373     0.10%    passed     99.01%
+ 331  SRR1181420     0.05%    passed     97.88%
+ 332  SRR1180034     0.05%    passed     99.89%
+ 333  SRR7650622     0.13%    passed     99.97%
+ 334  SRR7649482     0.21%    passed     99.37%
+ 335  SRR7649181     0.00%    passed     99.97%
+ 336  SRR7647949     0.26%    passed     99.32%
+ 337  SRR7649431     0.00%    passed     99.88%
+ 338  SRR7648602     0.09%    passed     99.86%
+ 339  SRR7648025     0.00%    passed     99.88%
+ 340  SRR7650615     0.00%    passed     99.97%
+ 341  SRR7649448     0.38%    passed     99.80%
+ 342  SRR7649924     0.38%    passed     96.13%
+ 343  SRR7648183     0.01%    passed     99.93%
+ 344  SRR7650337     0.00%    passed     99.88%
+ 345  SRR7650634     0.10%    passed     98.96%
+ 346  SRR7648012     0.21%    passed     96.89%
+ 347  SRR7650257     0.10%    passed     99.92%
+ 348  SRR7650470     0.14%    passed     99.69%
+ 349  SRR7648256     0.57%    passed     99.06%
+ 350  SRR7650388     0.24%    passed     99.55%
+ 351  SRR7648153     0.27%    passed     98.64%
+ 352  SRR7649933     0.16%    passed     99.74%
+ 353  SRR7648169     0.01%    passed     99.89%
+ 354  SRR7650507     0.15%    passed     99.52%
+ 355  SRR7647897     0.45%    passed     99.45%
+ 356  SRR7650690     0.00%    passed     99.88%
+ 357  SRR8200518     0.47%    passed     98.08%
+ 358  SRR7648241     0.43%    passed     95.49%
+ 359  SRR7648165     0.51%    passed     99.40%
+ 360  SRR7648032     0.00%    passed     99.50%
+ 361  SRR7649449     0.42%    passed     99.97%
+ 362  SRR7650317     0.18%    passed     97.98%
+ 363  SRR7648131     0.00%    passed     99.91%
+ 364  SRR7648582     0.30%    passed     99.53%
+ 365  SRR7650480     0.00%    passed     99.90%
+ 366  SRR7650635     0.29%    passed     99.82%
+ 367  SRR7650511     0.21%    passed     97.15%
+ 368  SRR7649499     0.14%    passed     99.95%
+ 369  SRR7650256     0.12%    passed     98.51%
+ 370  SRR7650390     0.26%    passed     97.83%
+ 371  SRR7648027     0.01%    passed     99.80%
+ 372  SRR7650293     0.14%    passed     96.95%
+ 373  SRR7647924     0.36%    passed     99.80%
+ 374  SRR7649480     0.00%    passed     99.88%
+ 375  SRR7650407     0.17%    passed     99.80%
+ 376  SRR7649183     0.00%    passed     99.96%
+ 377  SRR7650243     0.13%    passed     99.95%
+ 378  SRR7648242     0.19%    passed     93.02%
+ 379  SRR7650340     0.16%    passed     97.49%
+ 380  SRR7650643     0.23%    passed     99.98%
+ 381  SRR7647909     0.00%    passed     99.93%
+ 382  SRR7650662     0.31%    passed     99.15%
+ 383  SRR7648181     0.13%    passed     98.13%
+ 384  SRR7649496     0.00%    passed     99.88%
+ 385  SRR7649168     0.07%    passed     99.61%
+ 386  SRR7650386     0.22%    passed     99.08%
+ 387  SRR7650678     0.17%    passed     94.89%
+ 388  SRR7648132     0.29%    passed     98.49%
+ 389  SRR7650289     0.08%    passed     97.22%
+ 390  SRR7650377     0.13%    passed    100.00%
+ 391  SRR7650689     0.00%    passed     99.88%
+ 392  SRR7649846     0.00%    passed     99.96%
+ 393  SRR7650655     0.17%    passed     97.12%
+ 394  SRR7649432     0.00%    passed     99.79%
+ 395  SRR7650292     0.11%    passed     99.92%
+ 396  SRR7648125     0.43%    passed     99.92%
+ 397  SRR7649182     0.00%    passed     98.66%
+ 398  SRR7649931     0.14%    passed     98.33%
+ 399  SRR7650341     0.00%    passed     99.93%
+ 400  SRR7650465     0.18%    passed     99.38%
+ 401  SRR7650360     0.24%    passed     99.62%
+ 402  SRR7647899     0.20%    passed     99.28%
+ 403  SRR7648129     0.34%    passed     99.33%
+ 404  SRR7649451     0.28%    passed     98.74%
+ 405  SRR7648180     0.30%    passed     98.49%
+ 406  SRR7650284     0.18%    passed     98.77%
+ 407  SRR7650387     0.22%    passed     91.88%
+ 408  SRR7650684     0.28%    passed     91.24%
+ 409  SRR7650376     0.17%    passed     99.36%
+ 410  SRR7650319     0.00%    passed     99.88%
+ 411  SRR7650288     0.16%    passed     99.86%
+ 412  SRR7648171     0.35%    passed     99.50%
+ 413  SRR7649165     0.00%    passed     99.84%
+ 414  SRR7649456     0.12%    passed     99.80%
+ 415  SRR7650708     0.13%    passed     97.58%
+ 416  SRR7650299     0.30%    passed     98.81%
+ 417  SRR7650645     0.09%    passed     99.88%
+ 418  SRR7650245     0.00%    passed     99.88%
+ 419  SRR7965817     0.00%    passed     99.22%
+ 420  SRR7650249     0.14%    passed     97.79%
+ 421  SRR7647922     0.23%    passed     98.64%
+ 422  SRR7649185     0.14%    passed     99.99%
+ 423  SRR7649178     0.18%    passed     99.96%
+ 424  SRR7648000     0.18%    passed     99.55%
+ 425  SRR7648227     0.03%    passed     99.76%
+ 426  SRR7650626     0.19%    passed     99.92%
+ 427  SRR7648248     0.01%    passed     99.98%
+ 428  SRR7649936     0.00%    passed     99.18%
+ 429  SRR7648021     0.53%    passed     94.53%
+ 430  SRR7649212     0.33%    passed     99.81%
+ 431  SRR7650268     0.22%    passed     95.72%
+ 432  SRR7649435     0.09%    passed     99.97%
+ 433  SRR7650695     0.00%    passed     99.88%
+ 434  SRR7647892     0.38%    passed     98.83%
+ 435  SRR7648122     0.29%    passed     96.18%
+ 436  SRR7650350     0.17%    passed     98.49%
+ 437  SRR7650489     0.14%    passed     99.65%
+ 438  SRR7647957     0.24%    passed     98.34%
+ 439  SRR7649267     0.28%    passed     99.36%
+ 440  SRR7650712     0.11%    passed     99.90%
+ 441  SRR7647915     0.23%    passed     98.30%
+ 442  SRR7650283     0.00%    passed     99.88%
+ 443  SRR7650312     0.00%    passed     99.81%
+ 444  SRR8200526     0.21%    passed     99.26%
+ 445  SRR7648231     0.10%    passed     99.63%
+ 446  SRR7650298     0.24%    passed     98.88%
+ 447  SRR7650698     0.00%    passed     99.88%
+ 448  SRR7650328     0.00%    passed     99.89%
+ 449  SRR7650347     0.36%    passed     99.99%
+ 450  SRR7648226     0.00%    passed     99.81%
+ 451  SRR7650248     0.28%    passed     99.03%
+ 452  SRR7650227     0.17%    passed     98.04%
+ 453  SRR7649179     0.12%    passed     99.49%
+ 454  SRR7650400     0.00%    passed     99.75%
+ 455  SRR7650397     0.07%    passed     99.88%
+ 456  SRR7650305     0.20%    passed     95.72%
+ 457  SRR7648607     0.16%    passed     99.86%
+ 458  SRR7650421     0.00%    passed     99.89%
+ 459  SRR7647902     0.26%    passed     98.53%
+ 460  SRR7650252     0.00%    passed     99.84%
+ 461  SRR7647939     0.00%    passed     99.86%
+ 462  SRR7649460     0.15%    passed     99.97%
+ 463  SRR7648118     0.42%    passed     97.54%
+ 464  SRR7648253     0.00%    passed     99.84%
+ 465  SRR7650273     0.00%    passed     99.89%
+ 466  SRR7648156     0.01%    passed     99.82%
+ 467  SRR7648139     0.28%    passed     99.87%
+ 468  SRR7650381     0.28%    passed     96.69%
+ 469  SRR7649369     0.00%    passed     99.54%
+ 470  SRR7649891     0.00%    passed     99.84%
+ 471  SRR7650631     0.26%    passed     99.07%
+ 472  SRR7649500     0.00%    passed     99.59%
+ 473  SRR7648186     0.00%    passed     99.86%
+ 474  SRR7648162     0.02%    passed     99.79%
+ 475  SRR7648246     0.00%    passed     99.86%
+ 476  SRR7650647     0.07%    passed     99.69%
+ 477  SRR7649351     0.22%    passed     99.76%
+ 478  SRR7650460     0.26%    passed     99.96%
+ 479  SRR7650398     0.15%    passed     99.98%
+ 480  SRR7649273     0.15%    passed     98.42%
+ 481  SRR7647901     0.28%    passed     99.66%
+ 482  SRR7647993     0.34%    passed     98.71%
+ 483  SRR7648023     0.41%    passed     98.42%
+ 484  SRR7650224     0.16%    passed     97.82%
+ 485  SRR7648593     0.28%    passed     98.77%
+ 486  SRR7649934     0.24%    passed     99.98%
+ 487  SRR7650500     0.20%    passed     99.33%
+ 488  SRR8200509     0.00%    passed     99.95%
+ 489  SRR7650651     0.13%    passed     99.98%
+ 490  SRR7648174     0.34%    passed     99.87%
+ 491  SRR7648189     0.01%    passed     99.84%
+ 492  SRR7648018     0.00%    passed     99.97%
+ 493  SRR7647955     0.00%    passed     99.90%
+ 494  SRR7650476     0.13%    passed     96.74%
+ 495  SRR7648014     0.36%    passed     99.64%
+ 496  SRR7649922     0.00%    passed     99.71%
+ 497  SRR7650434     0.17%    passed     99.95%
+ 498  SRR7650382     0.18%    passed     97.92%
+ 499  SRR7649177     0.03%    passed     99.80%
+ 500  SRR7648228     0.00%    passed     99.88%
+ 501  SRR7650629     0.24%    passed     99.46%
+ 502  SRR7649350     0.00%    passed     99.21%
+ 503  SRR7648121     0.00%    passed     99.81%
+ 504  SRR7648205     0.00%    passed     99.48%
+ 505  SRR7650395     0.20%    passed     99.61%
+ 506  SRR7648605     0.32%    passed     99.90%
+ 507  SRR7650349     0.16%    passed     99.99%
+ 508  SRR7965818     0.00%    passed     99.78%
+ 509  SRR7650271     0.00%    passed     99.89%
+ 510  SRR8200508     0.26%    passed     99.88%
+ 511  SRR7648154     0.00%    passed     99.89%
+ 512  SRR7648588     0.20%    passed     99.53%
+ 513  SRR7649923     0.05%    passed     99.00%
+ 514  SRR7650330     0.00%    passed     99.88%
+ 515  SRR7649493     0.14%    passed     99.98%
+ 516  SRR7648579     0.00%    passed     99.56%
+ 517  SRR7650680     0.00%    passed     99.93%
+ 518  SRR7647990     0.25%    passed     99.85%
+ 519  SRR7648020     0.00%    passed     99.97%
+ 520  SRR7649887     0.18%    passed     99.96%
+ 521  SRR8200510     0.00%    passed     99.88%
+ 522  SRR7650705     0.00%    passed     99.88%
+ 523  SRR7649213     0.10%    passed     98.65%
+ 524  SRR7649434     0.00%    passed     99.48%
+ 525  SRR7650669     0.09%    passed     99.59%
+ 526  SRR7648123     0.00%    passed     99.82%
+ 527  SRR7648590     0.00%    passed     99.32%
+ 528  SRR7650724     0.13%    passed     98.01%
+ 529  SRR7650627     0.15%    passed     99.80%
+ 530  SRR7650324     0.00%    passed     99.89%
+ 531  SRR7649331     0.32%    passed     99.46%
+ 532  SRR7648190     0.34%    passed     99.88%
+ 533  SRR8200527     0.03%    passed     99.83%
+ 534  SRR7650416     0.00%    passed     99.88%
+ 535  SRR7648230     0.00%    passed     99.81%
+ 536  SRR7647914     0.00%    passed     99.93%
+ 537  SRR7650282     0.00%    passed     99.88%
+ 538  SRR7649205     0.00%    passed     99.82%
+ 539  SRR7648211     0.30%    passed     93.21%
+ 540  SRR7650673     0.00%    passed     99.89%
+ 541  SRR7649841     0.00%    passed     99.79%
+ 542  SRR7650295     0.00%    passed     99.88%
+ 543  SRR7650502     0.08%    passed     99.81%
+ 544  SRR7822532     0.16%    passed     97.44%
+ 545  SRR7650493     0.16%    passed     99.02%
+ 546  SRR7650462     0.18%    passed     99.79%
+ 547  SRR7648244     0.00%    passed     99.90%
+ 548  SRR7650264     0.14%    passed     98.67%
+ 549  SRR7648265     0.00%    passed     99.93%
+ 550  SRR7649372     0.16%    passed     97.54%
+ 551  SRR7649920     0.00%    passed     99.64%
+ 552  SRR8200507     0.00%    passed     99.88%
+ 553  SRR7649208     0.20%    passed     99.95%
+ 554  SRR7647888     0.00%    passed     99.93%
+ 555  SRR7648138     0.27%    passed     99.96%
+ 556  SRR7650253     0.06%    passed     96.95%
+ 557  SRR7649162     0.00%    passed     99.71%
+ 558  SRR7648119     0.24%    passed     99.86%
+ 559  SRR7650653     0.26%    passed     97.93%
+ 560  SRR7649186     0.00%    passed     99.92%
+ 561  SRR7649478     0.13%    passed     98.10%
+ 562  SRR7650490     0.34%    passed     98.80%
+ 563  SRR7647921     0.36%    passed     99.70%
+ 564  SRR7650707     0.00%    passed     99.35%
+ 565  SRR7649459     0.11%    passed     99.73%
+ 566  SRR7647992     0.00%    passed     99.83%
+ 567  SRR7650307     0.27%    passed     98.93%
+ 568  SRR7649371     0.20%    passed     99.34%
+ 569  SRR7649272     0.20%    passed     99.87%
+ 570  SRR7648609     0.00%    passed     99.58%
+ 571  SRR7650229     0.30%    passed     97.48%
+ 572  SRR7647942     0.32%    passed     96.80%
+ 573  SRR7650461     0.48%    passed     99.46%
+ 574  SRR7650246     0.00%    passed     99.88%
+ 575  SRR7650435     0.16%    passed     99.96%
+ 576  SRR7647887     0.34%    passed     99.77%
+ 577  SRR7650612     0.18%    passed     97.36%
+ 578  SRR7650311     0.00%    passed     99.89%
+ 579  SRR7650383     0.24%    passed     98.62%
+ 580  SRR7648158     0.24%    passed     99.18%
+ 581  SRR7650233     0.10%    passed     98.87%
+ 582  SRR8200525     0.00%    passed     99.88%
+ 583  SRR7648584     0.00%    passed     99.46%
+ 584  SRR7650486     0.26%    passed     99.33%
+ 585  SRR7649502     0.10%    passed     99.71%
+ 586  SRR7648184     0.30%    passed     99.34%
+ 587  SRR7650477     0.05%    passed     95.21%
+ 588  SRR7650348     0.13%    passed     98.11%
+ 589  SRR7649332     0.32%    passed     99.69%
+ 590  SRR7648193     0.00%    passed     99.93%
+ 591  SRR7650403     0.00%    passed     99.88%
+ 592  SRR7649187     0.18%    passed     99.71%
+ 593  SRR7650306     0.00%    passed     99.86%
+ 594  SRR7648204     0.23%    passed     97.57%
+ 595  SRR7649210     0.00%    passed     99.82%
+ 596  SRR7648604     0.28%    passed     99.66%
+ 597  SRR7649884     0.26%    passed     99.87%
+ 598  SRR7649454     0.18%    passed     99.81%
+ 599  SRR7649370     0.36%    passed     97.36%
+ 600  SRR7650365     0.16%    passed     97.88%
+ 601  SRR7650628     0.05%    passed     99.00%
+ 602  SRR7650310     0.00%    passed     99.93%
+ 603  SRR7647886     0.36%    passed     99.76%
+ 604  SRR7649206     0.30%    passed     99.94%
+ 605  SRR7649269     0.18%    passed     99.62%
+ 606  SRR7648612     0.00%    passed     99.78%
+ 607  SRR7648178     0.00%    passed     99.93%
+ 608  SRR7649503     0.16%    passed     99.67%
+ 609  SRR7650415     0.00%    passed     99.97%
+ 610  SRR7649191     0.14%    passed     98.75%
+ 611  SRR7650487     0.24%    passed     93.69%
+ 612  SRR7648585     0.44%    passed     99.71%
+ 613  SRR7649842     0.22%    passed     98.58%
+ 614  SRR8200528     0.00%    passed     99.84%
+ 615  SRR7650270     0.00%    passed     99.88%
+ 616  SRR7650373     0.23%    passed     99.50%
+ 617  SRR7650670     0.14%    passed     94.47%
+ 618  SRR7650240     0.24%    passed     97.53%
+ 619  SRR7650343     0.15%    passed     95.83%
+ 620  SRR7650640     0.16%    passed     99.66%
+ 621  SRR7648028     0.01%    passed     99.97%
+ 622  SRR7648260     0.24%    passed     94.21%
+ 623  SRR7650301     0.29%    passed     99.57%
+ 624  SRR7648203     0.34%    passed     97.47%
+ 625  SRR7648603     0.00%    passed     99.84%
+ 626  SRR7648024     0.51%    passed     99.63%
+ 627  SRR7650425     0.00%    passed     99.88%
+ 628  SRR7650720     0.17%    passed     99.90%
+ 629  SRR7649180     0.22%    passed     99.45%
+ 630  SRR7648594     0.16%    passed     99.56%
+ 631  SRR7648152     0.22%    passed     94.47%
+ 632  SRR7647952     0.34%    passed     99.76%
+ 633  SRR7649167     0.11%    passed     98.06%
+ 634  SRR7649845     0.00%    passed     99.17%
+ 635  SRR7648173     0.26%    passed     99.10%
+ 636  SRR7649323     0.28%    passed     99.88%
+ 637  SRR7648013     0.16%    passed     97.20%
+ 638  SRR7649495     0.33%    passed     99.63%
+ 639  SRR8200523     0.00%    passed     99.88%
+ 640  SRR7647931     0.00%    passed     99.97%
+ 641  SRR7650378     0.19%    passed     99.62%
+ 642  SRR7649807     0.38%    passed     94.73%
+ 643  SRR7650717     0.18%    passed     99.42%
+ 644  SRR7648615     0.00%    passed     99.72%
+ 645  SRR7647945     0.36%    passed     99.89%
+ 646  SRR7649170     0.00%    passed     99.88%
+ 647  SRR7650241     0.18%    passed     98.57%
+ 648  SRR7650466     0.02%    passed     99.95%
+ 649  SRR7648261     0.45%    passed     99.08%
+ 650  SRR7648145     0.41%    passed     99.12%
+ 651  SRR7647999     0.01%    passed     99.91%
+ 652  SRR8200519     0.59%    passed     99.08%
+ 653  SRR7647907     0.01%    passed     99.90%
+ 654  SRR8200515     0.16%    passed     99.74%
+ 655  SRR7650691     0.00%    passed     99.76%
+ 656  SRR7650721     0.41%    passed     99.90%
+ 657  SRR7650321     0.28%    passed     98.17%
+ 658  SRR7650619     0.00%    passed     99.64%
+ 659  SRR7650676     0.00%    passed     99.71%
+ 660  SRR7650276     0.00%    passed     99.88%
+ 661  SRR7648172     0.01%    passed     99.94%
+ 662  SRR7650354     0.01%    passed     99.91%
+ 663  SRR7650238     0.16%    passed     96.23%
+ 664  SRR8200522     0.17%    passed     99.86%
+ 665  SRR7649197     0.01%    passed     99.62%
+ 666  SRR7650481     0.00%    passed     99.88%
+ 667  SRR7649322     0.49%    passed     99.60%
+ 668  SRR7650358     0.00%    passed     99.95%
+ 669  SRR7648235     0.00%    passed     99.87%
+ 670  SRR7650510     0.16%    passed     99.53%
+ 671  SRR7650432     0.17%    passed     99.96%
+ 672  SRR7648130     0.03%    passed     99.93%
+ 673  SRR7649173     0.00%    passed     99.81%
+ 674  SRR7650494     0.24%    passed     99.25%
+ 675  SRR7650406     0.00%    passed     99.88%
+ 676  SRR7649481     0.00%    passed     99.88%
+ 677  SRR7647996     0.32%    passed     99.94%
+ 678  SRR8200516     0.00%    passed     99.44%
+ 679  SRR7649198     0.19%    passed     99.85%
+ 680  SRR7650338     0.00%    passed     99.88%
+ 681  SRR7650357     0.16%    passed     99.26%
+ 682  SRR7648255     0.00%    passed     99.93%
+ 683  SRR7650675     0.00%    passed     99.88%
+ 684  SRR7648030     0.32%    passed     96.02%
+ 685  SRR7650431     0.09%    passed     99.82%
+ 686  SRR7650637     0.18%    passed     98.69%
+ 687  SRR7649321     0.40%    passed     99.95%
+ 688  SRR7650658     0.32%    passed     99.59%
+ 689  SRR7647933     0.20%    passed     99.93%
+ 690  SRR7650482     0.19%    passed     98.87%
+ 691  SRR8200521     0.00%    passed     99.88%
+ 692  SRR7648263     0.04%    passed     99.74%
+ 693  SRR7647966     0.30%    passed     98.48%
+ 694  SRR7650464     0.11%    passed     99.75%
+ 695  SRR7648597     0.31%    passed     99.71%
+ 696  SRR7650620     0.07%    passed     99.69%
+ 697  SRR7648600     0.28%    passed     99.37%
+ 698  SRR7650693     0.04%    passed     99.39%
+ 699  SRR7650356     0.00%    passed     99.90%
+ 700  SRR7648357     0.19%    passed     99.57%
+ 701  SRR7650274     0.00%    passed     99.88%
+ 702  SRR7648616     0.00%    passed     99.90%
+ 703  SRR7649202     0.15%    passed     99.05%
+ 704  SRR7650483     0.00%    passed     99.88%
+ 705  SRR7650512     0.13%    passed     99.22%
+ 706  SRR7648258     0.37%    passed     99.88%
+ 707  SRR7649199     0.00%    passed     99.79%
+ 708  SRR7650255     0.01%    passed     99.86%
+ 709  SRR7650339     0.00%    passed     99.93%
+ 710  SRR7650718     0.10%    passed     99.76%
+ 711  SRR7648151     0.36%    passed     98.57%
+ 712  SRR7650314     0.00%    passed     99.88%
+ 713  SRR7650617     0.08%    passed     98.34%
+ 714  SRR7650685     0.00%    passed     99.88%
+ 715  SRR7650714     0.12%    passed     99.85%
+ 716  SRR7648031     0.01%    passed     99.95%
+ 717  SRR7650659     0.14%    passed     99.81%
+ 718  SRR7650335     0.23%    passed     97.39%
+ 719  SRR7650636     0.11%    passed     97.55%
+ 720  SRR8200520     0.13%    passed     99.36%
+ 721  SRR7650411     0.14%    passed     97.83%
+ 722  SRR7650262     0.06%    passed     99.30%
+ 723  SRR7647928     0.29%    passed     99.29%
+ 724  SRR7650323     0.00%    passed     99.86%
+ 725  SRR7650468     0.34%    passed     99.39%
+ 726  SRR7647997     0.00%    passed     99.46%
+ 727  SRR8200517     0.22%    passed     99.03%
+ 728  SRR7650254     0.13%    passed     98.56%
+ 729  SRR7650473     0.19%    passed     94.69%
+ 730  SRR7650688     0.00%    passed     99.88%
+ 731  SRR7648150     0.00%    passed     99.82%
+ 732  SRR7649809     0.00%    passed     99.88%
+ 733  SRR7650719     0.26%    passed     98.80%
+ 734  SRR7649203     0.09%    passed     99.72%
+ 735  SRR7650279     0.00%    passed     99.88%
+ 736  SRR7647912     0.32%    passed     99.58%
+ 737  SRR7647883     0.00%    passed     99.75%
+ 738  SRR7648133     0.00%    passed     99.84%
+ 739  SRR7650679     0.20%    passed     99.37%
+ 740  SRR7649169     0.00%    passed     99.88%
+ 741  SRR7648580     0.03%    passed     99.81%
+ 742  SRR7649927     0.17%    passed     98.85%
+ 743  SRR7650334     0.00%    passed     99.88%
+ 744  SRR7648236     0.00%    passed     99.52%
+ 745  SRR7648146     0.34%    passed     99.88%
+ 746  SRR7650663     0.00%    passed     99.88%
+ 747  SRR7650263     0.00%    passed     99.88%
+ 748  SRR7650509     0.20%    passed     99.64%
+ 749  SRR7647929     0.26%    passed     99.76%
+ 750  SRR7650498     0.23%    passed     99.28%
+ 751  SRR7650242     0.09%    passed     99.16%
+ 752  SRR7650722     0.28%    passed     98.94%
+ 753  SRR7650621     0.13%    passed     99.04%
+ 754  SRR7650322     0.00%    passed     99.96%
+ 755  SRR7650505     0.16%    passed     98.34%
+ 756  SRR7648601     0.15%    passed     99.66%
+ 757  SRR7650703     0.30%    passed     96.58%
+ 758  SRR7650303     0.12%    passed     99.93%
+ 759  SRR7647953     0.42%    passed     99.77%
+ 760  SRR7649844     0.00%    passed     99.84%
+ 761  SRR7650638     0.12%    passed     99.92%
+ 762  SRR7650657     0.17%    passed     99.69%
+ 763  SRR7649494     0.18%    passed     99.96%
+ 764  SRR7650379     0.22%    passed     95.63%
+ 765  SRR7650287     0.00%    passed     99.93%
+ 766  SRR7650409     0.00%    passed     99.96%
+ 767  SRR7650342     0.11%    passed     99.61%
+ 768  SRR7650641     0.12%    passed     99.10%
+ 769  SRR7648240     0.31%    passed     99.63%
+ 770  SRR7648029     0.00%    passed     99.89%
+ 771  SRR7649452     0.17%    passed     99.78%
+ 772  SRR7650260     0.00%    passed     99.89%
+ 773  SRR7650363     0.29%    passed     96.09%
+ 774  SRR7649319     0.35%    passed     99.77%
+ 775  SRR7650700     0.00%    passed     99.88%
+ 776  SRR7647995     0.21%    passed     97.46%
+ 777  SRR7650424     0.16%    passed     99.98%
+ 778  SRR7650291     0.00%    passed     99.89%
+ 779  SRR7650506     0.13%    passed     98.78%
+ 780  SRR7650497     0.13%    passed     99.72%
+ 781  SRR7650222     0.28%    passed     99.81%
+ 782  SRR7650389     0.00%    passed     99.88%
+ 783  SRR7650677     0.00%    passed     99.88%
+ 784  SRR7650277     0.11%    passed     98.28%
+ 785  SRR7650639     0.17%    passed     99.32%
+ 786  SRR7650355     0.15%    passed     92.87%
+ 787  SRR7648257     0.01%    passed    100.00%
+ 788  SRR7650471     0.30%    passed     99.82%
+ 789  SRR7650239     0.16%    passed     99.06%
+ 790  SRR7649196     0.29%    passed     99.12%
+ 791  SRR7650359     0.00%    passed     99.89%
+ 792  SRR7649925     0.00%    passed     99.92%
+ 793  SRR7647910     0.33%    passed     98.91%
+ 794  SRR7647881     0.45%    passed     99.50%
+ 795  SRR7650661     0.13%    passed     97.28%
+ 796  SRR7650362     0.12%    passed     98.21%
+ 797  SRR7649453     0.16%    passed     98.09%
+ 798  SRR7650261     0.34%    passed     97.76%
+ 799  SRR8200514     0.36%    passed     98.61%
+ 800  SRR7648127     0.45%    passed     99.88%
+ 801  SRR7650496     0.16%    passed     97.20%
+ 802  SRR7650404     0.22%    passed     98.61%
+ 803  SRR7650710     0.00%    passed     99.59%
+ 804  SRR7650281     0.00%    passed     99.90%
+ 805  SRR7650632     0.20%    passed     94.93%
+ 806  SRR7649328     0.22%    passed     99.78%
+ 807  SRR7650352     0.20%    passed     94.33%
+ 808  SRR7648250     0.01%    passed     99.87%
+ 809  SRR7650251     0.28%    passed     93.89%
+ 810  SRR7650419     0.11%    passed     97.70%
+ 811  SRR7650491     0.18%    passed     96.91%
+ 812  SRR7649484     0.10%    passed     99.38%
+ 813  SRR7650327     0.00%    passed     99.90%
+ 814  SRR7650706     0.25%    passed     93.09%
+ 815  SRR8200513     0.00%    passed     99.89%
+ 816  SRR7650422     0.23%    passed     98.75%
+ 817  SRR7650297     0.00%    passed     99.88%
+ 818  SRR7650394     0.00%    passed     99.89%
+ 819  SRR7650369     0.00%    passed     99.89%
+ 820  SRR7649888     0.20%    passed     99.83%
+ 821  SRR7647962     0.03%    passed     99.97%
+ 822  SRR7650266     0.00%    passed     99.88%
+ 823  SRR7650344     0.00%    passed     99.94%
+ 824  SRR7650247     0.22%    passed     99.64%
+ 825  SRR7650228     0.09%    passed     99.94%
+ 826  SRR7649268     0.34%    passed     99.45%
+ 827  SRR7650280     0.00%    passed     99.88%
+ 828  SRR7648179     0.02%    passed     99.89%
+ 829  SRR7648015     0.57%    passed     97.30%
+ 830  SRR7649843     0.00%    passed     99.76%
+ 831  SRR8200529     0.03%    passed     99.99%
+ 832  SRR7648251     0.00%    passed     99.88%
+ 833  SRR7650353     0.00%    passed     99.88%
+ 834  SRR7650501     0.18%    passed     99.47%
+ 835  SRR7649485     0.14%    passed     99.56%
+ 836  SRR7650696     0.00%    passed     99.76%
+ 837  SRR7650368     0.00%    passed     99.89%
+ 838  SRR8200512     0.00%    passed     99.88%
+ 839  SRR7650296     0.18%    passed     98.71%
+ 840  SRR7649455     0.00%    passed     99.81%
+ 841  SRR7650267     0.00%    passed     99.93%
+ 842  SRR7650364     0.24%    passed     98.67%
+ 843  SRR7650667     0.00%    passed     99.46%
+ 844  SRR7649489     0.12%    passed     99.09%
+ 845  SRR7650485     0.15%    passed     99.20%
+ 846  SRR7650478     0.29%    passed     98.93%
+ 847  SRR7649501     0.01%    passed     99.31%
+ 848  SRR7650333     0.12%    passed     99.35%
+ 849  SRR7650611     0.00%    passed     99.88%
+ 850  SRR7649368     0.14%    passed     99.63%
+ 851  SRR7648157     0.38%    passed     98.04%
+ 852  SRR7650672     0.00%    passed     99.77%
+ 853  SRR7650272     0.12%    passed     95.93%
+ 854  SRR7965820     0.38%    passed     99.43%
+ 855  SRR7648176     0.00%    passed     99.85%
+ 856  SRR7648252     0.00%    passed     99.89%
+ 857  SRR7649840     0.00%    passed     99.93%
+ 858  SRR7649886     0.00%    passed     99.59%
+ 859  SRR7648606     0.00%    passed     99.88%
+ 860  SRR7650304     0.00%    passed     99.88%
+ 861  SRR7650668     0.10%    passed     96.86%
+ 862  SRR8200530     0.00%    passed     99.80%
+ 863  SRR7648191     0.00%    passed     99.92%
+ 864  SRR7650346     0.38%    passed     99.42%
+ 865  SRR7650329     0.00%    passed     99.88%
+ 866  SRR7650664     0.00%    passed     99.88%
+ 867  SRR7650367     0.21%    passed     99.45%
+ 868  SRR7648141     0.60%    passed     99.98%
+ 869  SRR7649327     0.00%    passed     99.66%
+ 870  SRR7650332     0.09%    passed     99.79%
+ 871  SRR7649491     0.30%    passed     99.10%
+ 872  SRR7650231     0.18%    passed     98.90%
+ 873  SRR7647935     0.42%    passed     99.74%
+ 874  SRR7648586     0.30%    passed     99.66%
+ 875  SRR7650484     0.19%    passed     99.23%
+ 876  SRR7650313     0.12%    passed     99.84%
+ 877  SRR7650682     0.00%    passed     99.89%
+ 878  SRR7649209     0.24%    passed     99.31%
+ 879  SRR7650475     0.16%    passed     99.89%
+ 880  SRR7650351     0.00%    passed     99.88%
+ 881  SRR7648177     0.00%    passed     99.90%
+ 882  SRR7650648     0.16%    passed     98.84%
+ 883  SRR7648001     0.00%    passed     99.88%
+ 884  SRR7649175     0.21%    passed     98.83%
+ 885  SRR7650244     0.15%    passed     99.88%
+ 886  SRR7648245     0.35%    passed     99.93%
+ 887  SRR7650644     0.19%    passed     98.22%
+ 888  SRR7649352     0.00%    passed     99.72%
+ 889  SRR7650265     0.00%    passed     99.88%
+ 890  SRR7649457     0.20%    passed     99.13%
+ 891  SRR7650366     0.00%    passed     99.89%
+ 892  SRR7650665     0.16%    passed     98.24%
+ 893  SRR7649265     0.14%    passed     99.68%
+ 894  SRR7648155     0.01%    passed     99.85%
+ 895  SRR7650681     0.00%    passed     99.88%
+ 896  SRR7648159     0.00%    passed     99.77%
+ 897  SRR7648136     0.00%    passed     99.85%
+ 898  SRR7648212     0.00%    passed     99.68%
+ 899  SRR7649892     0.09%    passed     99.39%
+ 900  SRR7650331     0.15%    passed     98.59%
+ 901  SRR7648233     0.00%    passed     99.80%
+ 902  SRR7648185     0.00%    passed     99.91%
+ 903  SRR7647959     0.32%    passed     99.25%
+ 904  SRR7649492     0.13%    passed     97.53%
+ 905  SRR8200524     0.00%    passed     99.80%
+ 906  SRR7648208     0.48%    passed     99.92%
+ 907  SRR7965815     0.00%    passed     99.70%
+ 908  SRR7649176     0.07%    passed     99.89%
+ 909  SRR7649488     0.00%    passed     99.88%
+ 910  SRR7648225     0.32%    passed     98.33%
+ 911  SRR7650624     0.07%    passed     99.84%
+ 912  SRR7965819     0.20%    passed     98.33%
+ 913  SRR7649479     0.00%    passed     99.80%
+ 914  SRR7650697     0.01%    passed     99.92%
+ 915  SRR7649458     0.28%    passed     98.91%
+ 916  SRR7650650     0.14%    passed     98.50%
+ 917  SRR7649329     0.00%    passed     99.81%
+ 918  SRR7650250     0.00%    passed     99.88%
+ 919  SRR7650418     0.00%    passed     99.91%
+ 920  SRR7648019     0.29%    passed     99.53%
+ 921  SRR7650372     0.00%    passed     99.88%
+ 922  SRR7650671     0.30%    passed     99.22%
+ 923  SRR8200504     0.41%    passed     98.65%
+ 924  SRR7650711     0.00%    passed     99.84%
+ 925  SRR7649207     0.28%    passed     99.68%
+ 926  SRR7649190     0.00%    passed     99.70%
+ 927  SRR7647958     0.35%    passed     98.49%
+ 928  SRR7648232     0.32%    passed     94.63%
+ 929  SRR7650633     0.26%    passed     99.70%
+ 930  SRR7650399     0.17%    passed     99.46%
+ 931  SRR7648142     0.47%    passed     98.86%
+ 932  SRR7650646     0.12%    passed     99.48%
+ 933  SRR7650225     0.20%    passed     99.93%
+ 934  SRR7650326     0.24%    passed     99.29%
+ 935  SRR7650625     0.14%    passed     98.13%
+ 936  SRR7649935     0.05%    passed     99.78%
+ 937  SRR7648192     0.20%    passed     98.52%
+ 938  SRR7648022     0.03%    passed     99.92%
+ 939  SRR7649885     0.00%    passed     97.90%
+ 940  SRR7649211     0.00%    passed     99.18%
+ 941  SRR7647891     0.00%    passed     99.76%
+ 942  SRR7649962     0.12%    passed     99.78%
+ 943  SRR7649461     0.42%    passed     99.98%
+ 944  SRR7650474     0.00%    passed     99.88%
+ 945  SRR7650630     0.09%    passed     99.16%
+ 946  SRR7650230     0.28%    passed     98.91%
+ 947  SRR7648016     0.40%    passed     97.54%
+ 948  SRR7648134     0.29%    passed     99.82%
+ 949  SRR7650380     0.24%    passed     99.21%
+ 950  SRR7649204     0.00%    passed     99.89%
+ 951  SRR7649890     0.00%    passed     99.86%
+ 952  SRR7649189     0.00%    passed     99.35%
+ 953  SRR7649174     0.16%    passed     99.69%
+ 954  SRR7650396     0.18%    passed     96.25%
+ 955  SRR7650704     0.00%    passed     99.88%
+ 956  SRR8200511     0.26%    passed     99.87%
+ 957  SRR7649330     0.36%    passed     99.03%
+ 958  SRR7650325     0.30%    passed     99.93%
+ 959  SRR7649486     0.18%    passed     99.84%
+ 960  SRR7650401     0.21%    passed     99.25%
+ 961  SRR7650226     0.16%    passed     97.32%
+ 962  SRR7650370     0.11%    passed     99.37%
+ 963  SRR7649266     0.11%    passed     98.57%
+ 964  SRR7649163     0.05%    passed     99.30%
+ 965  SRR7650488     0.08%    passed     95.15%
+ 966  SRR7648017     0.25%    passed     99.76%
+ 967  SRR7650479     0.13%    passed     98.21%
+ 968  SRR7649921     0.11%    passed     99.93%
+ 969  SRR7822525     0.13%    passed     95.28%
+ 970  SRR7650713     0.18%    passed     99.05%
+ 971  SRR8200506     0.23%    passed     99.10%
+ 972  SRR7648161     0.24%    passed     99.53%
+ 973  SRR7650463     0.34%    passed     99.46%
+ 974  SRR7650309     0.11%    passed     96.82%
+ 975  SRR7648140     0.59%    passed     99.63%
+ 976  SRR7649270     0.00%    passed     99.13%
+ 977  SRR7650269     0.00%    passed     99.80%
+ 978  SRR7650294     0.13%    passed     97.18%
+ 979  SRR7650694     0.00%    passed     99.88%
+ 980  SRR7649487     0.14%    passed     99.92%
+ 981  SRR7649184     0.00%    passed     99.46%
+ 982  SRR7650492     0.17%    passed     99.56%
+ 983  SRR7648249     0.37%    passed     99.85%
+ 984  SRR7650503     0.20%    passed     99.16%
+ 985  SRR7647913     0.16%    passed     99.88%
+ 986  SRR7650278     0.23%    passed     97.06%
+ 987  SRR7650285     0.18%    passed     94.72%
+ 988  SRR7650430     0.24%    passed     99.99%
+ 989  SRR7650236     0.00%    passed     99.88%
+ 990  SRR7650259     0.00%    passed     99.72%
+ 991  SRR7649926     0.33%    passed     99.21%
+ 992  SRR7649320     0.26%    passed     99.60%
+ 993  SRR7965908     0.00%    passed     99.80%
+ 994  SRR7648254     0.00%    passed     99.89%
+ 995  SRR7647951     0.30%    passed     99.93%
+ 996  SRR7649164     0.00%    passed     99.42%
+ 997  SRR7650472     0.17%    passed     99.33%
+ 998  SRR7650318     0.15%    passed     95.21%
+ 999  SRR7650674     0.18%    passed     97.25%
+1000  SRR7649808     0.15%    passed     99.17%
+1001  SRR7650495     0.18%    passed     99.53%
+1002  SRR7649930     0.14%    passed     99.95%
+1003  SRR7648197     0.23%    passed     99.93%
+1004  SRR7650504     0.13%    passed     99.93%
+1005  SRR7649214     0.20%    passed     99.69%
+1006  SRR7650702     0.16%    passed     98.10%
+1007  SRR7648200     0.30%    passed     99.69%
+1008  SRR7650361     0.00%    passed     99.73%
+1009  SRR7648147     0.47%    passed     99.59%
+1010  SRR7648166     0.36%    passed     99.27%
+1011  SRR7650499     0.20%    passed     99.17%
+1012  SRR7650315     0.00%    passed     99.87%
+1013  SRR7650715     0.11%    passed     99.48%
+1014  SRR7648259     0.00%    passed     99.87%
+1015  SRR7650513     0.26%    passed     99.61%
+1016  SRR7648011     0.00%    passed     99.73%
+1017  SRR7650237     0.09%    passed     98.63%
+1018  SRR7650258     0.32%    passed     97.89%
+1019  SRR7650654     0.12%    passed     98.47%
+1020  SRR7650275     0.00%    passed     99.92%
+1021  SRR7647895     0.00%    passed     99.84%
+1022  SRR7650391     0.00%    passed     99.88%
+1023  SRR7650692     0.19%    passed     93.01%
+1024  SRR7648167     0.41%    passed     99.95%
+1025  SRR7648243     0.01%    passed     99.91%
+1026  SRR7650642     0.19%    passed     98.56%
+1027  SRR7648583     0.62%    passed     97.37%
+1028  SRR7650413     0.00%    passed     99.77%
+1029  SRR7650234     0.24%    passed     97.70%
+1030  SRR7648614     0.13%    passed     99.46%
+1031  SRR8200503     0.01%    passed     99.93%
+1032  SRR7649894     0.12%    passed     99.85%
+1033  SRR7650716     0.20%    passed     97.43%
+1034  SRR7649200     0.21%    passed     98.27%
+1035  SRR7650687     0.17%    passed     91.24%
+1036  SRR7650384     0.26%    passed     99.63%
+1037  SRR7647880     0.00%    passed     99.91%
+1038  SRR7650316     0.00%    passed     99.88%
+1039  SRR7648214     0.00%    passed     99.71%
+1040  SRR7650375     0.00%    passed     99.89%
+1041  SRR7648239     0.00%    passed     99.88%
+1042  SRR7649928     0.08%    passed     99.94%
+1043  SRR7649498     0.20%    passed     99.77%
+1044  SRR7649166     0.00%    passed     99.78%
+1045  SRR7648149     0.03%    passed     99.95%
+1046  SRR7650300     0.21%    passed     98.43%
+1047  SRR7648126     0.00%    passed     99.93%
+1048  SRR7648168     0.32%    passed     98.72%
+1049  SRR7649932     0.13%    passed     99.39%
+1050  SRR7648164     0.00%    passed     99.91%
+1051  SRR7648599     0.36%    passed     99.96%
+1052  SRR7648182     0.59%    passed     99.92%
+1053  SRR7650235     0.00%    passed     99.87%
+1054  SRR7650385     0.00%    passed     99.88%
+1055  SRR7650686     0.00%    passed     99.88%
+1056  SRR7650614     0.21%    passed     98.55%
+1057  SRR7649895     0.00%    passed     99.84%
+1058  SRR8200502     0.00%    passed     99.64%
+1059  SRR7650433     0.24%    passed     99.12%
+1060  SRR7649201     0.00%    passed     99.38%
+1061  SRR7650286     0.00%    passed     99.88%
+1062  SRR7650374     0.00%    passed     99.97%
+1063  SRR7650618     0.04%    passed     99.97%
+1064  SRR7648354     0.21%    passed     99.30%
+1065  SRR7649929     0.00%    passed     99.88%
+1066  SRR7650656     0.26%    passed     96.72%
+1067  SRR7650393     0.23%    passed     99.18%
+1068  SRR7647994     0.22%    passed     99.34%
+1069  SRR7649883     0.10%    passed     98.25%
+1070  SRR7650290     0.00%    passed     99.89%
+1071  SRR7650623     0.00%    passed     99.89%
+1072  SRR7648194     0.00%    passed     99.91%
+1073  SRR7647948     0.41%    passed     99.49%
+1074  SRR7650223     0.14%    passed     97.81%
+1075  SRR7650467     0.20%    passed     99.77%
+1076  SRR7649171     0.00%    passed     99.88%
+1077  SRR7648009     0.51%    passed     98.68%
+1078  SRR7647965     0.00%    passed     99.90%
+1079  SRR7648144     0.00%    passed     99.97%
+1080  ERR10813663    0.00%    passed     99.96%
+1081  ERR10813147    0.00%    passed     99.88%
+1082  ERR10813444    0.16%    passed     89.48%
+1083  ERR10813128    0.00%    passed     99.88%
+1084  ERR10812972    0.00%    passed     99.88%
+1085  ERR10813341    0.00%    passed     99.88%
+1086  ERR10813566    0.00%    passed     99.84%
+1087  ERR10813098    0.26%    passed     98.37%
+1088  ERR10812953    0.00%    passed     99.88%
+1089  ERR10813166    0.27%    passed     99.08%
+1090  ERR10813722    0.20%    passed     99.55%
+1091  ERR10812930    0.29%    passed     99.77%
+1092  ERR10813069    0.00%    passed     99.81%
+1093  ERR10813006    0.00%    passed     99.90%
+1094  ERR10813505    0.14%    passed     99.41%
+1095  ERR10813621    0.11%    passed     98.30%
+1096  ERR10813292    0.00%    passed     99.88%
+1097  ERR10813200    0.00%    passed     99.88%
+1098  ERR10813524    0.00%    passed     99.82%
+1099  ERR10813654    0.16%    passed     95.40%
+1100  ERR10813319    0.00%    passed     99.87%
+1101  ERR10813551    0.11%    passed     99.72%
+1102  ERR10813675    0.08%    passed     99.06%
+1103  ERR10813376    0.00%    passed     99.77%
+1104  ERR10813288    0.00%    passed     99.88%
+1105  ERR10813216    0.01%    passed     99.88%
+1106  ERR10813616    0.19%    passed     98.24%
+1107  ERR10813532    0.16%    passed     91.39%
+1108  ERR10812926    0.00%    passed     99.77%
+1109  ERR10813258    0.20%    passed     96.76%
+1110  ERR10813581    0.02%    passed     99.41%
+1111  ERR10813146    0.01%    passed     99.16%
+1112  ERR10812973    0.00%    passed     99.93%
+1113  ERR10813129    0.00%    passed     99.76%
+1114  ERR10813529    0.12%    passed     99.58%
+1115  ERR10813662    0.00%    passed     99.88%
+1116  ERR10813108    0.08%    passed     99.66%
+1117  ERR10813243    0.00%    passed     99.88%
+1118  ERR10813095    0.00%    passed     99.80%
+1119  ERR10813068    0.00%    passed     99.88%
+1120  ERR10813504    0.18%    passed     96.96%
+1121  ERR10813220    0.06%    passed     99.69%
+1122  ERR10812931    0.00%    passed     99.75%
+1123  ERR10813601    0.17%    passed     96.89%
+1124  ERR10813026    0.00%    passed     99.88%
+1125  ERR10813049    0.00%    passed     99.88%
+1126  ERR10813693    0.05%    passed     96.59%
+1127  ERR10813125    0.00%    passed     99.89%
+1128  ERR10812944    0.08%    passed     99.02%
+1129  ERR10813655    0.18%    passed     99.09%
+1130  ERR10813571    0.04%    passed     99.71%
+1131  ERR10813689    0.00%    passed     99.88%
+1132  ERR10813550    0.00%    passed     99.84%
+1133  ERR10813533    0.21%    passed     93.88%
+1134  ERR10813617    0.18%    passed     98.33%
+1135  ERR10812906    0.00%    passed     99.96%
+1136  ERR10813285    0.00%    passed     99.88%
+1137  ERR10812994    0.00%    passed     99.88%
+1138  ERR10813580    0.14%    passed     95.92%
+1139  ERR10813735    0.14%    passed     97.00%
+1140  ERR10813259    0.00%    passed     99.88%
+1141  ERR10813008    0.00%    passed     99.88%
+1142  ERR10813640    0.00%    passed     99.88%
+1143  ERR10813240    0.00%    passed     99.88%
+1144  ERR10813362    0.00%    passed     99.88%
+1145  ERR10813261    0.00%    passed     99.71%
+1146  ERR10813149    0.20%    passed     99.94%
+1147  ERR10813602    0.18%    passed     96.27%
+1148  ERR10812932    0.14%    passed     99.98%
+1149  ERR10813404    0.00%    passed     99.75%
+1150  ERR10813320    0.00%    passed     99.99%
+1151  ERR10813004    0.00%    passed     99.88%
+1152  ERR10813568    0.00%    passed     99.86%
+1153  ERR10813389    1.30%    passed     95.83%
+1154  ERR10813553    0.18%    passed     99.65%
+1155  ERR10812898    0.18%    passed     99.60%
+1156  ERR10812909    0.22%    passed     98.67%
+1157  ERR10813656    0.00%    passed     99.68%
+1158  ERR10813239    0.00%    passed     99.96%
+1159  ERR10813736    0.00%    passed     99.88%
+1160  ERR10813012    0.00%    passed     99.76%
+1161  ERR10813635    0.00%    passed     99.46%
+1162  ERR10812997    0.28%    passed     99.06%
+1163  ERR10813717    0.18%    passed     95.34%
+1164  ERR10813214    0.11%    passed     98.71%
+1165  ERR10813378    0.00%    passed     99.89%
+1166  ERR10813530    0.16%    passed     96.60%
+1167  ERR10813241    0.00%    passed     99.88%
+1168  ERR10813466    0.00%    passed     99.88%
+1169  ERR10813165    0.09%    passed     99.09%
+1170  ERR10813641    0.00%    passed     99.99%
+1171  ERR10813565    0.02%    passed     99.96%
+1172  ERR10813598    0.20%    passed     95.79%
+1173  ERR10812971    0.01%    passed     99.05%
+1174  ERR10813028    0.12%    passed     98.25%
+1175  ERR10813691    0.17%    passed     97.27%
+1176  ERR10813392    0.15%    passed     99.46%
+1177  ERR10813548    0.00%    passed     99.88%
+1178  ERR10813203    0.00%    passed     99.88%
+1179  ERR10813700    0.00%    passed     99.47%
+1180  ERR10813569    0.20%    passed     99.56%
+1181  ERR10813097    0.00%    passed     99.88%
+1182  ERR10813594    0.00%    passed     99.88%
+1183  ERR10813194    0.03%    passed     98.60%
+1184  ERR10812908    0.00%    passed     99.88%
+1185  ERR10813676    0.04%    passed     98.24%
+1186  ERR10813470    0.00%    passed     99.88%
+1187  ERR10813173    0.22%    passed     99.95%
+1188  ERR10813573    0.10%    passed     94.87%
+1189  ERR10813070    0.00%    passed     99.64%
+1190  ERR10813510    0.00%    passed     99.88%
+1191  ERR10813081    0.00%    passed     99.88%
+1192  ERR10812925    0.00%    passed     99.86%
+1193  ERR10813737    0.00%    passed     99.88%
+1194  ERR10813384    0.02%    passed     98.86%
+1195  ERR10813215    0.19%    passed     95.57%
+1196  ERR10813716    0.14%    passed     99.66%
+1197  ERR10813326    0.00%    passed     99.79%
+1198  ERR10813090    0.00%    passed     99.80%
+1199  ERR10813193    0.00%    passed     99.94%
+1200  ERR10813307    0.00%    passed     99.93%
+1201  ERR10812987    0.00%    passed     99.08%
+1202  ERR10813296    0.00%    passed     99.88%
+1203  ERR10813208    0.13%    passed     99.76%
+1204  ERR10813246    0.22%    passed     97.52%
+1205  ERR10812957    0.00%    passed     99.88%
+1206  ERR10813562    0.00%    passed     99.78%
+1207  ERR10813536    0.14%    passed     95.82%
+1208  ERR10813212    0.02%    passed     99.71%
+1209  ERR10813159    0.07%    passed     99.95%
+1210  ERR10813517    0.16%    passed     99.08%
+1211  ERR10813633    0.00%    passed     99.88%
+1212  ERR10813117    0.10%    passed     99.94%
+1213  ERR10813250    0.00%    passed     99.88%
+1214  ERR10813174    0.00%    passed     99.88%
+1215  ERR10813418    0.22%    passed     96.67%
+1216  ERR10812941    0.00%    passed     99.88%
+1217  ERR10813671    0.00%    passed     99.88%
+1218  ERR10813056    0.00%    passed     99.78%
+1219  ERR10813491    0.14%    passed     97.63%
+1220  ERR10813100    0.20%    passed     96.37%
+1221  ERR10813327    0.00%    passed     99.88%
+1222  ERR10813091    0.00%    passed     99.88%
+1223  ERR10813205    0.23%    passed     98.69%
+1224  ERR10812914    0.00%    passed     99.88%
+1225  ERR10813697    0.08%    passed     99.73%
+1226  ERR10812878    0.20%    passed     98.87%
+1227  ERR10813666    0.00%    passed     99.88%
+1228  ERR10813609    0.00%    passed     99.88%
+1229  ERR10813266    0.00%    passed     99.73%
+1230  ERR10812918    0.32%    passed     99.67%
+1231  ERR10813441    0.15%    passed     97.38%
+1232  ERR10812939    0.00%    passed     99.80%
+1233  ERR10813163    0.00%    passed     99.88%
+1234  ERR10813710    0.15%    passed     97.14%
+1235  ERR10813158    0.00%    passed     99.88%
+1236  ERR10813681    0.03%    passed     99.42%
+1237  ERR10813034    0.24%    passed     99.04%
+1238  ERR10812923    0.19%    passed     98.61%
+1239  ERR10813232    0.00%    passed     99.73%
+1240  ERR10813015    0.16%    passed     96.51%
+1241  ERR10813087    0.00%    passed     99.56%
+1242  ERR10813588    0.00%    passed     99.88%
+1243  ERR10813188    0.00%    passed     99.84%
+1244  ERR10813057    0.00%    passed     99.88%
+1245  ERR10813670    0.26%    passed     99.59%
+1246  ERR10813038    0.00%    passed     99.88%
+1247  ERR10813457    0.00%    passed     99.90%
+1248  ERR10813021    0.19%    passed     99.61%
+1249  ERR10812886    0.00%    passed     99.27%
+1250  ERR10813421    0.00%    passed     99.88%
+1251  ERR10813503    0.00%    passed     99.88%
+1252  ERR10813227    0.14%    passed     99.38%
+1253  ERR10813492    0.00%    passed     99.88%
+1254  ERR10813160    0.01%    passed     99.78%
+1255  ERR10813560    0.09%    passed     98.29%
+1256  ERR10813328    0.00%    passed     99.88%
+1257  ERR10813265    0.00%    passed     99.84%
+1258  ERR10812974    0.00%    passed     99.88%
+1259  ERR10812989    0.24%    passed     96.18%
+1260  ERR10812877    0.00%    passed     99.97%
+1261  ERR10813587    0.05%    passed     98.16%
+1262  ERR10813016    0.01%    passed     99.77%
+1263  ERR10813416    0.00%    passed     99.88%
+1264  ERR10813187    0.00%    passed     99.88%
+1265  ERR10813610    0.00%    passed     99.79%
+1266  ERR10813682    0.20%    passed     98.93%
+1267  ERR10813458    0.00%    passed     99.87%
+1268  ERR10812993    0.26%    passed     97.59%
+1269  ERR10813134    0.00%    passed     99.97%
+1270  ERR10813454    0.18%    passed     98.94%
+1271  ERR10813157    0.00%    passed     99.88%
+1272  ERR10813557    0.00%    passed     99.88%
+1273  ERR10813054    0.00%    passed     99.66%
+1274  ERR10813119    0.00%    passed     99.88%
+1275  ERR10813475    0.18%    passed     98.33%
+1276  ERR10813176    0.00%    passed     99.90%
+1277  ERR10813576    0.00%    passed     99.88%
+1278  ERR10812984    0.07%    passed     99.99%
+1279  ERR10813704    0.00%    passed     99.90%
+1280  ERR10813207    0.00%    passed     99.88%
+1281  ERR10812979    0.00%    passed     99.92%
+1282  ERR10813396    0.08%    passed     98.37%
+1283  ERR10813695    0.00%    passed     99.88%
+1284  ERR10813725    0.00%    passed     99.96%
+1285  ERR10812958    0.00%    passed     99.88%
+1286  ERR10813102    0.00%    passed     99.89%
+1287  ERR10813590    0.00%    passed     99.65%
+1288  ERR10813093    0.02%    passed     96.09%
+1289  ERR10813626    0.19%    passed     97.24%
+1290  ERR10813062    0.00%    passed     99.88%
+1291  ERR10813645    0.12%    passed     99.38%
+1292  ERR10813346    0.00%    passed     99.81%
+1293  ERR10813161    0.00%    passed     99.84%
+1294  ERR10813245    0.01%    passed     99.98%
+1295  ERR10813699    0.18%    passed     96.99%
+1296  ERR10813299    0.00%    passed     99.88%
+1297  ERR10812988    0.00%    passed     99.85%
+1298  ERR10812975    0.00%    passed     99.88%
+1299  ERR10813114    0.09%    passed     99.51%
+1300  ERR10813135    0.20%    passed     98.55%
+1301  ERR10813211    0.00%    passed     99.97%
+1302  ERR10813036    0.00%    passed     99.88%
+1303  ERR10813535    0.09%    passed     98.99%
+1304  ERR10813059    0.25%    passed     99.56%
+1305  ERR10813556    0.00%    passed     99.88%
+1306  ERR10813156    0.00%    passed     99.88%
+1307  ERR10813139    0.00%    passed     99.89%
+1308  ERR10813350    0.00%    passed     99.92%
+1309  ERR10813577    0.17%    passed     96.23%
+1310  ERR10813721    0.00%    passed     99.89%
+1311  ERR10813222    0.00%    passed     99.86%
+1312  ERR10813506    0.18%    passed     96.70%
+1313  ERR10813291    0.02%    passed     99.99%
+1314  ERR10812912    0.00%    passed     99.88%
+1315  ERR10813148    0.00%    passed     99.88%
+1316  ERR10813024    0.00%    passed     99.88%
+1317  ERR10813660    0.28%    passed     98.63%
+1318  ERR10813544    0.00%    passed     99.64%
+1319  ERR10813742    0.00%    passed     99.88%
+1320  ERR10812904    0.00%    passed     99.88%
+1321  ERR10813131    0.00%    passed     99.86%
+1322  ERR10813481    0.15%    passed     97.52%
+1323  ERR10813358    0.00%    passed     99.88%
+1324  ERR10813634    0.13%    passed     99.47%
+1325  ERR10813337    0.00%    passed     99.79%
+1326  ERR10813354    0.00%    passed     99.88%
+1327  ERR10813619    0.00%    passed     99.84%
+1328  ERR10813152    0.00%    passed     99.88%
+1329  ERR10812967    0.15%    passed     99.17%
+1330  ERR10813623    0.26%    passed     96.39%
+1331  ERR10813507    0.00%    passed     99.88%
+1332  ERR10813223    0.09%    passed    100.00%
+1333  ERR10813107    0.25%    passed     98.02%
+1334  ERR10813025    0.00%    passed     99.97%
+1335  ERR10813690    0.06%    passed     98.98%
+1336  ERR10812913    0.00%    passed     99.88%
+1337  ERR10813290    0.00%    passed     99.82%
+1338  ERR10813202    0.04%    passed     99.05%
+1339  ERR10813145    0.00%    passed     99.88%
+1340  ERR10813046    0.00%    passed     99.90%
+1341  ERR10813661    0.12%    passed     98.04%
+1342  ERR10812951    0.20%    passed     99.49%
+1343  ERR10813408    0.19%    passed     96.97%
+1344  ERR10813343    0.00%    passed     99.95%
+1345  ERR10813033    0.00%    passed     99.88%
+1346  ERR10813317    0.00%    passed     99.88%
+1347  ERR10813686    0.17%    passed     98.64%
+1348  ERR10813433    0.18%    passed     96.14%
+1349  ERR10813583    0.00%    passed     99.93%
+1350  ERR10813336    0.00%    passed     99.91%
+1351  ERR10813412    0.00%    passed     99.89%
+1352  ERR10813480    0.01%    passed     99.89%
+1353  ERR10812947    0.05%    passed     98.79%
+1354  ERR10813471    0.00%    passed     99.88%
+1355  ERR10813355    0.00%    passed     99.74%
+1356  ERR10813572    0.15%    passed     99.01%
+1357  ERR10813071    0.00%    passed     99.88%
+1358  ERR10813639    0.00%    passed     99.91%
+1359  ERR10813277    0.07%    passed     99.75%
+1360  ERR10812966    0.00%    passed     99.88%
+1361  ERR10813449    0.09%    passed     94.62%
+1362  ERR10813293    0.17%    passed     99.62%
+1363  ERR10812910    0.00%    passed     99.88%
+1364  ERR10812881    0.00%    passed     99.92%
+1365  ERR10813302    0.00%    passed     99.88%
+1366  ERR10813196    0.00%    passed     99.88%
+1367  ERR10813723    0.00%    passed     99.87%
+1368  ERR10813104    0.00%    passed     99.88%
+1369  ERR10813007    0.00%    passed     99.68%
+1370  ERR10813596    0.00%    passed     99.88%
+1371  ERR10813340    0.00%    passed     99.88%
+1372  ERR10813499    0.00%    passed     99.88%
+1373  ERR10813464    0.18%    passed     99.30%
+1374  ERR10813045    0.00%    passed     99.88%
+1375  ERR10813546    0.02%    passed     99.96%
+1376  ERR10813361    0.00%    passed     99.16%
+1377  ERR10813445    0.00%    passed     99.88%
+1378  ERR10812927    0.00%    passed     99.83%
+1379  ERR10813411    0.00%    passed     99.71%
+1380  ERR10813512    0.19%    passed     99.53%
+1381  ERR10813083    0.00%    passed     99.88%
+1382  ERR10813133    0.08%    passed     99.13%
+1383  ERR10813714    0.13%    passed     95.99%
+1384  ERR10812897    0.00%    passed     99.88%
+1385  ERR10813674    0.00%    passed     99.88%
+1386  ERR10813318    0.13%    passed     99.73%
+1387  ERR10813289    0.00%    passed     99.88%
+1388  ERR10813274    0.11%    passed     99.30%
+1389  ERR10813150    0.00%    passed     99.75%
+1390  ERR10813739    0.00%    passed     99.88%
+1391  ERR10813027    0.00%    passed     99.89%
+1392  ERR10812880    0.00%    passed     99.92%
+1393  ERR10813600    0.00%    passed     99.88%
+1394  ERR10813448    0.00%    passed     97.25%
+1395  ERR10813094    0.22%    passed     98.03%
+1396  ERR10813197    0.00%    passed     99.98%
+1397  ERR10813406    0.23%    passed     97.83%
+1398  ERR10813242    0.00%    passed     99.88%
+1399  ERR10813109    0.00%    passed     99.82%
+1400  ERR10813547    0.00%    passed     99.93%
+1401  ERR10813334    0.00%    passed     99.88%
+1402  ERR10813010    0.00%    passed     99.88%
+1403  ERR10813482    0.00%    passed     99.91%
+1404  ERR10812949    0.00%    passed     99.88%
+1405  ERR10813410    0.00%    passed     99.78%
+1406  ERR10813113    0.14%    passed     99.89%
+1407  ERR10813679    0.01%    passed     99.62%
+1408  ERR10812968    0.26%    passed     97.00%
+1409  ERR10813431    0.00%    passed     99.86%
+1410  ERR10813279    0.18%    passed     99.22%
+1411  ERR10812999    0.26%    passed     98.16%
+1412  ERR10813052    0.26%    passed     95.33%
+1413  ERR10813688    0.00%    passed     99.84%
+1414  ERR10813170    0.00%    passed     99.64%
+1415  ERR10813254    0.00%    passed     99.73%
+1416  ERR10813570    0.16%    passed     96.94%
+1417  ERR10813140    0.00%    passed     99.86%
+1418  ERR10813264    0.00%    passed     99.88%
+1419  ERR10813043    0.00%    passed     99.96%
+1420  ERR10813664    0.15%    passed     97.70%
+1421  ERR10813729    0.00%    passed     99.88%
+1422  ERR10813502    0.00%    passed     99.94%
+1423  ERR10813001    0.00%    passed     99.84%
+1424  ERR10813304    0.17%    passed     99.35%
+1425  ERR10813123    0.35%    passed     98.48%
+1426  ERR10812916    0.00%    passed     99.88%
+1427  ERR10813177    0.25%    passed     99.46%
+1428  ERR10813118    0.00%    passed     99.88%
+1429  ERR10813089    0.00%    passed     99.88%
+1430  ERR10813074    0.05%    passed     99.16%
+1431  ERR10812963    0.00%    passed     99.88%
+1432  ERR10813272    0.00%    passed     99.88%
+1433  ERR10813455    0.00%    passed     99.88%
+1434  ERR10813055    0.00%    passed     99.85%
+1435  ERR10813436    0.28%    passed     98.96%
+1436  ERR10812992    0.07%    passed     98.73%
+1437  ERR10812900    0.00%    passed     99.66%
+1438  ERR10813283    0.00%    passed     99.88%
+1439  ERR10813459    0.15%    passed     97.37%
+1440  ERR10813333    0.09%    passed     99.68%
+1441  ERR10813630    0.17%    passed     97.99%
+1442  ERR10813085    0.00%    passed     99.95%
+1443  ERR10813078    0.00%    passed     99.88%
+1444  ERR10813586    0.03%    passed     99.50%
+1445  ERR10812921    0.26%    passed     98.12%
+1446  ERR10813478    0.00%    passed     99.88%
+1447  ERR10813417    0.00%    passed     99.88%
+1448  ERR10813733    0.03%    passed     99.88%
+1449  ERR10813665    0.01%    passed     99.95%
+1450  ERR10813366    0.00%    passed     99.37%
+1451  ERR10813541    0.00%    passed     99.95%
+1452  ERR10813309    0.03%    passed     99.78%
+1453  ERR10813709    0.03%    passed     99.51%
+1454  ERR10813298    0.14%    passed     96.33%
+1455  ERR10813141    0.00%    passed     99.85%
+1456  ERR10813347    0.19%    passed     99.74%
+1457  ERR10813063    0.18%    passed     98.84%
+1458  ERR10813728    0.00%    passed     99.82%
+1459  ERR10812936    0.00%    passed     99.88%
+1460  ERR10813000    0.00%    passed     99.46%
+1461  ERR10813627    0.00%    passed     99.88%
+1462  ERR10813324    0.00%    passed     99.88%
+1463  ERR10813092    0.00%    passed     99.88%
+1464  ERR10812978    0.00%    passed     99.52%
+1465  ERR10813294    0.00%    passed     99.74%
+1466  ERR10813606    0.00%    passed     99.88%
+1467  ERR10813519    0.00%    passed     99.72%
+1468  ERR10813088    0.00%    passed     99.98%
+1469  ERR10813488    0.15%    passed     99.00%
+1470  ERR10812943    0.00%    passed     99.88%
+1471  ERR10813713    0.20%    passed     98.43%
+1472  ERR10813282    0.00%    passed     99.88%
+1473  ERR10813058    0.00%    passed     99.84%
+1474  ERR10813381    0.00%    passed     99.84%
+1475  ERR10813313    0.00%    passed     99.88%
+1476  ERR10813037    0.00%    passed     99.84%
+1477  ERR10812920    0.03%    passed     99.86%
+1478  ERR10813079    0.00%    passed     99.88%
+1479  ERR10813084    0.12%    passed     98.94%
+1480  ERR10813247    0.00%    passed     99.88%
+1481  ERR10813060    0.00%    passed     99.73%
+1482  ERR10813142    0.16%    passed     98.53%
+1483  ERR10812874    0.21%    passed     98.53%
+1484  ERR10813365    0.00%    passed     99.88%
+1485  ERR10813542    0.00%    passed     99.87%
+1486  ERR10813041    0.00%    passed     99.88%
+1487  ERR10813022    0.00%    passed     99.88%
+1488  ERR10813369    0.00%    passed     99.88%
+1489  ERR10813706    0.00%    passed     99.88%
+1490  ERR10813624    0.00%    passed     99.68%
+1491  ERR10813403    0.28%    passed     99.93%
+1492  ERR10813192    0.00%    passed     99.80%
+1493  ERR10813154    0.32%    passed     97.31%
+1494  ERR10813419    0.00%    passed     99.90%
+1495  ERR10813575    0.00%    passed     99.88%
+1496  ERR10813352    0.12%    passed     99.85%
+1497  ERR10813651    0.07%    passed     99.79%
+1498  ERR10813579    0.14%    passed     99.12%
+1499  ERR10813331    0.02%    passed     99.90%
+1500  ERR10813184    0.00%    passed     99.88%
+1501  ERR10813310    0.00%    passed     99.93%
+1502  ERR10812893    0.00%    passed     99.84%
+1503  ERR10813537    0.06%    passed     99.31%
+1504  ERR10813558    0.26%    passed     99.51%
+1505  ERR10813382    0.00%    passed     99.88%
+1506  ERR10812902    0.02%    passed     99.48%
+1507  ERR10813137    0.00%    passed     99.96%
+1508  ERR10813061    0.00%    passed     99.88%
+1509  ERR10813646    0.18%    passed     99.39%
+1510  ERR10813629    0.00%    passed     99.88%
+1511  ERR10813229    0.00%    passed     99.88%
+1512  ERR10812938    0.03%    passed     99.64%
+1513  ERR10813667    0.00%    passed     99.88%
+1514  ERR10813364    0.13%    passed     99.71%
+1515  ERR10813707    0.14%    passed     99.04%
+1516  ERR10813204    0.00%    passed     99.72%
+1517  ERR10813604    0.18%    passed     99.69%
+1518  ERR10812879    0.03%    passed     99.96%
+1519  ERR10813368    0.26%    passed     99.24%
+1520  ERR10813225    0.19%    passed     97.26%
+1521  ERR10813101    0.00%    passed     99.88%
+1522  ERR10813402    0.00%    passed     99.92%
+1523  ERR10812934    0.00%    passed     99.93%
+1524  ERR10813002    0.00%    passed     99.88%
+1525  ERR10813039    0.00%    passed     99.93%
+1526  ERR10813372    0.18%    passed     98.79%
+1527  ERR10813555    0.00%    passed     99.88%
+1528  ERR10813456    0.17%    passed     99.04%
+1529  ERR10812960    0.00%    passed     99.78%
+1530  ERR10813574    0.00%    passed     99.90%
+1531  ERR10813730    0.00%    passed     99.88%
+1532  ERR10813233    0.00%    passed     99.95%
+1533  ERR10812922    0.00%    passed     99.86%
+1534  ERR10813185    0.16%    passed     99.65%
+1535  ERR10813086    0.00%    passed     99.88%
+1536  ERR10813578    0.14%    passed     96.01%
+1537  ERR10813014    0.00%    passed     99.88%
+1538  ERR10813612    0.00%    passed     99.88%
+1539  ERR10813281    0.00%    passed     99.88%
+1540  ERR10813434    0.17%    passed     98.98%
+1541  ERR10812990    0.21%    passed     99.06%
+1542  ERR10813116    0.00%    passed     99.88%
+1543  ERR10813179    0.18%    passed     99.14%
+1544  ERR10813487    0.14%    passed     93.71%
+1545  ERR10813516    0.00%    passed     99.88%
+1546  ERR10813632    0.00%    passed     99.98%
+1547  ERR10813019    0.13%    passed     99.88%
+1548  ERR10813251    0.21%    passed     97.52%
+1549  ERR10813175    0.00%    passed     99.91%
+1550  ERR10813373    0.00%    passed     99.89%
+1551  ERR10813554    0.19%    passed     97.07%
+1552  ERR10813270    0.00%    passed     99.78%
+1553  ERR10813438    0.00%    passed     99.88%
+1554  ERR10813727    0.00%    passed     99.73%
+1555  ERR10812935    0.00%    passed     99.88%
+1556  ERR10813500    0.20%    passed     95.21%
+1557  ERR10813297    0.08%    passed     99.82%
+1558  ERR10813605    0.00%    passed     99.88%
+1559  ERR10813306    0.10%    passed     99.78%
+1560  ERR10813521    0.02%    passed     98.60%
+1561  ERR10812977    0.00%    passed     99.88%
+1562  ERR10813563    0.00%    passed     99.88%
+1563  ERR10813647    0.20%    passed     96.68%
+1564  ERR10813628    0.04%    passed     99.97%
+1565  ERR10812956    0.18%    passed     98.19%
+1566  ERR10813228    0.00%    passed     99.88%
+1567  ERR10813460    0.00%    passed     99.71%
+1568  ERR10813311    0.00%    passed     99.88%
+1569  ERR10813035    0.00%    passed     99.92%
+1570  ERR10813559    0.00%    passed     99.94%
+1571  ERR10813383    0.00%    passed     99.88%
+1572  ERR10812903    0.00%    passed     99.91%
+1573  ERR10813280    0.00%    passed     99.79%
+1574  ERR10813136    0.24%    passed     97.98%
+1575  ERR10813585    0.05%    passed     98.23%
+1576  ERR10813414    0.00%    passed     99.88%
+1577  ERR10813178    0.15%    passed     98.46%
+1578  ERR10813477    0.00%    passed     99.71%
+1579  ERR10813589    0.14%    passed     99.68%
+1580  ERR10813650    0.16%    passed     97.21%
+1581  ERR10813271    0.20%    passed     99.27%
+1582  ERR10813439    0.16%    passed     97.60%
+1583  ERR10813625    0.08%    passed     98.23%
+1584  ERR10813726    0.00%    passed     99.86%
+1585  ERR10813490    0.00%    passed     99.88%
+1586  ERR10813023    0.00%    passed     99.96%
+1587  ERR10812884    0.00%    passed     99.74%
+1588  ERR10813696    0.18%    passed     94.47%
+1589  ERR10812915    0.00%    passed     99.88%
+1590  ERR10813423    0.01%    passed     99.92%
+1591  ERR10812976    0.00%    passed     99.87%
+1592  ERR10812875    0.00%    passed     99.98%
+1593  ERR10812888    0.00%    passed     99.85%
+1594  ERR10813608    0.00%    passed     99.85%
+1595  ERR10813399    0.20%    passed     96.63%
+1596  ERR10813543    0.00%    passed     99.88%
+1597  ERR10813461    0.01%    passed     99.66%
+1598  ERR10813162    0.38%    passed     94.90%
+1599  ERR10813345    0.19%    passed     98.89%
+1600  ERR10813186    0.00%    passed     99.93%
+1601  ERR10813230    0.00%    passed     99.88%
+1602  ERR10813017    0.09%    passed     99.96%
+1603  ERR10813514    0.18%    passed     97.80%
+1604  ERR10813712    0.16%    passed     99.63%
+1605  ERR10813380    0.19%    passed     96.12%
+1606  ERR10813683    0.16%    passed     99.09%
+1607  ERR10812891    0.00%    passed     99.88%
+1608  ERR10813653    0.00%    passed     99.88%
+1609  ERR10812942    0.00%    passed     99.72%
+1610  ERR10813268    0.00%    passed     99.82%
+1611  ERR10813668    0.00%    passed     99.88%
+1612  ERR10812937    0.00%    passed     99.83%
+1613  ERR10813493    0.11%    passed     99.48%
+1614  ERR10813190    0.00%    passed     99.83%
+1615  ERR10813561    0.11%    passed     99.75%
+1616  ERR10813462    0.00%    passed     99.88%
+1617  ERR10813540    0.16%    passed     95.00%
+1618  ERR10813308    0.11%    passed     97.97%
+1619  ERR10813443    0.14%    passed     99.18%
+1620  ERR10813631    0.16%    passed     99.13%
+1621  ERR10813484    0.00%    passed     99.27%
+1622  ERR10812890    0.00%    passed     99.99%
+1623  ERR10813437    0.00%    passed     99.86%
+1624  ERR10813210    0.00%    passed     99.99%
+1625  ERR10812962    0.17%    passed     99.41%
+1626  ERR10813370    0.00%    passed     99.92%
+1627  ERR10813252    0.36%    passed     98.09%
+1628  ERR10813652    0.07%    passed     99.14%
+1629  ERR10813075    0.26%    passed     99.53%
+1630  ERR10813694    0.16%    passed     96.46%
+1631  ERR10813669    0.00%    passed     99.88%
+1632  ERR10813522    0.00%    passed     99.88%
+1633  ERR10813206    0.00%    passed     99.87%
+1634  ERR10813705    0.25%    passed     98.92%
+1635  ERR10812985    0.00%    passed     99.88%
+1636  ERR10813269    0.00%    passed     99.79%
+1637  ERR10813591    0.00%    passed     99.56%
+1638  ERR10813191    0.00%    passed     99.79%
+1639  ERR10812959    0.00%    passed     99.44%
+1640  ERR10813400    0.00%    passed     99.93%
+1641  ERR10813463    0.03%    passed     99.94%
+1642  ERR10812955    0.00%    passed     99.88%
+1643  ERR10813644    0.18%    passed     93.98%
+1644  ERR10813442    0.00%    passed     99.89%
+1645  ERR10813042    0.13%    passed     99.00%
+1646  ERR10813698    0.21%    passed     99.79%
+1647  ERR10813255    0.00%    passed     99.88%
+1648  ERR10812965    0.00%    passed     99.88%
+1649  ERR10813377    0.00%    passed     99.92%
+1650  ERR10813685    0.00%    passed     99.88%
+1651  ERR10813678    0.15%    passed     96.55%
+1652  ERR10813386    0.00%    passed     99.88%
+1653  ERR10813030    0.16%    passed     97.94%
+1654  ERR10813217    0.10%    passed     99.77%
+1655  ERR10812969    0.00%    passed     99.88%
+1656  ERR10813430    0.18%    passed     95.50%
+1657  ERR10813278    0.00%    passed     99.90%
+1658  ERR10813659    0.00%    passed     99.88%
+1659  ERR10813180    0.00%    passed     99.93%
+1660  ERR10813236    0.16%    passed     98.47%
+1661  ERR10812948    0.00%    passed     99.88%
+1662  ERR10813112    0.00%    passed     99.88%
+1663  ERR10813262    0.00%    passed     99.89%
+1664  ERR10813508    0.11%    passed     99.26%
+1665  ERR10813643    0.00%    passed     99.88%
+1666  ERR10813323    0.07%    passed     99.38%
+1667  ERR10813468    0.24%    passed     97.94%
+1668  ERR10813390    0.22%    passed     96.08%
+1669  ERR10813525    0.28%    passed     97.96%
+1670  ERR10813073    0.07%    passed     99.21%
+1671  ERR10812945    0.00%    passed     99.37%
+1672  ERR10813719    0.00%    passed     99.88%
+1673  ERR10812964    0.25%    passed     96.39%
+1674  ERR10813151    0.00%    passed     99.88%
+1675  ERR10813132    0.11%    passed     90.19%
+1676  ERR10812995    0.00%    passed     99.88%
+1677  ERR10813031    0.20%    passed     97.92%
+1678  ERR10813734    0.10%    passed     93.65%
+1679  ERR10813658    0.11%    passed     95.95%
+1680  ERR10813360    0.09%    passed     99.71%
+1681  ERR10813528    0.20%    passed     96.27%
+1682  ERR10813263    0.00%    passed     99.88%
+1683  ERR10813509    0.00%    passed     99.84%
+1684  ERR10813642    0.00%    passed     99.78%
+1685  ERR10813741    0.00%    passed     99.88%
+1686  ERR10813469    0.26%    passed     96.20%
+1687  ERR10813124    0.18%    passed     98.46%
+1688  ERR10813427    0.39%    passed     92.84%
+1689  ERR10813692    0.00%    passed     99.86%
+1690  ERR10813303    0.14%    passed     99.77%
+1691  ERR10813451    0.16%    passed     99.71%
+1692  ERR10813219    0.00%    passed     99.88%
+1693  ERR10812899    0.14%    passed     99.76%
+1694  ERR10813375    0.09%    passed     90.37%
+1695  ERR10813388    0.00%    passed     99.94%
+1696  ERR10813051    0.20%    passed     98.90%
+1697  ERR10812946    0.00%    passed     99.88%
+1698  ERR10813257    0.00%    passed     99.78%
+1699  ERR10813638    0.00%    passed     99.88%
+1700  ERR10813582    0.08%    passed     93.82%
+1701  ERR10813234    0.00%    passed     99.88%
+1702  ERR10813182    0.00%    passed     99.56%
+1703  ERR10813531    0.15%    passed     96.88%
+1704  ERR10813687    0.20%    passed     99.78%
+1705  ERR10813066    0.00%    passed     99.93%
+1706  ERR10813144    0.00%    passed     99.91%
+1707  ERR10813428    0.00%    passed     99.88%
+1708  ERR10813047    0.18%    passed     96.49%
+1709  ERR10813527    0.18%    passed     98.53%
+1710  ERR10813424    0.00%    passed     99.84%
+1711  ERR10813321    0.00%    passed     99.95%
+1712  ERR10813106    0.14%    passed     95.01%
+1713  ERR10813618    0.00%    passed     99.88%
+1714  ERR10813050    0.00%    passed     99.88%
+1715  ERR10813677    0.00%    passed     99.88%
+1716  ERR10813374    0.00%    passed     99.41%
+1717  ERR10813153    0.19%    passed     95.52%
+1718  ERR10813218    0.00%    passed     99.91%
+1719  ERR10813256    0.26%    passed     98.40%
+1720  ERR10812928    0.20%    passed     98.51%
+1721  ERR10813080    0.00%    passed     99.88%
+1722  ERR10813511    0.00%    passed     99.88%
+1723  ERR10813286    0.00%    passed     99.97%
+1724  ERR10812905    0.00%    passed     99.88%
+1725  ERR10813614    0.02%    passed     99.96%
+1726  ERR10813385    0.00%    passed     99.90%
+1727  ERR10813599    0.01%    passed     99.75%
+1728  ERR10813199    0.00%    passed     99.87%
+1729  ERR10813467    0.23%    passed     96.97%
+1730  ERR10812970    0.16%    passed     96.81%
+1731  ERR10813126    0.00%    passed     99.75%
+1732  ERR10812981    0.00%    passed     99.88%
+1733  ERR10813701    0.06%    passed     98.96%
+1734  ERR10812882    0.00%    passed     99.88%
+1735  ERR10813549    0.00%    passed     99.88%
+1736  ERR10813496    0.00%    passed     99.80%
+1737  ERR10813195    0.00%    passed     99.49%
+1738  ERR10813595    0.00%    passed     99.97%
+1739  ERR10813096    0.00%    passed     99.88%
+1740  ERR10813351    0.00%    passed     99.88%
+1741  ERR10813538    0.00%    passed     99.73%
+1742  ERR10813673    0.00%    passed     99.88%
+1743  ERR10813273    0.00%    passed     99.96%
+1744  ERR10813138    0.00%    passed     99.88%
+1745  ERR10812901    0.00%    passed     99.88%
+1746  ERR10813534    0.00%    passed     99.88%
+1747  ERR10813732    0.22%    passed     97.11%
+1748  ERR10813231    0.18%    passed     98.47%
+1749  ERR10813115    0.19%    passed     98.30%
+1750  ERR10813479    0.00%    passed     99.82%
+1751  ERR10813332    0.00%    passed     99.96%
+1752  ERR10813515    0.01%    passed     99.87%
+1753  ERR10813244    0.00%    passed     99.88%
+1754  ERR10813103    0.00%    passed     99.89%
+1755  ERR10813724    0.00%    passed     99.93%
+1756  ERR10813248    0.20%    passed     99.08%
+1757  ERR10813648    0.14%    passed     97.27%
+1758  ERR10812917    0.00%    passed     99.88%
+1759  ERR10813122    0.00%    passed     99.88%
+1760  ERR10813305    0.00%    passed     99.99%
+1761  ERR10813397    0.13%    passed     96.77%
+1762  ERR10813253    0.22%    passed     94.83%
+1763  ERR10813474    0.18%    passed     97.49%
+1764  ERR10813489    0.05%    passed     99.99%
+1765  ERR10813518    0.00%    passed     99.88%
+1766  ERR10813539    0.11%    passed     99.83%
+1767  ERR10813371    0.01%    passed     99.99%
+1768  ERR10813672    0.10%    passed     97.99%
+1769  ERR10813312    0.00%    passed     99.88%
+1770  ERR10813611    0.00%    passed     99.88%
+1771  ERR10813485    0.00%    passed     99.87%
+1772  ERR10813708    0.32%    passed     96.30%
+1773  ERR10812876    0.27%    passed     99.41%
+1774  ERR10813367    0.22%    passed     98.49%
+1775  ERR10812954    0.00%    passed     99.93%
+1776  ERR10813329    0.00%    passed     99.88%
+1777  ERR10813649    0.18%    passed     96.02%
+1778  ERR10813325    0.00%    passed     99.87%
+1779  ERR10813226    0.04%    passed     98.70%
+1780  ERR10813401    0.00%    passed     99.82%
+1781  ERR10813249    0.00%    passed     99.88%
+1782  ERR10813607    0.20%    passed     99.52%
+1783  ERR10812887    0.00%    passed     99.88%
+1784  ERR10813523    0.00%    passed     99.88%
+1785  ERR10813020    0.00%    passed     99.88%
+1786  ERR10813295    0.10%    passed     99.67%
+1787  ERR10813420    0.18%    passed     97.29%
+1788  ERR10813155    0.00%    passed     99.91%
+1789  ERR10813018    0.00%    passed     99.88%
+1790  ERR10813353    0.00%    passed     99.84%
+1791  ERR10813077    0.21%    passed     94.59%
+1792  ERR10813189    0.00%    passed     99.88%
+1793  ERR10813486    0.00%    passed     99.88%
+1794  ERR10813330    0.00%    passed     99.88%
+1795  ERR10813435    0.18%    passed     98.92%
+1796  ERR10812991    0.14%    passed     98.92%
+1797  ERR10813711    0.09%    passed     99.66%
+1798  ERR10813680    0.00%    passed     99.78%
+1799  ERR10812892    0.16%    passed     97.03%
+1800  ERR10813040    0.22%    passed     98.35%
+1801  ERR10813143    0.08%    passed     99.06%
+1802  ERR10813440    0.00%    passed     99.72%
+1803  ERR10813267    0.00%    passed     99.88%
+1804  ERR10812919    0.00%    passed     99.88%
+1805  ERR10813120    0.28%    passed     98.35%
+1806  ERR10813395    0.17%    passed     97.94%
+1807  ERR10813520    0.18%    passed     99.07%
+1808  ERR10813501    0.09%    passed     97.17%
+1809  ERR10813593    0.00%    passed     99.86%
+1810  ERR10813349    0.00%    passed     99.43%
+1811  ERR10812961    0.03%    passed     99.35%
+1812  ERR10813476    0.00%    passed     99.62%
+1813  ERR10812940    0.00%    passed     99.88%
+1814  ERR10813076    0.00%    passed     99.91%
+1815  ERR10813584    0.00%    passed     99.88%
+1816  ERR10813731    0.00%    passed     99.88%
+1817  ERR10813415    0.00%    passed     99.56%
+1818  ERR10813613    0.00%    passed     99.93%
+1819  ERR10813213    0.00%    passed     99.68%
+1820  ERR10813344    0.00%    passed     99.88%
+1821  ERR10813209    0.15%    passed     99.25%
+1822  ERR10813398    0.00%    passed     99.61%
+1823  ERR10812889    0.00%    passed     99.88%
+1824  ERR10813394    0.08%    passed     97.69%
+1825  ERR10812885    0.00%    passed     99.71%
+1826  ERR10813422    0.00%    passed     99.89%
+1827  ERR10813121    0.00%    passed     99.80%
+1828  ERR10812986    0.18%    passed     98.23%
+1829  ERR10813003    0.22%    passed     99.97%
+1830  ERR10813348    0.00%    passed     99.98%
+1831  ERR10813592    0.14%    passed     95.85%
+1832  ERR10813224    0.00%    passed     99.68%
+1833  ERR10812894    0.00%    passed     99.73%
+1834  ERR10813130    0.00%    passed     99.67%
+1835  ERR10813359    0.00%    passed     99.88%
+1836  ERR10812924    0.00%    passed     99.97%
+1837  ERR10813183    0.13%    passed     99.78%
+1838  ERR10813111    0.22%    passed     96.81%
+1839  ERR10813235    0.20%    passed     97.54%
+1840  ERR10813172    0.22%    passed     98.04%
+1841  ERR10813450    0.18%    passed     99.00%
+1842  ERR10813168    0.00%    passed     99.88%
+1843  ERR10813720    0.00%    passed     99.88%
+1844  ERR10813393    0.15%    passed     97.37%
+1845  ERR10813301    0.00%    passed     99.99%
+1846  ERR10813526    0.19%    passed     95.14%
+1847  ERR10813425    0.21%    passed     98.23%
+1848  ERR10813429    0.00%    passed     99.88%
+1849  ERR10813446    0.14%    passed     97.77%
+1850  ERR10813545    0.00%    passed     99.88%
+1851  ERR10813029    0.00%    passed     99.88%
+1852  ERR10813164    0.00%    passed     99.88%
+1853  ERR10813564    0.13%    passed     99.58%
+1854  ERR10813067    0.30%    passed     98.49%
+1855  ERR10812996    0.00%    passed     99.75%
+1856  ERR10813432    0.00%    passed     99.94%
+1857  ERR10813287    0.00%    passed     99.77%
+1858  ERR10813379    0.01%    passed     99.53%
+1859  ERR10813615    0.00%    passed     99.88%
+1860  ERR10812895    0.00%    passed     99.88%
+1861  ERR10813316    0.00%    passed     99.96%
+1862  ERR10813032    0.13%    passed     98.81%
+1863  ERR10813110    0.00%    passed     99.86%
+1864  ERR10813413    0.12%    passed     99.21%
+1865  ERR10813013    0.00%    passed     99.88%
+1866  ERR10813657    0.22%    passed     98.41%
+1867  ERR10812929    0.00%    passed     99.88%
+1868  ERR10813238    0.00%    passed     99.92%
+1869  ERR10813552    0.00%    passed     99.78%
+1870  ERR10813276    0.02%    passed     99.57%
+1871  ERR10812933    0.00%    passed     99.88%
+1872  ERR10813169    0.00%    passed     99.96%
+1873  ERR10813497    0.00%    passed     99.88%
+1874  ERR10813405    0.00%    passed     99.72%
+1875  ERR10813005    0.14%    passed     97.73%
+1876  ERR10813622    0.03%    passed     98.59%
+1877  ERR10813127    0.00%    passed     99.88%
+1878  ERR10812980    0.00%    passed     99.86%
+1879  ERR10812883    0.00%    passed     99.88%
+1880  ERR10813603    0.10%    passed     98.41%
+1881  ERR10813300    0.00%    passed     99.94%
+1882  ERR10813363    0.14%    passed     94.07%
+1883  ERR10813260    0.00%    passed     99.90%
+1884  ERR10813447    0.01%    passed     99.44%
+1885  ERR10813009    0.00%    passed     99.72%
+1886  ERR10813342    0.14%    passed     99.86%
+1887  ERR10813198    0.00%    passed     99.85%
+1888  ERR10813409    0.07%    passed     99.42%
+1889  ERR10812950    0.24%    passed     97.66%
+1890  ERR10813082    0.00%    passed     99.99%
+1891  ERR10813637    0.15%    passed     97.50%
+1892  ERR10813513    0.24%    passed     99.33%
+1893  ERR10813237    0.20%    passed     95.73%
+1894  ERR10813181    0.00%    passed     99.96%
+1895  ERR10813315    0.00%    passed     99.96%
+1896  ERR10812896    0.19%    passed     99.38%
+1897  ERR10813684    0.13%    passed     98.97%
+1898  ERR10813387    0.00%    passed     99.88%
+1899  ERR10812907    0.00%    passed     99.88%
+1900  ERR10813284    0.00%    passed     99.92%
+1901  ERR10813715    0.00%    passed     99.88%
+1902  ERR10813452    0.15%    passed     97.03%
+1903  ERR10813275    0.00%    passed     99.87%
+1904  ERR10813738    0.00%    passed     99.88%
+1905  ERR10813473    0.05%    passed     99.92%
+1906  ERR10813357    0.09%    passed     99.89%
+1907  ERR10813338    0.00%    passed     99.88%
+1908  ERR10813391    0.06%    passed     99.39%
+1909  ERR10813048    0.19%    passed     99.10%
+1910  ERR10812911    0.14%    passed     99.49%
+1911  ERR10812983    0.00%    passed     99.88%
+1912  ERR10813703    0.16%    passed     97.95%
+1913  ERR10813597    0.00%    passed     99.88%
+1914  ERR10813322    0.00%    passed     99.93%
+1915  ERR10813105    0.09%    passed     99.12%
+1916  ERR10813221    0.00%    passed     99.88%
+1917  ERR10813494    0.16%    passed     98.48%
+1918  ERR10813465    0.20%    passed     93.08%
+1919  ERR10813498    0.16%    passed     97.89%
+1920  ERR10813065    0.00%    passed     99.67%
+1921  ERR10813044    0.00%    passed     99.88%
+1922  ERR10813483    0.14%    passed     97.85%
+1923  ERR10813011    0.04%    passed     99.15%
+1924  ERR10813636    0.00%    passed     99.50%
+1925  ERR10813335    0.00%    passed     99.11%
+1926  ERR10813314    0.00%    passed     99.88%
+1927  ERR10813053    0.11%    passed     96.70%
+1928  ERR10813453    0.00%    passed     99.88%
+1929  ERR10812998    0.00%    passed     99.95%
+1930  ERR10813718    0.16%    passed     96.29%
+1931  ERR10813356    0.00%    passed     99.93%
+1932  ERR10813072    0.00%    passed     99.88%
+1933  ERR10813339    0.00%    passed     99.88%
+1934  ERR10813171    0.00%    passed     99.88%
+1935  ERR10813472    0.00%    passed     99.88%
+1936  ERR10812982    0.10%    passed     91.57%
+1937  ERR10813702    0.00%    passed     99.88%
+1938  ERR10813201    0.24%    passed     99.12%
+1939  ERR10813426    0.00%    passed     99.88%
+1940  ERR10813407    0.26%    passed     93.38%
+1941  ERR10813495    0.13%    passed     98.84%
+1942  ERR10813620    0.23%    passed     99.10%
+1943  ERR10813064    0.00%    passed     99.88%
+1944  ERR10813567    0.18%    passed     98.99%
+1945  ERR10813099    0.11%    passed     99.82%
+1946  ERR10812952    0.00%    passed     99.84%
+1947  ERR10813167    0.22%    passed     98.02%
+1948  ERR10813740    0.00%    passed     99.88%
+1949  DRR152964      0.00%    passed     99.79%
+1950  DRR152969      0.00%    passed     99.84%
+1951  DRR152970      0.00%    passed     99.96%
+1952  DRR152971      0.00%    passed     99.99%
+1953  DRR152963      0.00%    passed     99.83%
+1954  DRR152965      0.00%    passed     99.90%
+1955  DRR152968      0.00%    passed     99.86%
+1956  DRR152973      0.00%    passed     99.87%
+1957  DRR152966      0.00%    passed     99.87%
+1958  DRR152962      0.00%    passed     99.92%
+1959  DRR152967      0.00%    passed     99.93%
+1960  DRR152972      0.00%    passed     99.98%
+1961  SRR19571628    0.09%    passed     99.62%
+1962  SRR19571629    0.19%    passed     99.76%
+1963  SRR19571633    0.04%    passed     99.85%
+1964  SRR19571634    0.03%    passed     99.61%
+1965  SRR19571632    0.19%    passed     95.88%
+1966  SRR19571630    0.07%    passed     98.17%
+1967  SRR19571627    0.41%    passed     97.69%
+1968  SRR19571631    0.11%    passed     98.97%
+1969  SRR19571626    0.16%    passed     99.62%
+1970  SRR19571635    0.03%    passed     98.49%
+1971  SRR6994464     0.00%    passed     99.85%
+1972  SRR6994312     0.20%    passed     99.64%
+1973  SRR6994564     0.01%    passed     99.95%
+1974  SRR6994622     0.00%    passed     99.88%
+1975  SRR6994309     0.16%    passed     99.41%
+1976  SRR6994600     0.00%    passed     99.80%
+1977  SRR6994284     0.00%    passed     99.88%
+1978  SRR6994434     0.00%    passed     99.88%
+1979  SRR6994327     0.00%    passed     99.88%
+1980  SRR6994559     0.00%    passed     99.88%
+1981  SRR6994423     0.00%    passed     99.88%
+1982  SRR6994514     0.00%    passed     99.88%
+1983  SRR6994482     0.00%    passed     99.88%
+1984  SRR6994545     0.11%    passed     99.92%
+1985  SRR12329663    0.00%    passed     99.88%
+1986  SRR12329666    0.05%    passed     97.20%
+1987  SRR12329665    0.05%    passed     97.64%
+1988  SRR12329664    0.00%    passed     99.88%
+1989  SRR12329668    0.06%    passed     98.25%
+1990  SRR12329667    0.07%    passed     98.68%
+1991  SRR6849793     0.11%    passed     99.27%
+1992  SRR6849701     0.03%    passed     99.95%
+1993  SRR6849778     0.10%    passed     98.26%
+1994  SRR6849717     0.03%    passed     96.46%
+1995  SRR6849691     0.14%    passed     97.79%
+1996  SRR6849792     0.10%    passed     98.85%
+1997  SRR6849657     0.10%    passed     99.79%
+1998  SRR6849775     0.11%    passed     98.94%
+1999  SRR6849716     0.09%    passed     98.71%
+2000  SRR6849642     0.14%    passed     98.10%
+2001  SRR6849741     0.03%    passed     98.42%
+2002  SRR6849688     0.22%    passed     99.58%
+2003  SRR6849738     0.07%    passed     99.09%
+2004  SRR6849637     0.19%    passed     98.25%
+2005  SRR6849715     0.09%    passed     99.14%
+2006  SRR6849761     0.08%    passed     98.77%
+2007  SRR6849693     0.08%    passed     99.13%
+2008  SRR6849620     0.10%    passed     98.55%
+2009  SRR6849756     0.06%    passed     98.39%
+2010  SRR6849636     0.13%    passed     97.27%
+2011  SRR6849659     0.06%    passed     99.77%
+2012  SRR6849685     0.05%    passed     99.29%
+2013  SRR6849669     0.10%    passed     97.83%
+2014  SRR6849747     0.04%    passed     99.63%
+2015  SRR6849781     0.13%    passed     97.10%
+2016  SRR6849631     0.08%    passed     97.79%
+2017  SRR6849770     0.12%    passed     99.10%
+2018  SRR6849626     0.07%    passed     99.75%
+2019  SRR6849649     0.13%    passed     98.23%
+2020  SRR6849796     0.09%    passed     98.49%
+2021  SRR6849695     0.10%    passed     98.28%
+2022  SRR6849699     0.04%    passed     97.64%
+2023  SRR6849708     0.05%    passed     99.80%
+2024  SRR6849672     0.07%    passed     99.01%
+2025  SRR6849726     0.14%    passed     98.70%
+2026  SRR6849745     0.05%    passed     99.63%
+2027  SRR6849667     0.11%    passed     98.07%
+2028  SRR6849730     0.03%    passed     99.99%
+2029  SRR6849783     0.07%    passed     98.20%
+2030  SRR6849711     0.09%    passed     98.35%
+2031  SRR6849772     0.12%    passed     99.78%
+2032  SRR6849744     0.03%    passed     99.67%
+2033  SRR6849798     0.09%    passed     99.41%
+2034  SRR6849731     0.10%    passed     97.72%
+2035  SRR6849710     0.05%    passed     99.53%
+2036  SRR6849643     0.20%    passed     99.38%
+2037  SRR6849674     0.09%    passed     98.62%
+2038  SRR6849739     0.07%    passed     94.55%
+2039  SRR6849735     0.08%    passed     99.29%
+2040  SRR6849678     0.12%    passed     99.74%
+2041  SRR6849714     0.09%    passed     99.22%
+2042  SRR6849703     0.18%    passed     99.80%
+2043  SRR6849791     0.05%    passed     99.80%
+2044  SRR6849722     0.12%    passed     99.47%
+2045  SRR6849675     0.12%    passed     97.86%
+2046  SRR6849719     0.09%    passed     98.86%
+2047  SRR6849787     0.07%    passed     99.06%
+2048  SRR6849641     0.11%    passed     98.70%
+2049  SRR6849754     0.05%    passed     99.64%
+2050  SRR6849638     0.04%    passed     99.93%
+2051  SRR6849619     0.16%    passed     98.99%
+2052  SRR6849784     0.07%    passed     98.61%
+2053  SRR6849758     0.08%    passed     97.09%
+2054  SRR6849755     0.07%    passed     98.31%
+2055  SRR6849618     0.13%    passed     97.98%
+2056  SRR6849789     0.07%    passed     99.10%
+2057  SRR6849774     0.10%    passed     99.23%
+2058  SRR6849785     0.03%    passed     99.13%
+2059  SRR6849706     0.03%    passed     99.66%
+2060  SRR6849748     0.11%    passed     98.73%
+2061  SRR6849624     0.14%    passed     98.88%
+2062  SRR6849647     0.14%    passed     98.50%
+2063  SRR6849782     0.05%    passed     98.53%
+2064  SRR6849773     0.13%    passed     98.37%
+2065  SRR6849651     0.08%    passed     98.55%
+2066  SRR6849625     0.13%    passed     97.45%
+2067  SRR6849764     0.11%    passed     96.85%
+2068  SRR6849680     0.06%    passed     99.46%
+2069  SRR6849671     0.04%    passed     99.19%
+2070  SRR6849753     0.10%    passed     99.03%
+2071  SRR6849746     0.04%    passed     99.85%
+2072  SRR6849683     0.14%    passed     99.34%
+2073  SRR6849630     0.07%    passed     96.29%
+2074  SRR6849771     0.13%    passed     98.23%
+2075  SRR6849724     0.11%    passed     98.62%
+2076  SRR6849800     0.08%    passed     97.23%
+2077  SRR6849709     0.12%    passed     98.52%
+2078  SRR6849698     0.09%    passed     98.68%
+2079  SRR6849728     0.21%    passed     98.80%
+2080  SRR6849733     0.10%    passed     99.12%
+2081  SRR6849780     0.11%    passed     99.79%
+2082  SRR6849750     0.11%    passed     99.27%
+2083  SRR6849704     0.09%    passed     97.49%
+2084  SRR6849645     0.11%    passed     99.16%
+2085  SRR6849767     0.11%    passed     99.85%
+2086  SRR6849664     0.20%    passed     98.98%
+2087  SRR6849673     0.03%    passed     98.96%
+2088  SRR6849751     0.07%    passed     96.06%
+2089  SRR6849644     0.19%    passed     99.33%
+2090  SRR6849681     0.24%    passed     99.94%
+2091  SRR6849670     0.10%    passed     99.03%
+2092  SRR6849697     0.07%    passed     96.40%
+2093  SRR6849769     0.31%    passed     98.00%
+2094  SRR6849768     0.14%    passed     97.00%
+2095  SRR6849707     0.03%    passed     99.92%
+2096  SRR6849696     0.03%    passed     99.13%
+2097  SRR6849634     0.07%    passed     99.36%
+2098  SRR6849779     0.09%    passed     99.65%
+2099  SRR6849687     0.11%    passed     99.19%
+2100  SRR6849660     0.11%    passed     98.78%
+2101  SRR6849763     0.22%    passed     99.02%
+2102  SRR6849721     0.07%    passed     99.20%
+2103  SRR6849622     0.13%    passed     98.09%
+2104  SRR6849656     0.05%    passed     99.61%
+2105  SRR6849639     0.14%    passed     99.60%
+2106  SRR6849635     0.08%    passed     99.27%
+2107  SRR6849759     0.09%    passed     99.59%
+2108  SRR6849640     0.13%    passed     99.78%
+2109  SRR6849661     0.24%    passed     99.10%
+2110  SRR6849720     0.09%    passed     99.44%
+2111  SRR6849655     0.09%    passed     98.71%
+2112  SRR6849777     0.09%    passed     98.06%
+2113  SRR6849786     0.03%    passed     99.40%
+2114  SRR6849702     0.12%    passed     98.16%
+2115  SRR6849790     0.07%    passed     98.80%
+2116  SRR6849757     0.07%    passed     99.48%
+2117  SRR6849654     0.13%    passed     99.84%
+2118  SRR6849679     0.18%    passed     99.80%
+2119  SRR6849658     0.04%    passed     99.64%
+2120  SRR6849734     0.12%    passed     98.29%
+2121  SRR6849621     0.10%    passed     99.33%
+2122  SRR6849712     0.10%    passed     98.82%
+2123  SRR6849653     0.18%    passed     99.71%
+2124  SRR6849668     0.14%    passed     99.60%
+2125  SRR6849801     0.09%    passed     98.65%
+2126  SRR6849725     0.09%    passed     99.76%
+2127  SRR6849729     0.26%    passed     99.96%
+2128  SRR6849732     0.08%    passed     99.48%
+2129  SRR6849713     0.10%    passed     98.22%
+2130  SRR6849682     0.10%    passed     99.90%
+2131  SRR6849652     0.03%    passed     97.44%
+2132  SRR6849705     0.03%    passed     99.83%
+2133  SRR6849797     0.13%    passed     98.70%
+2134  SRR6849694     0.05%    passed     97.33%
+2135  SRR6849648     0.14%    passed     97.92%
+2136  SRR6849665     0.16%    passed     99.76%
+2137  SRR6849766     0.20%    passed     98.41%
+2138  SRR6849632     0.03%    passed     96.33%
+2139  SRR6849752     0.08%    passed     98.43%
+2140  SRR6849727     0.17%    passed     98.42%
+2141  SRR6849794     0.16%    passed     98.56%
+2142  SRR6849765     0.10%    passed     96.84%
+2143  SRR6849666     0.11%    passed     98.34%
+2144  SRR6849628     0.09%    passed     99.44%
+2145  SRR6849633     0.07%    passed     98.80%
+2146  SRR6849650     0.11%    passed     98.31%
+2147  SRR6849749     0.11%    passed     98.38%
+2148  SRR6849795     0.16%    passed     99.63%
+2149  SRR6849799     0.11%    passed     99.20%
+2150  SRR6849646     0.14%    passed     98.52%
+2151  SRR6849629     0.07%    passed     99.13%
+2152  SRR6849676     0.09%    passed     96.86%
+2153  SRR6849788     0.10%    passed     98.59%
+2154  SRR6849737     0.10%    passed     98.85%
+2155  SRR6849742     0.15%    passed     97.59%
+2156  SRR6849700     0.01%    passed     99.46%
+2157  SRR6849677     0.04%    passed     99.15%
+2158  SRR6849736     0.07%    passed     99.22%
+2159  SRR6849686     0.10%    passed     99.05%
+2160  SRR6849743     0.13%    passed     98.46%
+2161  SRR6849762     0.11%    passed     99.55%
+2162  SRR6849690     0.10%    passed     99.14%
+2163  SRR6849623     0.48%    passed     99.01%
+2164  SRR6849689     0.14%    passed     99.89%
+2165  SRR6849718     0.07%    passed     96.20%
+2166  SRR6849662     0.22%    passed     98.89%
+2167  SRR6849740     0.06%    passed     99.27%
+2168  SRR6849723     0.13%    passed     99.71%
+2169  SRR6849776     0.08%    passed     99.63%
+2170  SRR6849684     0.02%    passed     98.58%
+2171  SRR6849760     0.05%    passed     94.95%
+2172  SRR6849663     0.12%    passed     99.41%
+2173  SRR6849692     0.05%    passed     99.00%
+2174  SRR15030913    0.11%    passed     98.73%
+2175  SRR15030915    0.14%    passed     99.71%
+2176  SRR15030911    0.00%    passed     99.88%
+2177  SRR15030918    0.10%    passed     99.79%
+2178  SRR15030914    0.12%    passed     99.54%
+2179  SRR15030920    0.16%    passed     99.94%
+2180  SRR15030916    0.14%    passed     99.40%
+2181  SRR15030919    0.16%    passed     99.92%
+2182  SRR15030912    0.00%    passed     99.88%
+2183  SRR15030910    0.00%    passed     99.88%
+2184  SRR15030909    0.00%    passed     99.88%
+2185  SRR15030917    0.13%    passed     99.90%
+2186  ERR303266      0.00%    passed     99.49%
+2187  ERR303272      0.03%    passed     99.85%
+2188  ERR303283      0.00%    passed     99.71%
+2189  ERR303269      0.00%    passed     99.54%
+2190  ERR303278      0.05%    passed     99.79%
+2191  ERR303259      0.00%    passed     99.80%
+2192  ERR303284      0.02%    passed     98.24%
+2193  ERR303279      0.09%    passed     99.69%
+2194  ERR303276      0.09%    passed     99.12%
+2195  ERR303277      0.05%    passed     99.41%
+2196  ERR303290      0.00%    passed     99.19%
+2197  ERR303287      0.00%    passed     99.58%
+2198  ERR303262      0.00%    passed     99.10%
+2199  ERR303271      0.09%    passed     99.49%
+2200  ERR303281      0.13%    passed     99.64%
+2201  ERR303261      0.00%    passed     99.00%
+2202  ERR303260      0.00%    passed     99.22%
+2203  ERR303263      0.00%    passed     99.16%
+2204  ERR303275      0.09%    passed     99.47%
+2205  ERR303288      0.00%    passed     99.60%
+2206  ERR303285      0.00%    passed     99.61%
+2207  ERR303289      0.00%    passed     99.71%
+2208  ERR303274      0.05%    passed     99.35%
+2209  ERR303265      0.00%    passed     98.74%
+2210  ERR303264      0.00%    passed     99.19%
+2211  ERR303268      0.00%    passed     99.35%
+2212  ERR303282      0.07%    passed     99.75%
+2213  ERR303273      0.10%    passed     99.80%
+2214  ERR303270      0.01%    passed     99.49%
+2215  ERR303280      0.13%    passed     99.89%
+2216  ERR303267      0.01%    passed     99.80%
+2217  ERR303286      0.00%    passed     99.78%
+2218  ERR2352306     0.00%    passed     99.88%
+2219  ERR2352334     0.10%    passed     98.35%
+2220  ERR2352315     0.09%    passed     99.06%
+2221  ERR2352314     0.05%    passed     96.22%
+2222  SRR17950687    0.12%    passed     99.86%
+2223  SRR17950686    0.08%    passed     99.64%
+2224  SRR17950677    0.03%    passed     99.93%
+2225  SRR17950708    0.03%    passed     98.52%
+2226  SRR17950668    0.00%    passed     99.88%
+2227  SRR17950672    0.00%    passed     99.67%
+2228  SRR17950705    0.00%    passed     99.67%
+2229  SRR17950694    0.08%    passed     99.11%
+2230  SRR17950670    0.00%    passed     99.88%
+2231  SRR17950710    0.08%    passed     97.79%
+2232  SRR17950671    0.00%    passed     99.88%
+2233  SRR17950703    0.00%    passed     99.88%
+2234  SRR17950673    0.00%    passed     99.88%
+2235  SRR17950682    0.00%    passed     99.88%
+2236  SRR17950709    0.02%    passed     97.82%
+2237  SRR17950696    0.02%    passed     96.09%
+2238  SRR17950666    0.00%    passed     99.88%
+2239  SRR17950697    0.02%    passed     89.55%
+2240  SRR17950683    0.00%    passed     99.88%
+2241  SRR17950699    0.00%    passed     99.88%
+2242  SRR17950665    0.37%    passed     98.86%
+2243  SRR17950681    0.00%    passed     99.68%
+2244  SRR17950680    0.00%    passed     99.60%
+2245  SRR17950707    0.00%    passed     99.88%
+2246  SRR17950691    0.00%    passed     99.88%
+2247  SRR17950701    0.05%    passed     95.56%
+2248  SRR17950678    0.03%    passed     99.73%
+2249  SRR17950674    0.09%    passed     99.89%
+2250  SRR17950679    0.05%    passed     98.52%
+2251  SRR17950684    0.04%    passed     94.04%
+2252  SRR17950675    0.00%    passed     99.86%
+2253  SRR17950688    0.03%    passed     99.73%
+2254  SRR17950693    0.00%    passed     99.88%
+2255  SRR17950685    0.10%    passed     99.84%
+2256  SRR17950667    0.00%    passed     99.88%
+2257  SRR17950711    0.00%    passed     96.04%
+2258  SRR17950706    0.00%    passed     99.91%
+2259  SRR17950669    0.00%    passed     99.88%
+2260  SRR17950704    0.00%    passed     99.67%
+2261  SRR17950695    0.03%    passed     98.52%
+2262  ERR438889      0.03%    passed     99.98%
+2263  ERR323132      0.00%    passed     99.00%
+2264  ERR331015      0.00%    passed     99.19%
+2265  ERR438878      0.03%    passed     99.83%
+2266  ERR376434      0.00%    passed     99.43%
+2267  ERR438914      0.01%    passed     99.91%
+2268  ERR303315      0.00%    passed     99.75%
+2269  ERR326296      0.00%    passed     99.88%
+2270  ERR331041      0.00%    passed     99.00%
+2271  ERR376422      0.00%    passed     99.88%
+2272  ERR359887      0.05%    passed     99.89%
+2273  ERR303338      0.16%    passed     99.47%
+2274  ERR438888      0.05%    passed     99.66%
+2275  ERR438875      0.00%    passed     99.87%
+2276  ERR323133      0.00%    passed     99.52%
+2277  ERR438915      0.00%    passed     99.88%
+2278  ERR359877      0.11%    passed     99.56%
+2279  ERR303314      0.01%    passed     99.69%
+2280  ERR376423      0.00%    passed     99.35%
+2281  ERR438922      0.00%    passed     99.88%
+2282  ERR331017      0.00%    passed     98.52%
+2283  ERR323214      0.08%    passed     99.46%
+2284  ERR326313      0.00%    passed     99.61%
+2285  ERR323183      0.11%    passed     99.36%
+2286  ERR303301      0.12%    passed     99.14%
+2287  ERR438937      0.05%    passed     99.68%
+2288  ERR326305      0.00%    passed     99.67%
+2289  ERR381731      0.01%    passed     99.75%
+2290  ERR323195      0.13%    passed     98.59%
+2291  ERR303336      0.12%    passed     99.53%
+2292  ERR359889      0.04%    passed     99.30%
+2293  ERR438921      0.00%    passed     99.44%
+2294  ERR326309      0.00%    passed     99.46%
+2295  ERR323215      0.04%    passed     99.30%
+2296  ERR326283      0.00%    passed     99.63%
+2297  ERR323182      0.06%    passed     99.34%
+2298  ERR303291      0.14%    passed     99.49%
+2299  ERR438861      0.03%    passed     99.66%
+2300  ERR326295      0.00%    passed     99.88%
+2301  ERR303316      0.00%    passed     99.81%
+2302  ERR359888      0.09%    passed     99.69%
+2303  ERR438920      0.00%    passed     99.88%
+2304  ERR438901      0.05%    passed     99.90%
+2305  ERR376421      0.00%    passed     99.88%
+2306  ERR359904      0.00%    passed     99.68%
+2307  ERR323174      0.12%    passed     99.75%
+2308  ERR326279      0.00%    passed     99.68%
+2309  ERR326315      0.00%    passed     99.61%
+2310  ERR359899      0.00%    passed     99.87%
+2311  ERR323212      0.26%    passed     99.28%
+2312  ERR359883      0.03%    passed     99.79%
+2313  ERR323208      0.16%    passed     99.90%
+2314  ERR331007      0.00%    passed     99.73%
+2315  ERR438866      0.74%    passed     95.10%
+2316  ERR323193      0.04%    passed     99.78%
+2317  ERR376445      0.00%    passed     99.86%
+2318  ERR359905      0.00%    passed     99.46%
+2319  ERR326318      0.00%    passed     99.88%
+2320  ERR303297      0.09%    passed     99.92%
+2321  ERR323184      0.03%    passed     99.41%
+2322  ERR359865      0.00%    passed     99.47%
+2323  ERR303327      0.03%    passed     98.47%
+2324  ERR438896      0.04%    passed     99.61%
+2325  ERR323142      0.09%    passed     99.44%
+2326  ERR331006      0.00%    passed     99.35%
+2327  ERR381717      0.00%    passed     99.88%
+2328  ERR323205      0.16%    passed     99.75%
+2329  ERR326302      0.00%    passed     99.88%
+2330  ERR326293      0.00%    passed     99.88%
+2331  ERR376432      0.00%    passed     99.86%
+2332  ERR438912      0.16%    passed     99.33%
+2333  ERR326277      0.00%    passed     98.96%
+2334  ERR438883      0.10%    passed     99.70%
+2335  ERR376413      0.04%    passed     99.93%
+2336  ERR303328      0.03%    passed     99.42%
+2337  ERR331013      0.00%    passed     99.63%
+2338  ERR381723      0.06%    passed     98.17%
+2339  ERR303294      0.11%    passed     98.69%
+2340  ERR381718      0.00%    passed     98.81%
+2341  ERR331009      0.01%    passed     99.68%
+2342  ERR323160      0.07%    passed     99.79%
+2343  ERR326290      0.00%    passed     99.80%
+2344  ERR376428      0.00%    passed     99.35%
+2345  ERR331005      0.00%    passed     98.96%
+2346  ERR359870      0.03%    passed     99.85%
+2347  ERR438929      0.03%    passed     99.50%
+2348  ERR376433      0.00%    passed     99.75%
+2349  ERR438913      0.09%    passed     99.22%
+2350  ERR323139      0.18%    passed     99.56%
+2351  ERR438932      0.26%    passed     99.62%
+2352  ERR359907      0.04%    passed     98.48%
+2353  ERR323211      0.19%    passed     99.93%
+2354  ERR323135      0.00%    passed     99.35%
+2355  ERR303295      0.05%    passed     99.87%
+2356  ERR438873      0.10%    passed     99.96%
+2357  ERR359880      0.14%    passed     99.89%
+2358  ERR331029      0.00%    passed     99.82%
+2359  ERR376425      0.00%    passed     99.32%
+2360  ERR331025      0.00%    passed     98.96%
+2361  ERR438865      0.11%    passed     99.09%
+2362  ERR323207      0.13%    passed     99.77%
+2363  ERR323131      0.00%    passed     99.21%
+2364  ERR359863      0.00%    passed     99.29%
+2365  ERR438877      0.00%    passed     99.75%
+2366  ERR376437      0.00%    passed     99.16%
+2367  ERR376416      0.11%    passed     98.96%
+2368  ERR331021      0.00%    passed     99.65%
+2369  ERR323203      0.11%    passed     98.43%
+2370  ERR326308      0.00%    passed     99.00%
+2371  ERR326299      0.02%    passed     99.73%
+2372  ERR438890      0.04%    passed     99.65%
+2373  ERR303320      0.02%    passed     99.82%
+2374  ERR359862      0.00%    passed     99.11%
+2375  ERR326282      0.00%    passed     99.71%
+2376  ERR376436      0.00%    passed     99.86%
+2377  ERR323218      0.09%    passed     99.70%
+2378  ERR323153      0.00%    passed     99.99%
+2379  ERR376417      0.10%    passed     99.72%
+2380  ERR359902      0.00%    passed     99.73%
+2381  ERR323168      0.02%    passed     99.68%
+2382  ERR438860      0.13%    passed     99.20%
+2383  ERR323202      0.05%    passed     99.91%
+2384  ERR359874      0.08%    passed     99.40%
+2385  ERR323199      0.32%    passed     99.55%
+2386  ERR323164      0.11%    passed     99.86%
+2387  ERR326298      0.00%    passed     99.86%
+2388  ERR376420      0.00%    passed     99.46%
+2389  ERR438900      0.00%    passed     99.94%
+2390  ERR331035      0.00%    passed     99.75%
+2391  ERR323180      0.05%    passed     99.82%
+2392  ERR376439      0.00%    passed     99.00%
+2393  ERR326310      0.00%    passed     99.54%
+2394  ERR376414      0.13%    passed     98.81%
+2395  ERR438934      0.07%    passed     99.31%
+2396  ERR359890      0.10%    passed     99.89%
+2397  ERR438884      0.04%    passed     99.44%
+2398  ERR331039      0.00%    passed     99.35%
+2399  ERR323171      0.07%    passed     99.52%
+2400  ERR323125      0.00%    passed     98.52%
+2401  ERR438863      0.03%    passed     99.79%
+2402  ERR323196      0.12%    passed     99.44%
+2403  ERR326297      0.00%    passed     99.86%
+2404  ERR326306      0.00%    passed     99.35%
+2405  ERR323129      0.00%    passed     99.35%
+2406  ERR303292      0.04%    passed     99.57%
+2407  ERR438874      0.13%    passed     99.00%
+2408  ERR326280      0.00%    passed     99.88%
+2409  ERR376419      0.00%    passed     99.63%
+2410  ERR323216      0.03%    passed     99.86%
+2411  ERR438859      0.09%    passed     99.53%
+2412  ERR438935      0.03%    passed     99.82%
+2413  ERR438885      0.05%    passed     99.37%
+2414  ERR323170      0.01%    passed     99.51%
+2415  ERR359876      0.09%    passed     99.80%
+2416  ERR331022      0.00%    passed     99.35%
+2417  ERR438893      0.16%    passed     99.91%
+2418  ERR323177      0.03%    passed     99.85%
+2419  ERR303299      0.22%    passed     99.63%
+2420  ERR376412      0.00%    passed     99.89%
+2421  ERR359867      0.03%    passed     99.55%
+2422  ERR331012      0.00%    passed     99.61%
+2423  ERR326316      0.03%    passed     99.30%
+2424  ERR331008      0.00%    passed     98.57%
+2425  ERR438905      0.11%    passed     99.78%
+2426  ERR376446      0.00%    passed     99.88%
+2427  ERR303312      0.00%    passed     99.22%
+2428  ERR303298      0.31%    passed     99.38%
+2429  ERR359906      0.00%    passed     97.48%
+2430  ERR323138      0.00%    passed     99.34%
+2431  ERR303324      0.01%    passed     99.98%
+2432  ERR323210      0.13%    passed     99.72%
+2433  ERR326286      0.26%    passed     99.12%
+2434  ERR326317      0.00%    passed     99.75%
+2435  ERR438904      0.03%    passed     99.60%
+2436  ERR331047      0.00%    passed     98.85%
+2437  ERR331028      0.00%    passed     99.42%
+2438  ERR331024      0.00%    passed     99.61%
+2439  ERR376409      0.07%    passed     99.66%
+2440  ERR323154      0.00%    passed     99.63%
+2441  ERR323188      0.07%    passed     99.60%
+2442  ERR376431      0.00%    passed     99.78%
+2443  ERR326314      0.00%    passed     99.88%
+2444  ERR326278      0.00%    passed     99.54%
+2445  ERR381720      0.09%    passed     99.52%
+2446  ERR323163      0.03%    passed     99.88%
+2447  ERR303331      0.03%    passed     99.81%
+2448  ERR376444      0.00%    passed     99.88%
+2449  ERR331048      0.00%    passed     98.85%
+2450  ERR359868      0.03%    passed     99.52%
+2451  ERR438910      0.28%    passed     99.89%
+2452  ERR326284      0.00%    passed     99.00%
+2453  ERR303307      0.00%    passed     99.58%
+2454  ERR438870      0.03%    passed     99.20%
+2455  ERR359864      0.00%    passed     97.79%
+2456  ERR331011      0.00%    passed     99.32%
+2457  ERR323162      0.03%    passed     99.53%
+2458  ERR438897      0.07%    passed     96.88%
+2459  ERR376407      0.05%    passed     99.96%
+2460  ERR323143      0.08%    passed     99.77%
+2461  ERR303330      0.03%    passed     99.69%
+2462  ERR303311      0.00%    passed     99.16%
+2463  ERR326303      0.01%    passed     99.83%
+2464  ERR331050      0.00%    passed     99.27%
+2465  ERR303329      0.03%    passed     99.64%
+2466  ERR303325      0.00%    passed     98.75%
+2467  ERR331033      0.00%    passed     99.58%
+2468  ERR323186      0.05%    passed     99.59%
+2469  ERR376404      0.00%    passed     99.88%
+2470  ERR438924      0.00%    passed     99.46%
+2471  ERR381719      0.00%    passed     99.24%
+2472  ERR438898      0.00%    passed     99.84%
+2473  ERR323190      0.04%    passed     99.71%
+2474  ERR326291      0.00%    passed     99.56%
+2475  ERR326300      0.00%    passed     99.86%
+2476  ERR359871      0.03%    passed     99.75%
+2477  ERR323123      0.00%    passed     99.65%
+2478  ERR438928      0.07%    passed     99.15%
+2479  ERR323176      0.03%    passed     99.75%
+2480  ERR323157      0.03%    passed     99.55%
+2481  ERR438933      0.04%    passed     99.66%
+2482  ERR323134      0.00%    passed     99.46%
+2483  ERR438872      0.13%    passed     99.26%
+2484  ERR323187      0.11%    passed     99.78%
+2485  ERR331032      0.01%    passed     99.56%
+2486  ERR376405      0.00%    passed     99.42%
+2487  ERR438895      0.03%    passed     99.52%
+2488  ERR438868      0.03%    passed     99.55%
+2489  ERR376424      0.00%    passed     99.52%
+2490  ERR438908      0.01%    passed     99.53%
+2491  ERR326301      0.00%    passed     99.35%
+2492  ERR438864      0.10%    passed     99.62%
+2493  ERR303313      0.00%    passed     99.35%
+2494  ERR323191      0.03%    passed     99.70%
+2495  ERR303332      0.03%    passed     99.28%
+2496  ERR438930      0.00%    passed     99.88%
+2497  ERR359869      0.03%    passed     99.12%
+2498  ERR438880      0.09%    passed     99.42%
+2499  ERR331031      0.00%    passed     99.61%
+2500  ERR323213      0.67%    passed     99.66%
+2501  ERR323137      0.00%    passed     98.96%
+2502  ERR323158      0.08%    passed     99.59%
+2503  ERR359898      0.00%    passed     99.76%
+2504  ERR331010      0.00%    passed     99.61%
+2505  ERR376427      0.00%    passed     99.80%
+2506  ERR438907      0.03%    passed     99.85%
+2507  ERR331044      0.00%    passed     99.35%
+2508  ERR376406      0.00%    passed     99.35%
+2509  ERR323209      0.08%    passed     99.54%
+2510  ERR359873      0.05%    passed     99.36%
+2511  ERR323192      0.10%    passed     99.41%
+2512  ERR438867      0.09%    passed     99.86%
+2513  ERR359895      0.00%    passed     99.34%
+2514  ERR376411      0.39%    passed     99.36%
+2515  ERR326288      0.00%    passed     99.71%
+2516  ERR323189      0.04%    passed     99.55%
+2517  ERR323185      0.05%    passed     99.76%
+2518  ERR323136      0.00%    passed     99.19%
+2519  ERR323159      0.07%    passed     99.67%
+2520  ERR331045      0.00%    passed     99.10%
+2521  ERR376426      0.00%    passed     99.51%
+2522  ERR438906      0.01%    passed     99.63%
+2523  ERR438927      0.00%    passed     99.88%
+2524  ERR323204      0.14%    passed     99.57%
+2525  ERR359872      0.07%    passed     99.74%
+2526  ERR331026      0.00%    passed     99.61%
+2527  ERR438856      0.03%    passed     99.78%
+2528  ERR303321      0.03%    passed     99.14%
+2529  ERR331016      0.00%    passed     99.35%
+2530  ERR381726      0.03%    passed     99.86%
+2531  ERR303300      0.03%    passed     99.90%
+2532  ERR323152      0.00%    passed     99.07%
+2533  ERR359903      0.00%    passed     99.75%
+2534  ERR323169      0.07%    passed     99.70%
+2535  ERR323127      0.00%    passed     98.96%
+2536  ERR359875      0.11%    passed     99.30%
+2537  ERR303337      0.06%    passed     99.69%
+2538  ERR323148      0.01%    passed     99.35%
+2539  ERR359879      0.03%    passed     99.26%
+2540  ERR359884      0.09%    passed     99.71%
+2541  ERR323144      0.08%    passed     99.69%
+2542  ERR323165      0.08%    passed     96.54%
+2543  ERR323198      0.07%    passed     99.93%
+2544  ERR331042      0.00%    passed     98.89%
+2545  ERR438876      0.13%    passed     98.94%
+2546  ERR331020      0.00%    passed     98.96%
+2547  ERR376443      0.00%    passed     99.24%
+2548  ERR323126      0.00%    passed     99.19%
+2549  ERR323149      0.00%    passed     99.00%
+2550  ERR359885      0.18%    passed     99.44%
+2551  ERR438891      0.08%    passed     99.77%
+2552  ERR438919      0.01%    passed     99.53%
+2553  ERR303302      0.03%    passed     99.38%
+2554  ERR376418      0.00%    passed     99.88%
+2555  ERR323217      0.08%    passed     99.70%
+2556  ERR331018      0.00%    passed     98.86%
+2557  ERR376435      0.00%    passed     99.49%
+2558  ERR323201      0.09%    passed     99.74%
+2559  ERR438892      0.04%    passed     99.08%
+2560  ERR359886      0.22%    passed     98.98%
+2561  ERR323181      0.04%    passed     99.96%
+2562  ERR376438      0.00%    passed     99.88%
+2563  ERR303322      0.00%    passed     99.77%
+2564  ERR438855      0.03%    passed     99.34%
+2565  ERR323151      0.00%    passed     98.96%
+2566  ERR323200      0.08%    passed     99.74%
+2567  ERR438862      0.03%    passed     99.77%
+2568  ERR376441      0.00%    passed     99.88%
+2569  ERR326307      0.00%    passed     98.52%
+2570  ERR438902      0.06%    passed     99.71%
+2571  ERR303319      0.00%    passed     99.54%
+2572  ERR323147      0.06%    passed     97.29%
+2573  ERR381730      0.00%    passed     99.88%
+2574  ERR323194      0.09%    passed     99.66%
+2575  ERR376442      0.00%    passed     99.11%
+2576  ERR438936      0.00%    passed     99.31%
+2577  ERR438917      0.00%    passed     99.88%
+2578  ERR438886      0.05%    passed     98.88%
+2579  ERR323173      0.05%    passed     99.74%
+2580  ERR331037      0.00%    passed     99.35%
+2581  ERR326312      0.00%    passed     99.42%
+2582  ERR331043      0.00%    passed     99.43%
+2583  ERR323145      0.08%    passed     99.52%
+2584  ERR359878      0.07%    passed     99.56%
+2585  ERR303317      0.00%    passed     99.58%
+2586  ERR326294      0.00%    passed     99.84%
+2587  ERR438887      0.03%    passed     99.38%
+2588  ERR323172      0.09%    passed     99.61%
+2589  ERR438916      0.00%    passed     99.85%
+2590  ERR331036      0.00%    passed     99.28%
+2591  ERR381727      0.00%    passed     99.56%
+2592  ERR323130      0.00%    passed     98.91%
+2593  ERR438857      0.11%    passed     99.78%
+2594  ERR323146      0.09%    passed     99.50%
+2595  ERR438903      0.00%    passed     99.82%
+2596  ERR323167      0.02%    passed     99.30%
+2597  ERR303318      0.00%    passed     99.14%
+2598  ERR331040      0.00%    passed     99.86%
+2599  ERR331023      0.00%    passed     99.49%
+2600  ERR376440      0.00%    passed     99.80%
+2601  ERR303335      0.06%    passed     99.77%
+2602  ERR381728      0.05%    passed     99.94%
+2603  ERR438879      0.14%    passed     99.92%
+2604  ERR359901      0.00%    passed     99.66%
+2605  ERR438858      0.14%    passed     97.52%
+2606  ERR323150      0.00%    passed     99.44%
+2607  ERR331014      0.00%    passed     99.68%
+2608  ERR303323      0.00%    passed     99.28%
+2609  ERR326281      0.00%    passed     99.61%
+2610  ERR381724      0.17%    passed     99.62%
+2611  ERR303293      0.14%    passed     99.89%
+2612  ERR323128      0.00%    passed     99.80%
+2613  ERR438923      0.05%    passed     99.55%
+2614  ERR376403      0.01%    passed     99.73%
+2615  ERR323166      0.03%    passed     99.83%
+2616  ERR323197      0.09%    passed     99.44%
+2617  ERR323124      0.00%    passed     98.91%
+2618  ERR303334      0.04%    passed     99.36%
+2619  ERR331038      0.00%    passed     99.35%
+2620  ERR381729      0.00%    passed     99.91%
+2621  ERR331019      0.00%    passed     99.88%
+2622  ERR376415      0.18%    passed     99.48%
+2623  ERR359900      0.00%    passed     99.46%
+2624  ERR326311      0.00%    passed     99.58%
+2625  ERR438918      0.00%    passed     99.93%
+2626  ERR331034      0.00%    passed     98.41%
+2627  ERR303303      0.13%    passed     99.92%
+2628  ERR381725      0.08%    passed     99.87%
+2629  ERR376408      0.15%    passed     97.37%
+2630  ERR303333      0.10%    passed     99.67%
+2631  ERR376429      0.00%    passed     99.63%
+2632  ERR438909      0.00%    passed    100.00%
+2633  ERR323161      0.03%    passed     99.91%
+2634  ERR331046      0.01%    passed     99.04%
+2635  ERR438869      0.04%    passed     99.55%
+2636  ERR438894      0.03%    passed     99.16%
+2637  ERR323140      0.16%    passed     99.94%
+2638  ERR326287      0.00%    passed     99.88%
+2639  ERR381722      0.01%    passed     99.89%
+2640  ERR359896      0.00%    passed     99.49%
+2641  ERR323156      0.14%    passed     99.63%
+2642  ERR303308      0.00%    passed     99.28%
+2643  ERR438882      0.11%    passed     99.79%
+2644  ERR323206      0.07%    passed     99.72%
+2645  ERR438899      0.00%    passed     99.86%
+2646  ERR376447      0.00%    passed     99.71%
+2647  ERR438925      0.03%    passed     99.86%
+2648  ERR359881      0.11%    passed     99.84%
+2649  ERR323141      0.00%    passed     99.61%
+2650  ERR359866      0.03%    passed     99.38%
+2651  ERR359897      0.01%    passed     99.94%
+2652  ERR303309      0.00%    passed     99.61%
+2653  ERR331051      0.00%    passed     99.54%
+2654  ERR331027      0.00%    passed     99.76%
+2655  ERR303310      0.00%    passed     99.40%
+2656  ERR359882      0.05%    passed     99.59%
+2657  ERR438926      0.00%    passed     99.88%
+2658  ERR376448      0.00%    passed     99.82%
+2659  ERR359909      0.00%    passed     99.81%
+2660  ERR438871      0.11%    passed     99.97%
+2661  ERR323179      0.07%    passed     99.85%
+2662  ERR326285      0.00%    passed     99.49%
+2663  ERR331052      0.00%    passed     99.42%
+2664  ERR323175      0.10%    passed     99.83%
+2665  ERR326289      0.00%    passed     99.73%
+2666  ERR438911      0.00%    passed     99.88%
+2667  ERR359894      0.00%    passed     99.64%
+2668  ERR376410      0.00%    passed     99.67%
+2669  ERR331049      0.00%    passed     99.46%
+2670  ERR326292      0.00%    passed     99.84%
+2671  ERR303326      0.00%    passed     99.91%
+2672  ERR359908      0.01%    passed     99.49%
+2673  ERR381721      0.02%    passed     99.27%
+2674  ERR331030      0.00%    passed     99.61%
+2675  ERR323178      0.09%    passed     99.70%
+2676  ERR303296      0.03%    passed     99.43%
+2677  ERR376430      0.00%    passed     99.58%
+2678  ERR438881      0.07%    passed     99.63%
+2679  ERR438931      0.12%    passed     99.13%
+2680  ERR323155      0.13%    passed     99.72%
+2681  SRR22123814    0.07%    passed     99.95%
+2682  SRR22123811    0.04%    passed     99.98%
+2683  SRR22123813    0.11%    passed     99.95%
+2684  SRR22123809    0.06%    passed     99.97%
+2685  SRR22123812    0.06%    passed     99.63%
+2686  SRR22123810    0.03%    passed    100.00%
+2687  SRR19276552    0.11%    passed     97.38%
+2688  SRR19276569    0.00%    passed     99.88%
+2689  SRR21837897    0.14%    passed     99.60%
+2690  SRR19276571    0.22%    passed     98.04%
+2691  SRR21837882    0.00%    passed     99.88%
+2692  SRR19276540    0.09%    passed     99.91%
+2693  SRR21837884    0.18%    passed     98.57%
+2694  SRR19276557    0.07%    passed     97.35%
+2695  SRR21837902    0.15%    passed     97.59%
+2696  SRR21837893    0.16%    passed     98.85%
+2697  SRR19276542    0.00%    passed     99.97%
+2698  SRR19276568    0.00%    passed     99.84%
+2699  SRR19276573    0.03%    passed     97.78%
+2700  SRR19276551    0.11%    passed     98.10%
+2701  SRR19276566    0.06%    passed     99.32%
+2702  SRR19276546    0.15%    passed     97.49%
+2703  SRR19276567    0.05%    passed     99.33%
+2704  SRR21837892    0.09%    passed     98.51%
+2705  SRR21837903    0.17%    passed     99.53%
+2706  SRR19276556    0.04%    passed     99.50%
+2707  SRR19276561    0.06%    passed     96.97%
+2708  SRR21837891    0.03%    passed     97.48%
+2709  SRR21837887    0.00%    passed     99.83%
+2710  SRR21837890    0.13%    passed     97.64%
+2711  SRR21837901    0.22%    passed     97.65%
+2712  SRR19276563    0.11%    passed     99.28%
+2713  SRR21837888    0.00%    passed     99.95%
+2714  SRR21837885    0.18%    passed     96.79%
+2715  SRR19276541    0.23%    passed     99.51%
+2716  SRR21837889    0.11%    passed     99.62%
+2717  SRR19276558    0.09%    passed     96.56%
+2718  SRR21837900    0.34%    passed     99.50%
+2719  SRR19276574    0.01%    passed     99.70%
+2720  SRR21837896    0.11%    passed     97.43%
+2721  SRR19276572    0.01%    passed     99.99%
+2722  SRR19276550    0.13%    passed     98.84%
+2723  SRR21837904    0.00%    passed     99.84%
+2724  SRR19276548    0.11%    passed     98.71%
+2725  SRR19276565    0.07%    passed     99.34%
+2726  SRR19276549    0.07%    passed     95.32%
+2727  SRR21837894    0.11%    passed     96.76%
+2728  SRR21837898    0.07%    passed     99.60%
+2729  SRR21837895    0.06%    passed     99.49%
+2730  SRR21837899    0.14%    passed     99.18%
+2731  SRR19276570    0.00%    passed     99.96%
+2732  SRR21837883    0.00%    passed     99.86%
+2733  SRR19276547    0.11%    passed     98.34%
+2734  SRR19276560    0.02%    passed     99.23%
+2735  SRR19276554    0.09%    passed     98.44%
+2736  SRR21837886    0.00%    passed     99.75%
+2737  SRR19276555    0.13%    passed     96.19%
+2738  SRR19276559    0.05%    passed     98.51%
+2739  SRR19276562    0.14%    passed     98.54%
+****  TOTAL          0.09%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: SRR7649431 is identical to NC_001803.1 but kept for subsequent analysis
+NOTE: ERR10813326 is identical to SRR7649432 but kept for subsequent analysis
+NOTE: SRR7648265 is identical to SRR7650341 but kept for subsequent analysis
+NOTE: SRR7649891 is identical to SRR7649165 but kept for subsequent analysis
+NOTE: SRR7650421 is identical to SRR7650328 but kept for subsequent analysis
+NOTE: ERR326292 is identical to SRR7650252 but kept for subsequent analysis
+NOTE: ERR10813726 is identical to SRR7648246 but kept for subsequent analysis
+NOTE: SRR7650394 is identical to SRR7650324 but kept for subsequent analysis
+NOTE: SRR7650366 is identical to SRR7650311 but kept for subsequent analysis
+NOTE: SRR7650623 is identical to SRR8200513 but kept for subsequent analysis
+NOTE: SRR7648159 is identical to SRR7650672 but kept for subsequent analysis
+NOTE: SRR7649479 is identical to SRR8200530 but kept for subsequent analysis
+NOTE: ERR10812939 is identical to ERR10813095 but kept for subsequent analysis
+NOTE: ERR10812934 is identical to ERR10813307 but kept for subsequent analysis
+NOTE: ERR10813619 is identical to ERR10813161 but kept for subsequent analysis
+NOTE: ERR376448 is identical to ERR10813290 but kept for subsequent analysis
+NOTE: ERR10813060 is identical to ERR10813254 but kept for subsequent analysis
+NOTE: ERR10813477 is identical to ERR10813460 but kept for subsequent analysis
+NOTE: ERR10813388 is identical to ERR10813559 but kept for subsequent analysis
+NOTE: ERR10813332 is identical to ERR10813023 but kept for subsequent analysis
+NOTE: ERR323132 is identical to ERR303261 but kept for subsequent analysis
+NOTE: ERR376437 is identical to ERR303263 but kept for subsequent analysis
+NOTE: ERR326313 is identical to ERR303285 but kept for subsequent analysis
+NOTE: SRR17950705 is identical to SRR17950672 but kept for subsequent analysis
+NOTE: ERR323136 is identical to ERR331015 but kept for subsequent analysis
+NOTE: ERR331043 is identical to ERR376434 but kept for subsequent analysis
+NOTE: ERR326317 is identical to ERR303315 but kept for subsequent analysis
+NOTE: ERR376424 is identical to ERR323133 but kept for subsequent analysis
+NOTE: ERR331006 is identical to ERR376423 but kept for subsequent analysis
+NOTE: ERR323125 is identical to ERR331017 but kept for subsequent analysis
+NOTE: ERR331049 is identical to ERR326309 but kept for subsequent analysis
+NOTE: ERR331013 is identical to ERR326283 but kept for subsequent analysis
+NOTE: ERR359909 is identical to ERR303316 but kept for subsequent analysis
+NOTE: ERR331012 is identical to ERR326315 but kept for subsequent analysis
+NOTE: ERR376432 is identical to ERR376445 but kept for subsequent analysis
+NOTE: ERR359900 is identical to ERR359905 but kept for subsequent analysis
+NOTE: ERR331005 is identical to ERR326277 but kept for subsequent analysis
+NOTE: ERR323129 is identical to ERR323135 but kept for subsequent analysis
+NOTE: ERR303313 is identical to ERR331022 but kept for subsequent analysis
+NOTE: ERR331048 is identical to ERR331047 but kept for subsequent analysis
+NOTE: ERR303317 is identical to ERR303307 but kept for subsequent analysis
+NOTE: ERR326312 is identical to ERR376405 but kept for subsequent analysis
+NOTE: ERR331026 is identical to ERR331010 but kept for subsequent analysis
+NOTE: ERR376440 is identical to ERR376427 but kept for subsequent analysis
+NOTE: ERR331023 is identical to ERR376435 but kept for subsequent analysis
+NOTE: 443 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: SRR7650337 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650690 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649480 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649496 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650689 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650319 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650245 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650695 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650283 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650698 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7648228 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650330 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR8200510 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650705 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650416 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650282 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650295 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR8200507 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650246 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR8200525 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650403 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650270 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650425 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR8200523 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650276 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650481 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650406 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649481 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650338 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650675 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR8200521 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650274 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650483 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650314 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650685 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650688 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649809 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650279 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649169 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650334 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650663 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650263 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650700 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650389 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650677 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650297 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650280 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7648251 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650353 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR8200512 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650611 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7648606 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650304 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650329 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650664 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7648001 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650265 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650681 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649488 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650250 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650372 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650474 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650704 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650694 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650236 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650391 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650316 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7648239 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650385 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650686 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7650286 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR7649171 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813128 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812972 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813341 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812953 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813292 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813200 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813288 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813662 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813243 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813068 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813026 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813049 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813689 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812994 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813259 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813008 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813640 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813240 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813362 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813004 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813736 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813241 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813466 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813548 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813203 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813097 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813594 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812908 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813470 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813510 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813081 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813737 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813296 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812957 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813633 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813250 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813174 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812941 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813671 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813327 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813091 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812914 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813666 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813609 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813163 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813158 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813588 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813057 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813038 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813421 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813503 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813492 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813328 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812974 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813416 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813187 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813157 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813557 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813119 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813576 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813207 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813695 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812958 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813062 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813299 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812975 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813036 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813556 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813156 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812912 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813148 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813024 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813742 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812904 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813358 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813152 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813507 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812913 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813145 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813033 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813317 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813471 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813071 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812966 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812910 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813302 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813196 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813104 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813596 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813340 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813499 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813045 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813445 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813083 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812897 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813674 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813289 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813739 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813600 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813242 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813334 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813010 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812949 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813264 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813729 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812916 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813118 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813089 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812963 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813272 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813455 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813283 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813078 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813478 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813417 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812936 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813627 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813324 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813092 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813606 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812943 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813282 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813313 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813079 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813247 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813365 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813041 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813022 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813369 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813706 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813575 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813184 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813382 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813061 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813629 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813229 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813667 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813101 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813002 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813555 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813730 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813086 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813014 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813612 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813281 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813116 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813516 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813438 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812935 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813605 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812977 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813563 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813228 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813311 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813383 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813414 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812915 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813543 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813230 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812891 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813653 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813668 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813462 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813669 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813522 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812985 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812955 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813255 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812965 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813685 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813386 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812969 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813659 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812948 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813112 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813643 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813719 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813151 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812995 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813263 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813741 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813219 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812946 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813638 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813234 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813428 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813618 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813050 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813677 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813080 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813511 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812905 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812981 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812882 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813549 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813096 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813351 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813673 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813138 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812901 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813534 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813244 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812917 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813122 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813518 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813312 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813611 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813329 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813249 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812887 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813523 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813020 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813018 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813189 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813486 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813330 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813267 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812919 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812940 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813584 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813731 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813344 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812889 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813359 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813168 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813720 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813429 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813545 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813029 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813164 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813615 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812895 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813013 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812929 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812933 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813497 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813127 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812883 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813387 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812907 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813715 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813738 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813338 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10812983 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813597 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813221 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813044 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813314 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813453 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813072 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813339 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813171 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813472 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813702 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813426 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813064 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813740 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994622 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994434 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994327 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994559 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994423 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994514 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR6994482 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR12329663 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR12329664 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR15030911 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR15030912 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR15030910 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR15030909 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR2352306 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950668 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950670 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950671 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950703 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950673 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950682 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950666 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950683 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950699 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950707 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950691 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950693 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950667 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR17950669 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326296 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376422 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438915 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438922 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326295 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376421 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326318 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR381717 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326302 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326293 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326280 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376446 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326314 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376444 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376404 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438930 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438927 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376418 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376438 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR376441 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR381730 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438917 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR331019 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR326287 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438926 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR438911 (identical to NC_001803.1) is ignored but added at the end
+NOTE: SRR19276569 (identical to NC_001803.1) is ignored but added at the end
+NOTE: ERR10813337 (identical to SRR7649432) is ignored but added at the end
+NOTE: SRR7650310 (identical to SRR7650341) is ignored but added at the end
+NOTE: SRR7650339 (identical to SRR7650341) is ignored but added at the end
+NOTE: SRR7649844 (identical to SRR7649165) is ignored but added at the end
+NOTE: SRR7649895 (identical to SRR7649165) is ignored but added at the end
+NOTE: SRR7650273 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650271 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7648154 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650673 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7648029 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650260 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650291 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650359 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650369 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650368 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650682 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7648254 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650290 (identical to SRR7650328) is ignored but added at the end
+NOTE: SRR7650375 (identical to SRR7650324) is ignored but added at the end
+NOTE: ERR10813381 (identical to ERR10813161) is ignored but added at the end
+NOTE: ERR10812893 (identical to ERR10813161) is ignored but added at the end
+NOTE: ERR10813509 (identical to ERR10813161) is ignored but added at the end
+NOTE: ERR10813424 (identical to ERR10813161) is ignored but added at the end
+NOTE: ERR10813727 (identical to ERR10813254) is ignored but added at the end
+NOTE: ERR10813538 (identical to ERR10813254) is ignored but added at the end
+NOTE: ERR10812894 (identical to ERR10813254) is ignored but added at the end
+NOTE: ERR326308 (identical to ERR303261) is ignored but added at the end
+NOTE: ERR376439 (identical to ERR303261) is ignored but added at the end
+NOTE: ERR326284 (identical to ERR303261) is ignored but added at the end
+NOTE: ERR323149 (identical to ERR303261) is ignored but added at the end
+NOTE: SRR17950704 (identical to SRR17950672) is ignored but added at the end
+NOTE: ERR323126 (identical to ERR331015) is ignored but added at the end
+NOTE: ERR376428 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR331039 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR326306 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR326301 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR331044 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR331016 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR331037 (identical to ERR376423) is ignored but added at the end
+NOTE: ERR326307 (identical to ERR331017) is ignored but added at the end
+NOTE: ERR331024 (identical to ERR326315) is ignored but added at the end
+NOTE: ERR331031 (identical to ERR326315) is ignored but added at the end
+NOTE: ERR376436 (identical to ERR376445) is ignored but added at the end
+NOTE: ERR326298 (identical to ERR376445) is ignored but added at the end
+NOTE: ERR326297 (identical to ERR376445) is ignored but added at the end
+NOTE: ERR326300 (identical to ERR376445) is ignored but added at the end
+NOTE: ERR323137 (identical to ERR326277) is ignored but added at the end
+NOTE: ERR323127 (identical to ERR326277) is ignored but added at the end
+NOTE: ERR331020 (identical to ERR326277) is ignored but added at the end
+NOTE: ERR323151 (identical to ERR326277) is ignored but added at the end
+NOTE: ERR376406 (identical to ERR323135) is ignored but added at the end
+NOTE: ERR331038 (identical to ERR323135) is ignored but added at the end
+NOTE: ERR326311 (identical to ERR303307) is ignored but added at the end
+NOTE: ERR331052 (identical to ERR376405) is ignored but added at the end
+NOTE: ERR326281 (identical to ERR331010) is ignored but added at the end
+NOTE: ERR303309 (identical to ERR331010) is ignored but added at the end
+NOTE: ERR331030 (identical to ERR331010) is ignored but added at the end
+NOTE: ERR323128 (identical to ERR376427) is ignored but added at the end
+NOTE: ERR326285 (identical to ERR376435) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /data/RSV_out.fasta.uniqueseq.phy
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 20.521 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 898746)...
+
+NOTE: 3303 MB RAM (3 GB) is required!
+Measuring multi-threading efficiency up to 24 CPU cores
+2 trees examined
+Threads: 1 / Time: 29.353 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -2323074
+Threads: 2 / Time: 15.379 sec / Speedup: 1.909 / Efficiency: 95% / LogL: -2323074
+Threads: 3 / Time: 11.320 sec / Speedup: 2.593 / Efficiency: 86% / LogL: -2323074
+Threads: 4 / Time: 9.338 sec / Speedup: 3.143 / Efficiency: 79% / LogL: -2323074
+Threads: 5 / Time: 8.354 sec / Speedup: 3.514 / Efficiency: 70% / LogL: -2323074
+Threads: 6 / Time: 7.307 sec / Speedup: 4.017 / Efficiency: 67% / LogL: -2323074
+Threads: 7 / Time: 6.740 sec / Speedup: 4.355 / Efficiency: 62% / LogL: -2323074
+Threads: 8 / Time: 6.290 sec / Speedup: 4.666 / Efficiency: 58% / LogL: -2323074
+Threads: 9 / Time: 5.767 sec / Speedup: 5.090 / Efficiency: 57% / LogL: -2323074
+Threads: 10 / Time: 5.661 sec / Speedup: 5.185 / Efficiency: 52% / LogL: -2323074
+Threads: 11 / Time: 5.469 sec / Speedup: 5.367 / Efficiency: 49% / LogL: -2323074
+BEST NUMBER OF THREADS: 9
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -532707.707
+2. Current log-likelihood: -464264.235
+3. Current log-likelihood: -461601.394
+4. Current log-likelihood: -461569.445
+Optimal log-likelihood: -461569.365
+Rate parameters:  A-C: 1.11472  A-G: 6.13380  A-T: 1.22118  C-G: 0.25163  C-T: 8.56856  G-T: 1.00000
+Base frequencies:  A: 0.389  C: 0.176  G: 0.156  T: 0.279
+Gamma shape alpha: 0.247
+Parameters optimization took 4 rounds (167.149 sec)
+Computing ML distances based on estimated model parameters... 2379.348 sec
+Computing BIONJ tree...
+91.171 seconds
+Log-likelihood of BIONJ tree: -487397.226
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1849.085 second
+Computing log-likelihood of 98 initial trees ... 470.347 seconds
+Current best score: -460826.764
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -459208.765
+Iteration 10 / LogL: -459972.823 / Time: 1h:14m:25s
+Iteration 20 / LogL: -460613.673 / Time: 1h:38m:39s
+Finish initializing candidate tree set (20)
+Current best tree score: -459208.765 / CPU time: 5230.719
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -459641.710 / Time: 1h:50m:10s (4h:28m:48s left)
+Iteration 40 / LogL: -459484.253 / Time: 2h:0m:58s (3h:8m:37s left)
+Iteration 50 / LogL: -459695.065 / Time: 2h:12m:23s (2h:17m:24s left)
+Log-likelihood cutoff on original alignment: -460428.705
+Iteration 60 / LogL: -459623.145 / Time: 2h:24m:2s (1h:39m:50s left)
+Iteration 70 / LogL: -459702.499 / Time: 2h:36m:41s (1h:10m:13s left)
+Iteration 80 / LogL: -459834.907 / Time: 2h:47m:53s (0h:44m:31s left)
+Iteration 90 / LogL: -459648.450 / Time: 3h:0m:27s (0h:22m:15s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 95: -459015.599
+Iteration 100 / LogL: -459985.331 / Time: 3h:13m:42s (3h:5m:30s left)
+Log-likelihood cutoff on original alignment: -460175.253
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.932
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -460198.115 / Time: 3h:25m:11s (2h:49m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 116: -458795.604
+Iteration 120 / LogL: -459535.875 / Time: 3h:36m:37s (2h:54m:27s left)
+Iteration 130 / LogL: -459409.215 / Time: 3h:48m:9s (2h:31m:51s left)
+Iteration 140 / LogL: -459757.483 / Time: 3h:59m:56s (2h:10m:59s left)
+Iteration 150 / LogL: -460104.740 / Time: 4h:10m:27s (1h:50m:46s left)
+Log-likelihood cutoff on original alignment: -460155.642
+Iteration 160 / LogL: -458937.734 / Time: 4h:22m:10s (1h:32m:12s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 169: -458776.382
+Iteration 170 / LogL: -459124.184 / Time: 4h:35m:18s (2h:41m:3s left)
+Iteration 180 / LogL: -458978.641 / Time: 4h:47m:18s (2h:22m:39s left)
+Iteration 190 / LogL: -459120.801 / Time: 4h:59m:27s (2h:5m:0s left)
+Iteration 200 / LogL: -459654.924 / Time: 5h:11m:58s (1h:48m:2s left)
+Log-likelihood cutoff on original alignment: -460155.642
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.853
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -459447.656 / Time: 5h:24m:30s (2h:19m:34s left)
+Iteration 220 / LogL: -459454.085 / Time: 5h:36m:18s (2h:2m:42s left)
+Iteration 230 / LogL: -459262.090 / Time: 5h:49m:8s (1h:46m:36s left)
+Iteration 240 / LogL: -458946.025 / Time: 6h:1m:17s (1h:30m:36s left)
+Iteration 250 / LogL: -460121.507 / Time: 6h:13m:25s (1h:14m:54s left)
+Log-likelihood cutoff on original alignment: -460155.642
+Iteration 260 / LogL: -459223.039 / Time: 6h:25m:58s (0h:59m:33s left)
+Iteration 270 / LogL: -459236.165 / Time: 6h:40m:16s (0h:44m:35s left)
+Iteration 280 / LogL: -459398.734 / Time: 6h:52m:30s (0h:29m:32s left)
+Iteration 290 / LogL: -459330.413 / Time: 7h:6m:17s (0h:14m:44s left)
+Iteration 300 / LogL: -459470.867 / Time: 7h:18m:7s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -459975.148
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.962
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 310 / LogL: -459142.897 / Time: 7h:30m:0s (2h:10m:57s left)
+Iteration 320 / LogL: -459447.478 / Time: 7h:42m:23s (1h:55m:52s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 323: -458721.280
+Iteration 330 / LogL: -459047.338 / Time: 7h:53m:59s (2h:13m:52s left)
+Iteration 340 / LogL: -459793.882 / Time: 8h:5m:41s (1h:58m:49s left)
+Iteration 350 / LogL: -459438.875 / Time: 8h:17m:40s (1h:44m:1s left)
+Log-likelihood cutoff on original alignment: -459975.148
+Iteration 360 / LogL: -459067.679 / Time: 8h:29m:59s (1h:29m:25s left)
+Iteration 370 / LogL: -459447.003 / Time: 8h:41m:45s (1h:14m:53s left)
+Iteration 380 / LogL: -459147.673 / Time: 8h:54m:35s (1h:0m:36s left)
+Iteration 390 / LogL: -459197.540 / Time: 9h:6m:20s (0h:46m:18s left)
+Iteration 400 / LogL: -459205.929 / Time: 9h:19m:54s (0h:32m:15s left)
+Log-likelihood cutoff on original alignment: -459975.148
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.966
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 410 / LogL: -459211.320 / Time: 9h:31m:53s (2h:5m:45s left)
+Iteration 420 / LogL: -459509.100 / Time: 9h:43m:41s (1h:51m:22s left)
+Iteration 430 / LogL: -459494.749 / Time: 9h:55m:39s (1h:37m:8s left)
+Iteration 440 / LogL: -459575.032 / Time: 10h:6m:52s (1h:22m:53s left)
+Iteration 450 / LogL: -459252.628 / Time: 10h:18m:37s (1h:8m:50s left)
+Log-likelihood cutoff on original alignment: -459975.148
+Iteration 460 / LogL: -460216.477 / Time: 10h:31m:42s (0h:55m:1s left)
+Iteration 470 / LogL: -459399.011 / Time: 10h:45m:12s (0h:41m:14s left)
+Iteration 480 / LogL: -459331.609 / Time: 10h:57m:49s (0h:27m:27s left)
+Iteration 490 / LogL: -459304.607 / Time: 11h:10m:14s (0h:13m:41s left)
+Iteration 500 / LogL: -459185.339 / Time: 11h:22m:54s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -459975.148
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.976
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 510 / LogL: -459484.741 / Time: 11h:35m:6s (2h:2m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 514: -458697.295
+Iteration 520 / LogL: -459056.827 / Time: 11h:49m:22s (2h:8m:24s left)
+Iteration 530 / LogL: -459282.427 / Time: 12h:2m:2s (1h:54m:35s left)
+Iteration 540 / LogL: -459241.586 / Time: 12h:15m:39s (1h:40m:56s left)
+Iteration 550 / LogL: -459163.940 / Time: 12h:28m:43s (1h:27m:14s left)
+Log-likelihood cutoff on original alignment: -459952.313
+Iteration 560 / LogL: -459436.672 / Time: 12h:41m:26s (1h:13m:31s left)
+Iteration 570 / LogL: -459302.338 / Time: 12h:54m:6s (0h:59m:49s left)
+Iteration 580 / LogL: -459181.475 / Time: 13h:6m:52s (0h:46m:11s left)
+Iteration 590 / LogL: -458946.865 / Time: 13h:20m:5s (0h:32m:35s left)
+Iteration 600 / LogL: -459502.552 / Time: 13h:31m:44s (0h:18m:57s left)
+Log-likelihood cutoff on original alignment: -459952.313
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 610 / LogL: -459286.256 / Time: 13h:45m:21s (2h:1m:55s left)
+Iteration 620 / LogL: -459181.548 / Time: 13h:58m:15s (1h:48m:17s left)
+Iteration 630 / LogL: -459328.651 / Time: 14h:11m:33s (1h:34m:43s left)
+Iteration 640 / LogL: -459028.872 / Time: 14h:24m:21s (1h:21m:7s left)
+Iteration 650 / LogL: -459164.547 / Time: 14h:37m:28s (1h:7m:34s left)
+Log-likelihood cutoff on original alignment: -459952.313
+Iteration 660 / LogL: -458806.416 / Time: 14h:51m:44s (0h:54m:6s left)
+Iteration 670 / LogL: -459676.723 / Time: 15h:5m:28s (0h:40m:35s left)
+Iteration 680 / LogL: -459182.124 / Time: 15h:20m:0s (0h:27m:5s left)
+Iteration 690 / LogL: -460610.027 / Time: 15h:32m:58s (0h:13m:32s left)
+Iteration 700 / LogL: -459086.438 / Time: 15h:46m:21s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -459952.313
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 710 / LogL: -459187.075 / Time: 16h:0m:45s (2h:1m:54s left)
+Iteration 720 / LogL: -459000.159 / Time: 16h:14m:40s (1h:48m:24s left)
+Iteration 730 / LogL: -459154.182 / Time: 16h:27m:37s (1h:34m:47s left)
+Iteration 740 / LogL: -459003.085 / Time: 16h:41m:13s (1h:21m:15s left)
+Iteration 750 / LogL: -459025.618 / Time: 16h:55m:16s (1h:7m:45s left)
+Log-likelihood cutoff on original alignment: -459952.313
+Iteration 760 / LogL: -459103.174 / Time: 17h:9m:17s (0h:54m:13s left)
+Iteration 770 / LogL: -459209.608 / Time: 17h:23m:18s (0h:40m:41s left)
+Iteration 780 / LogL: -460358.035 / Time: 17h:36m:35s (0h:27m:7s left)
+Iteration 790 / LogL: -459046.880 / Time: 17h:51m:32s (0h:13m:34s left)
+Iteration 800 / LogL: -459524.718 / Time: 18h:5m:59s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -459952.313
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 810 / LogL: -459661.656 / Time: 18h:21m:3s (2h:2m:26s left)
+Iteration 820 / LogL: -458908.433 / Time: 18h:35m:9s (1h:48m:53s left)
+Iteration 830 / LogL: -459319.461 / Time: 18h:49m:35s (1h:35m:21s left)
+Iteration 840 / LogL: -459165.630 / Time: 19h:3m:11s (1h:21m:43s left)
+Iteration 850 / LogL: -459096.850 / Time: 19h:17m:5s (1h:8m:7s left)
+Log-likelihood cutoff on original alignment: -459952.313
+Iteration 860 / LogL: -459342.567 / Time: 19h:31m:51s (0h:54m:33s left)
+Iteration 870 / LogL: -459174.605 / Time: 19h:45m:44s (0h:40m:55s left)
+Iteration 880 / LogL: -459197.510 / Time: 20h:1m:0s (0h:27m:19s left)
+Iteration 890 / LogL: -459560.354 / Time: 20h:16m:44s (0h:13m:40s left)
+Iteration 900 / LogL: -458850.582 / Time: 20h:31m:23s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -459952.313
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 910 / LogL: -459282.947 / Time: 20h:47m:3s (2h:3m:26s left)
+Iteration 920 / LogL: -459122.699 / Time: 21h:0m:53s (1h:49m:43s left)
+Iteration 930 / LogL: -459479.906 / Time: 21h:15m:48s (1h:36m:6s left)
+Iteration 940 / LogL: -459269.906 / Time: 21h:31m:34s (1h:22m:30s left)
+Iteration 950 / LogL: -459054.713 / Time: 21h:46m:7s (1h:8m:47s left)
+Log-likelihood cutoff on original alignment: -459952.313
+Iteration 960 / LogL: -459101.743 / Time: 22h:1m:34s (0h:55m:6s left)
+Iteration 970 / LogL: -459146.335 / Time: 22h:15m:20s (0h:41m:19s left)
+Iteration 980 / LogL: -459235.910 / Time: 22h:29m:36s (0h:27m:33s left)
+Iteration 990 / LogL: -459121.534 / Time: 22h:44m:57s (0h:13m:47s left)
+Iteration 1000 / LogL: -459040.147 / Time: 23h:0m:6s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -459952.313
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.971
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+TREE SEARCH COMPLETED AFTER 1001 ITERATIONS / Time: 23h:1m:58s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -458697.295
+Optimal log-likelihood: -458697.293
+Rate parameters:  A-C: 1.14245  A-G: 6.37596  A-T: 1.27073  C-G: 0.26417  C-T: 8.88227  G-T: 1.00000
+Base frequencies:  A: 0.389  C: 0.176  G: 0.156  T: 0.279
+Gamma shape alpha: 0.244
+Parameters optimization took 1 rounds (9.185 sec)
+BEST SCORE FOUND : -458697.293
+WARNING: bootstrap analysis did not converge. You should rerun with higher number of iterations (-nm option)
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/RSV_out.fasta.splits.nex
+Total tree length: 21.782
+
+Total number of iterations: 1001
+CPU time used for tree search: 621687.178 sec (172h:41m:27s)
+Wall-clock time used for tree search: 82226.324 sec (22h:50m:26s)
+Total CPU time used: 626454.998 sec (174h:0m:54s)
+Total wall-clock time used: 82947.764 sec (23h:2m:27s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/RSV_out.fasta.splits.nex...
+2296 taxa and 21878 splits.
+Consensus tree written to /data/RSV_out.fasta.contree
+Reading input trees file /data/RSV_out.fasta.contree
+Log-likelihood of consensus tree: -458415.712
+
+Analysis results written to: 
+  IQ-TREE report:                /data/RSV_out.fasta.iqtree
+  Maximum-likelihood tree:       /data/RSV_out.fasta.treefile
+  Likelihood distances:          /data/RSV_out.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/RSV_out.fasta.splits.nex
+  Consensus tree:                /data/RSV_out.fasta.contree
+  Screen log file:               /data/RSV_out.fasta.log
+
+Date and Time: Wed Jul  5 12:12:43 2023

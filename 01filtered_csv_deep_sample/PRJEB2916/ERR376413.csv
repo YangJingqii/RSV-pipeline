@@ -1,0 +1,8 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+C_2875_A,135,0,snp,freebayes,1.0,159
+C_12484_T,101,0,snp,freebayes,1.0,163
+C_14828_T,151,0,snp,freebayes,1.0,162
+G_14852_A,146,0,snp,freebayes,1.0,7
+T_14870_C,140,0,snp,freebayes,1.0,162
+T_14902_C,133,0,snp,freebayes,1.0,164
+G_14920_A,118,9,snp,freebayes,0.9291338582677166,5

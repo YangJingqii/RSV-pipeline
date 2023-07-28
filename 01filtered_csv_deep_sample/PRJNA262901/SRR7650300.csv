@@ -1,0 +1,14 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+A_4294_T,127,0,snp,freebayes,1.0,220
+C_4364_A,164,0,snp,freebayes,1.0,200
+C_4369_G,166,0,snp,freebayes,1.0,4
+G_4396_A,139,0,snp,freebayes,1.0,317
+T_4408_C,123,2,snp,freebayes,0.984,217
+C_4417_T,124,2,snp,freebayes,0.9841269841269841,192
+C_5599_A,116,0,snp,freebayes,1.0,254
+A_5661_T,122,0,snp,freebayes,1.0,167
+G_5668_A,122,0,snp,freebayes,1.0,262
+T_7602_C,153,0,snp,freebayes,1.0,57
+G_7632_A,202,0,snp,freebayes,1.0,97
+C_7737_A,156,0,snp,freebayes,1.0,154
+A_7746_G,150,1,snp,freebayes,0.9933774834437086,115

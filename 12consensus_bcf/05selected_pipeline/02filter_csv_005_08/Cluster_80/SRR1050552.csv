@@ -1,0 +1,5 @@
+mutation,alt_reads,ref_reads,type,app,allele_frequency,sample_exist'
+G_103_A,85,1316,snp,freebayes,0.06067094932191292,20
+G_103_T,90,1316,snp,freebayes,0.06401137980085349,20
+C_104_T,93,1418,snp,freebayes,0.06154864328259431,26
+C_811_T,96,1200,snp,freebayes,0.07407407407407407,4

@@ -1,0 +1,406 @@
+IQ-TREE multicore version 1.6.7 for Linux 64-bit built Aug 23 2018
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    78019563795b (AVX, 125 GB RAM)
+Command: iqtree -s /data/RSV_all_with_ref_986_out.fasta -nt AUTO -bb 1000 -m GTR+F+G4
+Seed:    172188 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed Jul  5 15:37:03 2023
+Kernel:  AVX - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file /data/RSV_all_with_ref_986_out.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 213 sequences with 15191 columns, 5689 distinct patterns
+2981 parsimony-informative, 1827 singleton sites, 10383 constant sites
+             Gap/Ambiguity  Composition  p-value
+   1  NC_001803.1    0.00%    passed     99.57%
+   2  SRR1050571     0.13%    passed     92.65%
+   3  SRR1180811     0.18%    passed    100.00%
+   4  SRR1180030     0.20%    passed     96.81%
+   5  SRR1180035     0.13%    passed     99.28%
+   6  SRR5408841     0.04%    passed     99.07%
+   7  SRR5408824     0.10%    passed     99.99%
+   8  SRR7650470     0.14%    passed     99.85%
+   9  SRR7647897     0.45%    passed     99.76%
+  10  SRR8200518     0.47%    passed     98.57%
+  11  SRR7648241     0.43%    passed     94.68%
+  12  SRR7648165     0.51%    passed     98.66%
+  13  SRR7649449     0.42%    passed     99.85%
+  14  SRR7648582     0.30%    passed     99.44%
+  15  SRR7650511     0.21%    passed     98.15%
+  16  SRR7650407     0.17%    passed     99.65%
+  17  SRR7650386     0.22%    passed     98.82%
+  18  SRR7650655     0.17%    passed     98.06%
+  19  SRR7648125     0.43%    passed     99.95%
+  20  SRR7650360     0.24%    passed     99.86%
+  21  SRR7647899     0.20%    passed     99.70%
+  22  SRR7648129     0.34%    passed     99.75%
+  23  SRR7650299     0.30%    passed     99.36%
+  24  SRR7650626     0.19%    passed     99.99%
+  25  SRR7648021     0.53%    passed     94.69%
+  26  SRR7650350     0.17%    passed     99.24%
+  27  SRR7650712     0.11%    passed     99.67%
+  28  SRR7647915     0.23%    passed     98.52%
+  29  SRR8200526     0.21%    passed     99.04%
+  30  SRR7650248     0.28%    passed     99.61%
+  31  SRR7647902     0.26%    passed     97.98%
+  32  SRR7650647     0.07%    passed     99.80%
+  33  SRR7650629     0.24%    passed     99.82%
+  34  SRR7650395     0.20%    passed     99.90%
+  35  SRR8200508     0.26%    passed     99.61%
+  36  SRR7822532     0.16%    passed     97.37%
+  37  SRR7650493     0.16%    passed     99.61%
+  38  SRR7649208     0.20%    passed     99.80%
+  39  SRR7650653     0.26%    passed     98.95%
+  40  SRR7649371     0.20%    passed     99.70%
+  41  SRR7649272     0.20%    passed     99.86%
+  42  SRR7647887     0.34%    passed     99.43%
+  43  SRR7649332     0.32%    passed     99.75%
+  44  SRR7648604     0.28%    passed     99.78%
+  45  SRR7647886     0.36%    passed     99.78%
+  46  SRR7649206     0.30%    passed     99.95%
+  47  SRR7649269     0.18%    passed     99.42%
+  48  SRR7650301     0.29%    passed     99.68%
+  49  SRR7648024     0.51%    passed     99.06%
+  50  SRR7650720     0.17%    passed     99.94%
+  51  SRR7649180     0.22%    passed     98.88%
+  52  SRR7649323     0.28%    passed     99.90%
+  53  SRR7649495     0.33%    passed     99.48%
+  54  SRR7649807     0.38%    passed     95.69%
+  55  SRR7650717     0.18%    passed     99.75%
+  56  SRR7648261     0.45%    passed     98.85%
+  57  SRR7648145     0.41%    passed     99.66%
+  58  SRR8200519     0.59%    passed     99.38%
+  59  SRR7650721     0.41%    passed     99.99%
+  60  SRR7650321     0.28%    passed     99.00%
+  61  SRR7649322     0.49%    passed     99.82%
+  62  SRR7650494     0.24%    passed     99.64%
+  63  SRR7647996     0.32%    passed     99.96%
+  64  SRR7650693     0.04%    passed     99.62%
+  65  SRR7648357     0.19%    passed     99.34%
+  66  SRR7648258     0.37%    passed     99.83%
+  67  SRR7648151     0.36%    passed     98.20%
+  68  SRR7650714     0.12%    passed     99.49%
+  69  SRR7648146     0.34%    passed     99.63%
+  70  SRR7650509     0.20%    passed     99.90%
+  71  SRR7650498     0.23%    passed     99.56%
+  72  SRR7648601     0.15%    passed     99.74%
+  73  SRR7647953     0.42%    passed     99.95%
+  74  SRR7649319     0.35%    passed     99.78%
+  75  SRR7649196     0.29%    passed     99.00%
+  76  SRR7647910     0.33%    passed     99.47%
+  77  SRR7650261     0.34%    passed     98.67%
+  78  SRR7650404     0.22%    passed     99.06%
+  79  SRR7650352     0.20%    passed     95.57%
+  80  SRR7650419     0.11%    passed     98.67%
+  81  SRR7650422     0.23%    passed     99.25%
+  82  SRR7648015     0.57%    passed     97.85%
+  83  SRR7650485     0.15%    passed     99.39%
+  84  SRR7648157     0.38%    passed     98.60%
+  85  SRR7965820     0.38%    passed     99.47%
+  86  SRR7650346     0.38%    passed     99.79%
+  87  SRR7648141     0.60%    passed     99.99%
+  88  SRR7649491     0.30%    passed     99.16%
+  89  SRR7648586     0.30%    passed     99.31%
+  90  SRR7649209     0.24%    passed     98.92%
+  91  SRR7649175     0.21%    passed     97.92%
+  92  SRR7650331     0.15%    passed     99.33%
+  93  SRR7649492     0.13%    passed     95.95%
+  94  SRR7648225     0.32%    passed     98.64%
+  95  SRR7965819     0.20%    passed     97.89%
+  96  SRR8200504     0.41%    passed     98.56%
+  97  SRR7647958     0.35%    passed     99.31%
+  98  SRR7648232     0.32%    passed     96.48%
+  99  SRR7650633     0.26%    passed     99.86%
+ 100  SRR7648142     0.47%    passed     98.39%
+ 101  SRR7650225     0.20%    passed     99.74%
+ 102  SRR7649461     0.42%    passed     99.98%
+ 103  SRR7648016     0.40%    passed     98.43%
+ 104  SRR7648134     0.29%    passed     99.83%
+ 105  SRR7650463     0.34%    passed     99.81%
+ 106  SRR7648140     0.59%    passed     99.74%
+ 107  SRR7649487     0.14%    passed     99.96%
+ 108  SRR7648249     0.37%    passed     99.54%
+ 109  SRR7649320     0.26%    passed     99.74%
+ 110  SRR7650674     0.18%    passed     98.38%
+ 111  SRR7649808     0.15%    passed     99.15%
+ 112  SRR7648197     0.23%    passed     99.89%
+ 113  SRR7648147     0.47%    passed     99.47%
+ 114  SRR7650715     0.11%    passed     99.81%
+ 115  SRR7650258     0.32%    passed     98.89%
+ 116  SRR7648583     0.62%    passed     97.97%
+ 117  SRR7649200     0.21%    passed     97.30%
+ 118  SRR7650300     0.21%    passed     99.03%
+ 119  SRR7648168     0.32%    passed     98.67%
+ 120  SRR7648599     0.36%    passed     99.92%
+ 121  SRR7650614     0.21%    passed     99.29%
+ 122  SRR7649883     0.10%    passed     98.83%
+ 123  SRR7647948     0.41%    passed     99.59%
+ 124  ERR10812930    0.29%    passed     99.96%
+ 125  ERR10813551    0.11%    passed     99.51%
+ 126  ERR10813616    0.19%    passed     99.14%
+ 127  ERR10813532    0.16%    passed     92.95%
+ 128  ERR10813108    0.08%    passed     99.87%
+ 129  ERR10812944    0.08%    passed     98.42%
+ 130  ERR10813571    0.04%    passed     99.79%
+ 131  ERR10813735    0.14%    passed     97.58%
+ 132  ERR10813602    0.18%    passed     97.47%
+ 133  ERR10813389    1.30%    passed     96.24%
+ 134  ERR10812997    0.28%    passed     99.56%
+ 135  ERR10813194    0.03%    passed     98.50%
+ 136  ERR10813117    0.10%    passed     99.92%
+ 137  ERR10813681    0.03%    passed     99.56%
+ 138  ERR10813021    0.19%    passed     99.83%
+ 139  ERR10813560    0.09%    passed     97.73%
+ 140  ERR10813396    0.08%    passed     99.24%
+ 141  ERR10812947    0.05%    passed     99.20%
+ 142  ERR10813449    0.09%    passed     96.20%
+ 143  ERR10813318    0.13%    passed     99.28%
+ 144  ERR10813074    0.05%    passed     99.43%
+ 145  ERR10812992    0.07%    passed     99.21%
+ 146  ERR10813709    0.03%    passed     99.75%
+ 147  ERR10813347    0.19%    passed     99.59%
+ 148  ERR10813331    0.02%    passed     99.92%
+ 149  ERR10813537    0.06%    passed     99.49%
+ 150  ERR10812938    0.03%    passed     99.14%
+ 151  ERR10813434    0.17%    passed     99.17%
+ 152  ERR10813500    0.20%    passed     96.08%
+ 153  ERR10813696    0.18%    passed     95.77%
+ 154  ERR10813705    0.25%    passed     99.10%
+ 155  ERR10813217    0.10%    passed     99.92%
+ 156  ERR10813508    0.11%    passed     99.71%
+ 157  ERR10813073    0.07%    passed     99.51%
+ 158  ERR10813427    0.39%    passed     95.25%
+ 159  ERR10813051    0.20%    passed     99.49%
+ 160  ERR10813153    0.19%    passed     97.18%
+ 161  ERR10813253    0.22%    passed     96.75%
+ 162  ERR10813539    0.11%    passed     99.48%
+ 163  ERR10813295    0.10%    passed     99.28%
+ 164  ERR10813711    0.09%    passed     99.15%
+ 165  ERR10813040    0.22%    passed     99.19%
+ 166  ERR10813143    0.08%    passed     99.61%
+ 167  ERR10813592    0.14%    passed     97.13%
+ 168  ERR10813172    0.22%    passed     98.61%
+ 169  ERR10813276    0.02%    passed     99.19%
+ 170  ERR10813409    0.07%    passed     99.82%
+ 171  ERR10812950    0.24%    passed     98.39%
+ 172  ERR10812896    0.19%    passed     99.70%
+ 173  ERR10813473    0.05%    passed     99.99%
+ 174  ERR10813495    0.13%    passed     99.31%
+ 175  ERR10813620    0.23%    passed     99.50%
+ 176  SRR19571627    0.41%    passed     98.76%
+ 177  SRR6849714     0.09%    passed     99.18%
+ 178  SRR6849767     0.11%    passed     99.56%
+ 179  SRR6849779     0.09%    passed     99.91%
+ 180  SRR6849639     0.14%    passed     99.89%
+ 181  SRR6849729     0.26%    passed     99.84%
+ 182  SRR6849632     0.03%    passed     97.44%
+ 183  SRR6849760     0.05%    passed     94.58%
+ 184  SRR15030919    0.16%    passed     99.92%
+ 185  ERR2352315     0.09%    passed     99.40%
+ 186  ERR2352314     0.05%    passed     97.40%
+ 187  SRR17950696    0.02%    passed     94.48%
+ 188  SRR17950697    0.02%    passed     86.85%
+ 189  SRR17950679    0.05%    passed     98.14%
+ 190  ERR323214      0.08%    passed     99.19%
+ 191  ERR376413      0.04%    passed     99.82%
+ 192  ERR438913      0.09%    passed     98.84%
+ 193  ERR438932      0.26%    passed     99.64%
+ 194  ERR323199      0.32%    passed     99.78%
+ 195  ERR438893      0.16%    passed     99.88%
+ 196  ERR303298      0.31%    passed     99.71%
+ 197  ERR323210      0.13%    passed     99.90%
+ 198  ERR326286      0.26%    passed     99.43%
+ 199  ERR376409      0.07%    passed     99.21%
+ 200  ERR323213      0.67%    passed     99.76%
+ 201  ERR303321      0.03%    passed     98.45%
+ 202  ERR359886      0.22%    passed     99.47%
+ 203  ERR438887      0.03%    passed     99.80%
+ 204  ERR438923      0.05%    passed     99.41%
+ 205  ERR376408      0.15%    passed     96.83%
+ 206  ERR438871      0.11%    passed     99.92%
+ 207  SRR19276571    0.22%    passed     98.15%
+ 208  SRR19276551    0.11%    passed     97.75%
+ 209  SRR19276546    0.15%    passed     96.66%
+ 210  SRR19276541    0.23%    passed     99.54%
+ 211  SRR19276572    0.01%    passed     99.93%
+ 212  SRR21837895    0.06%    passed     99.13%
+ 213  SRR19276559    0.05%    passed     98.26%
+****  TOTAL          0.23%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.329 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 172188)...
+
+NOTE: 179 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+8 trees examined
+Threads: 1 / Time: 25.717 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -266895
+Threads: 2 / Time: 16.250 sec / Speedup: 1.583 / Efficiency: 79% / LogL: -266895
+Threads: 3 / Time: 11.743 sec / Speedup: 2.190 / Efficiency: 73% / LogL: -266895
+Threads: 4 / Time: 9.540 sec / Speedup: 2.696 / Efficiency: 67% / LogL: -266895
+Threads: 5 / Time: 9.268 sec / Speedup: 2.775 / Efficiency: 55% / LogL: -266895
+Threads: 6 / Time: 8.313 sec / Speedup: 3.094 / Efficiency: 52% / LogL: -266895
+Threads: 7 / Time: 6.928 sec / Speedup: 3.712 / Efficiency: 53% / LogL: -266895
+Threads: 8 / Time: 7.627 sec / Speedup: 3.372 / Efficiency: 42% / LogL: -266895
+BEST NUMBER OF THREADS: 7
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -169737.923
+2. Current log-likelihood: -150251.159
+3. Current log-likelihood: -147892.077
+4. Current log-likelihood: -147829.499
+5. Current log-likelihood: -147828.285
+Optimal log-likelihood: -147828.258
+Rate parameters:  A-C: 1.25736  A-G: 6.94230  A-T: 1.32321  C-G: 0.20003  C-T: 10.69788  G-T: 1.00000
+Base frequencies:  A: 0.389  C: 0.176  G: 0.156  T: 0.278
+Gamma shape alpha: 0.178
+Parameters optimization took 5 rounds (15.299 sec)
+Computing ML distances based on estimated model parameters... 6.399 sec
+Computing BIONJ tree...
+0.041 seconds
+Log-likelihood of BIONJ tree: -148920.820
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 34.178 second
+Computing log-likelihood of 98 initial trees ... 25.086 seconds
+Current best score: -147828.258
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -147637.030
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -147381.355
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -147298.808
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 7: -147280.478
+Iteration 10 / LogL: -147404.537 / Time: 0h:3m:27s
+Iteration 20 / LogL: -147585.552 / Time: 0h:3m:51s
+Finish initializing candidate tree set (20)
+Current best tree score: -147280.478 / CPU time: 118.585
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -147253.677
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -147232.221
+Iteration 30 / LogL: -147620.370 / Time: 0h:4m:23s (0h:14m:56s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -147215.408
+Iteration 40 / LogL: -147292.582 / Time: 0h:4m:51s (0h:11m:33s left)
+Iteration 50 / LogL: -147307.593 / Time: 0h:5m:18s (0h:8m:58s left)
+Log-likelihood cutoff on original alignment: -147611.502
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 60: -147207.209
+Iteration 60 / LogL: -147207.209 / Time: 0h:5m:46s (0h:9m:45s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 63: -147191.541
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 66: -147124.036
+Iteration 70 / LogL: -147361.267 / Time: 0h:6m:13s (0h:8m:39s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -147113.371
+Iteration 80 / LogL: -147407.153 / Time: 0h:6m:43s (0h:8m:4s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 85: -147109.061
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -147094.012
+Iteration 90 / LogL: -147238.013 / Time: 0h:7m:12s (0h:7m:55s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 94: -147072.614
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 96: -147030.423
+Iteration 100 / LogL: -147245.497 / Time: 0h:7m:41s (0h:7m:27s left)
+Log-likelihood cutoff on original alignment: -147593.326
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.814
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -147034.978 / Time: 0h:8m:9s (0h:6m:43s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 114: -147029.985
+Iteration 120 / LogL: -147253.628 / Time: 0h:8m:39s (0h:6m:50s left)
+Iteration 130 / LogL: -147231.842 / Time: 0h:9m:8s (0h:5m:56s left)
+Iteration 140 / LogL: -147233.925 / Time: 0h:9m:36s (0h:5m:6s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 142: -147029.525
+Iteration 150 / LogL: -147205.641 / Time: 0h:10m:7s (0h:6m:14s left)
+Log-likelihood cutoff on original alignment: -147532.730
+Iteration 160 / LogL: -147086.572 / Time: 0h:10m:37s (0h:5m:28s left)
+Iteration 170 / LogL: -147080.132 / Time: 0h:11m:4s (0h:4m:43s left)
+Iteration 180 / LogL: -147193.615 / Time: 0h:11m:33s (0h:4m:0s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 190: -147026.668
+Iteration 190 / LogL: -147026.668 / Time: 0h:12m:3s (0h:6m:22s left)
+Iteration 200 / LogL: -147033.268 / Time: 0h:12m:32s (0h:5m:40s left)
+Log-likelihood cutoff on original alignment: -147532.730
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 210 / LogL: -147270.035 / Time: 0h:12m:59s (0h:5m:35s left)
+Iteration 220 / LogL: -147068.528 / Time: 0h:13m:28s (0h:4m:55s left)
+Iteration 230 / LogL: -147254.251 / Time: 0h:13m:53s (0h:4m:14s left)
+Iteration 240 / LogL: -147208.038 / Time: 0h:14m:20s (0h:3m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 249: -147023.409
+Iteration 250 / LogL: -147032.721 / Time: 0h:14m:47s (0h:5m:52s left)
+Log-likelihood cutoff on original alignment: -147532.730
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 259: -147022.825
+Iteration 260 / LogL: -147143.567 / Time: 0h:15m:12s (0h:5m:48s left)
+Iteration 270 / LogL: -147230.468 / Time: 0h:15m:37s (0h:5m:9s left)
+Iteration 280 / LogL: -147207.015 / Time: 0h:16m:1s (0h:4m:32s left)
+Iteration 290 / LogL: -147090.819 / Time: 0h:16m:27s (0h:3m:55s left)
+Iteration 300 / LogL: -147045.906 / Time: 0h:16m:54s (0h:3m:20s left)
+Log-likelihood cutoff on original alignment: -147532.730
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 310 / LogL: -147291.170 / Time: 0h:17m:22s (0h:5m:3s left)
+Iteration 320 / LogL: -147107.273 / Time: 0h:17m:48s (0h:4m:27s left)
+Iteration 330 / LogL: -147177.246 / Time: 0h:18m:13s (0h:3m:52s left)
+Iteration 340 / LogL: -147130.869 / Time: 0h:18m:38s (0h:3m:17s left)
+Iteration 350 / LogL: -147037.378 / Time: 0h:19m:3s (0h:2m:43s left)
+Log-likelihood cutoff on original alignment: -147532.730
+Iteration 360 / LogL: -147032.542 / Time: 0h:19m:33s (0h:2m:10s left)
+TREE SEARCH COMPLETED AFTER 360 ITERATIONS / Time: 0h:19m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -147022.825
+Optimal log-likelihood: -147022.819
+Rate parameters:  A-C: 1.26731  A-G: 7.04832  A-T: 1.35679  C-G: 0.20048  C-T: 10.82108  G-T: 1.00000
+Base frequencies:  A: 0.389  C: 0.176  G: 0.156  T: 0.278
+Gamma shape alpha: 0.176
+Parameters optimization took 1 rounds (0.583 sec)
+BEST SCORE FOUND : -147022.819
+Creating bootstrap support values...
+Split supports printed to NEXUS file /data/RSV_all_with_ref_986_out.fasta.splits.nex
+Total tree length: 6.643
+
+Total number of iterations: 360
+CPU time used for tree search: 7057.336 sec (1h:57m:37s)
+Wall-clock time used for tree search: 1060.337 sec (0h:17m:40s)
+Total CPU time used: 7520.767 sec (2h:5m:20s)
+Total wall-clock time used: 1175.089 sec (0h:19m:35s)
+
+Computing bootstrap consensus tree...
+Reading input file /data/RSV_all_with_ref_986_out.fasta.splits.nex...
+213 taxa and 2120 splits.
+Consensus tree written to /data/RSV_all_with_ref_986_out.fasta.contree
+Reading input trees file /data/RSV_all_with_ref_986_out.fasta.contree
+Log-likelihood of consensus tree: -147024.183
+
+Analysis results written to: 
+  IQ-TREE report:                /data/RSV_all_with_ref_986_out.fasta.iqtree
+  Maximum-likelihood tree:       /data/RSV_all_with_ref_986_out.fasta.treefile
+  Likelihood distances:          /data/RSV_all_with_ref_986_out.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /data/RSV_all_with_ref_986_out.fasta.splits.nex
+  Consensus tree:                /data/RSV_all_with_ref_986_out.fasta.contree
+  Screen log file:               /data/RSV_all_with_ref_986_out.fasta.log
+
+Date and Time: Wed Jul  5 15:56:39 2023
