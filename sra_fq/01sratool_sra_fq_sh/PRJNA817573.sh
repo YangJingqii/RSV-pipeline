@@ -1,2 +1,0 @@
-/mnt/alamo01/users/yangjingqi/app/sratoolkit/sratoolkit.3.0.5-centos_linux64/bin/fastq-dump --gzip --split-3 -X 25000 -O /mnt/alamo01/users/yangjingqi/RSV_sra/group/fastq_result/PRJNA817573 /mnt/alamo01/users/yangjingqi/RSV_sra/yjq_sra_bioproject_rsv/PRJNA817573/SRR18349762
-/mnt/alamo01/users/yangjingqi/app/sratoolkit/sratoolkit.3.0.5-centos_linux64/bin/fastq-dump --gzip --split-3 -X 25000 -O /mnt/alamo01/users/yangjingqi/RSV_sra/group/fastq_result/PRJNA817573 /mnt/alamo01/users/yangjingqi/RSV_sra/yjq_sra_bioproject_rsv/PRJNA817573/SRR18349761
